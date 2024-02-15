@@ -302,9 +302,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 2509275683695482184, guid: 268341fba0ca6af4fadfae78223517e1, type: 3}
-  maxSpawnCount: 100
   spawnArea: {x: 100, y: 2, z: 100}
-  spawnInterval: 1
+  minSpawnInterval: 0.5
+  maxSpawnInterval: 4
 --- !u!4 &495898088
 Transform:
   m_ObjectHideFlags: 0
@@ -350,9 +350,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 9213032198088442197, guid: 5d05929e68b1c4748a198fb08fafe1d3, type: 3}
-  maxSpawnCount: 100
-  spawnArea: {x: 10, y: 2, z: 10}
-  spawnInterval: 1
+  spawnArea: {x: 100, y: 2, z: 100}
+  minSpawnInterval: 0.01
+  maxSpawnInterval: 2
 --- !u!4 &1047199073
 Transform:
   m_ObjectHideFlags: 0
@@ -553,9 +553,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 4351283272189565585, guid: 7e2b5bb890efd794caa90ece90850eae, type: 3}
-  maxSpawnCount: 100
   spawnArea: {x: 100, y: 2, z: 100}
-  spawnInterval: 1
+  minSpawnInterval: 0.5
+  maxSpawnInterval: 4
 --- !u!4 &1793243094
 Transform:
   m_ObjectHideFlags: 0
