@@ -20,9 +20,12 @@ public class Weapon : MonoBehaviour
     {
         if (other.transform.tag == "Monster")
         {
+
             GameObject newHarpoon = Instantiate(harpoen, harpoenSpawnpiont.position, Quaternion.identity);
+            Destroy(transform.gameObject, 10);
             RbHarpoen.constraints = RigidbodyConstraints.FreezeAll;
             monsterHit.NormalDamage(damage);
+            Destroy(this);
         }
     }
 }
