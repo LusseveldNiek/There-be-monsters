@@ -10,22 +10,37 @@ public class Weapon : MonoBehaviour
     public GameObject harpoen;
     Rigidbody RbHarpoen;
     public float damage = 5;
+    public int destroyTime;
+
 
     private void Start()
     {
         monsterHit = FindObjectOfType<MonsterHealth>();
         RbHarpoen = GetComponentInParent<Rigidbody>();
     }
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider trigger)
     {
-        if (other.transform.tag == "Monster")
+        if (trigger.transform.tag == "Monster")
         {
-
-            GameObject newHarpoon = Instantiate(harpoen, harpoenSpawnpiont.position, Quaternion.identity);
-            Destroy(transform.gameObject, 10);
-            RbHarpoen.constraints = RigidbodyConstraints.FreezeAll;
+            SpawnHarpoon();
             monsterHit.NormalDamage(damage);
-            Destroy(this);
+            HarpoonHit();
         }
+        if (trigger.transform.tag == "Crit")
+        {
+            SpawnHarpoon();
+            monsterHit.CritHit(damage);
+            HarpoonHit();
+        }
+    }
+    void HarpoonHit()
+    {
+        Destroy(transform.gameObject, destroyTime);
+        RbHarpoen.constraints = RigidbodyConstraints.FreezeAll;
+        Destroy(this);
+    }
+    void SpawnHarpoon()
+    {
+        GameObject newHarpoon = Instantiate(harpoen, harpoenSpawnpiont.position, Quaternion.identity);
     }
 }

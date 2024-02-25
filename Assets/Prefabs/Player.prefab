@@ -713,6 +713,7 @@ GameObject:
   - component: {fileID: 8848213289883009457}
   - component: {fileID: 2408988838034593409}
   - component: {fileID: 5161987513839240566}
+  - component: {fileID: 628487488026201101}
   m_Layer: 0
   m_Name: Right Controller
   m_TagString: Untagged
@@ -1064,6 +1065,27 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
+--- !u!135 &628487488026201101
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5615759084222790209}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.125
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6141965139560754216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,6 +1763,7 @@ GameObject:
   - component: {fileID: 3902227241246130056}
   - component: {fileID: 8272092210018860128}
   - component: {fileID: 5431313236495094915}
+  - component: {fileID: 8710218344769744781}
   m_Layer: 0
   m_Name: Left Controller
   m_TagString: Untagged
@@ -2092,6 +2115,27 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   m_PhysicsTriggerInteraction: 1
+--- !u!135 &8710218344769744781
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6638776528358068059}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.125
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6728613998370963054
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,18 +2148,18 @@ GameObject:
   - component: {fileID: 508355285664413873}
   - component: {fileID: 1355382914275603666}
   - component: {fileID: 1698556210698554819}
-  - component: {fileID: 381407170094902750}
   - component: {fileID: 7819374352545132877}
   - component: {fileID: 2659565581085982800}
   - component: {fileID: 7381570020738237833}
   - component: {fileID: 4254130354879140739}
+  - component: {fileID: 381407170094902750}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2137593888205132222
 Transform:
   m_ObjectHideFlags: 0
@@ -2177,49 +2221,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Timeout: 10
   m_XROrigin: {fileID: 508355285664413873}
---- !u!114 &381407170094902750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6728613998370963054}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_System: {fileID: 1698556210698554819}
-  m_MoveSpeed: 1
-  m_EnableStrafe: 1
-  m_EnableFly: 0
-  m_UseGravity: 1
-  m_GravityApplicationMode: 1
-  m_ForwardSource: {fileID: 5004375552935094827}
-  m_LeftHandMoveAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Left Hand Move
-      m_Type: 0
-      m_ExpectedControlType: Vector2
-      m_Id: 883a820c-0acd-432f-adcb-7bf532ae44b9
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_RightHandMoveAction:
-    m_UseReference: 0
-    m_Action:
-      m_Name: Right Hand Move
-      m_Type: 0
-      m_ExpectedControlType: Vector2
-      m_Id: 847fce63-e6b7-4389-a224-2cedc911222f
-      m_Processors: 
-      m_Interactions: 
-      m_SingletonActionBindings: []
-      m_Flags: 0
-    m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!143 &7819374352545132877
 CharacterController:
   m_ObjectHideFlags: 0
@@ -2341,6 +2342,49 @@ MonoBehaviour:
   m_LocomotionProvider: {fileID: 381407170094902750}
   m_MinHeight: 0
   m_MaxHeight: Infinity
+--- !u!114 &381407170094902750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6728613998370963054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 1698556210698554819}
+  m_MoveSpeed: 1
+  m_EnableStrafe: 1
+  m_EnableFly: 0
+  m_UseGravity: 1
+  m_GravityApplicationMode: 1
+  m_ForwardSource: {fileID: 5004375552935094827}
+  m_LeftHandMoveAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Left Hand Move
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 883a820c-0acd-432f-adcb-7bf532ae44b9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_RightHandMoveAction:
+    m_UseReference: 0
+    m_Action:
+      m_Name: Right Hand Move
+      m_Type: 0
+      m_ExpectedControlType: Vector2
+      m_Id: 847fce63-e6b7-4389-a224-2cedc911222f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &8559051810824063058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,14 +2690,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 115468392016148723}
+      addedObject: {fileID: 7858126127700806664}
   m_SourcePrefab: {fileID: 100100000, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
 --- !u!1 &245743653723705646 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 109434732395284509, guid: 65847589f926b734d9eaed6e25f0046b, type: 3}
   m_PrefabInstance: {fileID: 211041096074058035}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &115468392016148723
+--- !u!114 &7858126127700806664
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2662,7 +2706,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 245743653723705646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80655fd8e5d90a4fab31f0540139c2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 44cdf11253d35824ca611a0081440a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pinchAnimationAction:
@@ -2671,7 +2715,7 @@ MonoBehaviour:
       m_Name: Pinch Animation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 8b30ded3-4a77-4a62-985f-f0df222150b9
+      m_Id: 75c1e1a2-fd11-4a0e-9de4-f02ae19882ad
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2683,7 +2727,7 @@ MonoBehaviour:
       m_Name: Grip Animation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 28f0e647-7b97-4b78-8020-1c7e18729401
+      m_Id: 021b3466-7313-4124-b6b5-512e253c230c
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2758,14 +2802,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8283449281977324974}
+      addedObject: {fileID: 6149312018126701050}
   m_SourcePrefab: {fileID: 100100000, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
 --- !u!1 &3928268191356269733 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5686134208185362930, guid: 1fd3a7c43c8190f4d8c167ebde694364, type: 3}
   m_PrefabInstance: {fileID: 8677653582022204759}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8283449281977324974
+--- !u!114 &6149312018126701050
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2774,7 +2818,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3928268191356269733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f80655fd8e5d90a4fab31f0540139c2a, type: 3}
+  m_Script: {fileID: 11500000, guid: 44cdf11253d35824ca611a0081440a0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pinchAnimationAction:
@@ -2783,7 +2827,7 @@ MonoBehaviour:
       m_Name: Pinch Animation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 52be9ba2-207b-43e9-ab59-3101987c686a
+      m_Id: db94bbbe-2a5f-4c48-8531-aabde2b46c0d
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -2795,7 +2839,7 @@ MonoBehaviour:
       m_Name: Grip Animation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 5c9d77a3-5002-41a2-aa50-bd1ca3423f2a
+      m_Id: 35983e6e-f8c8-4f53-ad62-ad7ffac65004
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
