@@ -8,15 +8,18 @@ public class Weapon : MonoBehaviour
     [SerializeField] MonsterHealth monsterHit;
     public Transform harpoenSpawnpiont;
     public GameObject harpoen;
-    Rigidbody RbHarpoen;
-    public float damage = 5;
-    public int destroyTime;
+    public Rigidbody RbHarpoen;
+    public int damage = 5;
+    public int destroyTime = 10;
 
 
     private void Start()
     {
-        monsterHit = FindObjectOfType<MonsterHealth>();
         RbHarpoen = GetComponentInParent<Rigidbody>();
+        monsterHit = FindObjectOfType<MonsterHealth>();
+        //harpoenSpawnpiont = FindAnyObjectByType<>
+        RbHarpoen.constraints = RigidbodyConstraints.None;
+        RbHarpoen.useGravity = true;
     }
     private void OnTriggerEnter(Collider trigger)
     {
@@ -42,5 +45,6 @@ public class Weapon : MonoBehaviour
     void SpawnHarpoon()
     {
         GameObject newHarpoon = Instantiate(harpoen, harpoenSpawnpiont.position, Quaternion.identity);
+        newHarpoon.name = gameObject.name;
     }
 }
