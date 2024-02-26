@@ -678,14 +678,6 @@ MonoBehaviour:
   - {fileID: 922585785}
   - {fileID: 159770703}
   - {fileID: 1626067742}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   agent: {fileID: 481182602}
 --- !u!54 &481182604
 Rigidbody:
@@ -1029,6 +1021,7 @@ GameObject:
   - component: {fileID: 740774345}
   - component: {fileID: 740774344}
   - component: {fileID: 740774343}
+  - component: {fileID: 740774346}
   m_Layer: 0
   m_Name: enemy
   m_TagString: Untagged
@@ -1101,6 +1094,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 481182607}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &740774346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740774338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  escapeSpeed: 0.01
+  maxDistance: 10
+  minDistance: 3
 --- !u!1 &767422935
 GameObject:
   m_ObjectHideFlags: 0

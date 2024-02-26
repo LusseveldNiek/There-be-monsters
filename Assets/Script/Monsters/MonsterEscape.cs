@@ -4,15 +4,35 @@ using UnityEngine;
 
 public class MonsterEscape : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //added speed per frame
+    public float escapeSpeed;
+
+    private float currentDistance;
+
+    //distance until escape
+    public float maxDistance;
+    //minimum distance
+    public float minDistance;
+
+    private void Start()
     {
-        
+        //enemy begins with minDistance
+        currentDistance = minDistance;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        //set distance
+        transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, currentDistance);
+
+        //add escape speed
+        currentDistance += escapeSpeed * Time.deltaTime;
+
+
+        //escape
+        if(currentDistance > maxDistance)
+        {
+            print("you lost");
+        }
     }
 }
