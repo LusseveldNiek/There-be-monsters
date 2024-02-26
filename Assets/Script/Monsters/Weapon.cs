@@ -15,7 +15,6 @@ public class Weapon : MonoBehaviour
 
     private void Start()
     {
-        RbHarpoen = GetComponentInParent<Rigidbody>();
         monsterHit = FindObjectOfType<MonsterHealth>();
         //harpoenSpawnpiont = FindAnyObjectByType<>
         RbHarpoen.constraints = RigidbodyConstraints.None;
@@ -34,6 +33,11 @@ public class Weapon : MonoBehaviour
             SpawnHarpoon();
             monsterHit.CritHit(damage);
             HarpoonHit();
+        }
+        if (trigger.transform.tag == "Grond")
+        {
+            SpawnHarpoon();
+            Destroy(gameObject);
         }
     }
     void HarpoonHit()

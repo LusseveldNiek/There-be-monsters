@@ -354,5 +354,6 @@ MonoBehaviour:
   monsterHit: {fileID: 0}
   harpoenSpawnpiont: {fileID: 0}
   harpoen: {fileID: 8771673530817087395}
+  RbHarpoen: {fileID: 4181912994449887419}
   damage: 5
   destroyTime: 10

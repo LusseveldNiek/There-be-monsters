@@ -14,6 +14,7 @@ public class MonsterHealth : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         monster = GetComponent<MonsterUI>();
+        health = maxHealth;
     }
     public void NormalDamage(int Damage)
     {
