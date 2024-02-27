@@ -731,7 +731,7 @@ GameObject:
   - component: {fileID: 2054358982921513610}
   - component: {fileID: 7065808579517330789}
   - component: {fileID: 713591518661278520}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -770,7 +770,7 @@ MonoBehaviour:
   m_OriginBaseGameObject: {fileID: 1327050401861101121}
   m_CameraFloorOffsetObject: {fileID: 885043285182541916}
   m_RequestedTrackingOriginMode: 0
-  m_CameraYOffset: 1.2
+  m_CameraYOffset: 1.7
 --- !u!114 &6358778622207119588
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -832,7 +832,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327050401861101121}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0bf296fc962d7184ab14ad1841598d5f, type: 3}
   m_Name: 
@@ -875,7 +875,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327050401861101121}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2213c36610e3b1c4bbf886810ed9db12, type: 3}
   m_Name: 
@@ -1885,8 +1885,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.125
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.07
+  m_Center: {x: 0.04, y: -0.03, z: 0}
 --- !u!114 &1578512382418835662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2270,8 +2270,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.125
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Radius: 0.07
+  m_Center: {x: -0.04, y: -0.03, z: 0}
 --- !u!114 &7916258338264159552
 MonoBehaviour:
   m_ObjectHideFlags: 0

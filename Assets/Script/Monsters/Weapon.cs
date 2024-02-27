@@ -34,7 +34,12 @@ public class Weapon : MonoBehaviour
             monsterHit.CritHit(damage);
             HarpoonHit();
         }
-        if (trigger.transform.tag == "Grond")
+        if (trigger.transform.tag == "Water")
+        {
+            SpawnHarpoon();
+            Destroy(gameObject);
+        }
+        if (trigger.transform.tag == "Boat")
         {
             SpawnHarpoon();
             Destroy(gameObject);
@@ -48,7 +53,7 @@ public class Weapon : MonoBehaviour
     }
     void SpawnHarpoon()
     {
-        GameObject newHarpoon = Instantiate(harpoen, harpoenSpawnpiont.position, Quaternion.identity);
+        GameObject newHarpoon = Instantiate(harpoen, harpoenSpawnpiont.position, harpoenSpawnpiont.rotation);
         newHarpoon.name = gameObject.name;
     }
 }

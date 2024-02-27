@@ -8,10 +8,11 @@ public class PlacerSpawn : MonoBehaviour
     public Transform SpawnPositie;
     float spawnTimer;
     public float secBetweenSpawn;
+    public float secBeforeFirstSpawn;
     private void Start()
     {
         spawnTimer = secBetweenSpawn;
-        SpawnNext();
+        spawnTimer += secBeforeFirstSpawn;
     }
     private void Update()
     {
