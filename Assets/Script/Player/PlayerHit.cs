@@ -4,12 +4,11 @@ using UnityEngine;
 
 public class PlayerHit : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.transform.tag == "monster")
+        if (other.transform.tag == "Player")
         {
-            print("player hit");
-            Destroy(collision.gameObject);
+            Destroy(gameObject);
         }
     }
 }

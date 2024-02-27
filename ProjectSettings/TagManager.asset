@@ -8,6 +8,7 @@ TagManager:
   - Crit
   - Boat
   - UI
+  - Wall
   layers:
   - Default
   - TransparentFX

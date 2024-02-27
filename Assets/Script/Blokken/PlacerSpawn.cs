@@ -5,15 +5,21 @@ using UnityEngine;
 public class PlacerSpawn : MonoBehaviour
 {
     public GameObject[] Obstakels;
-
     public Transform SpawnPositie;
-
-    public bool IsStart;
-    void Start()
+    float spawnTimer;
+    public float secBetweenSpawn;
+    private void Start()
     {
-        if (IsStart)
+        spawnTimer = secBetweenSpawn;
+        SpawnNext();
+    }
+    private void Update()
+    {
+        spawnTimer -= Time.deltaTime;
+        if (spawnTimer < 0)
         {
             SpawnNext();
+            spawnTimer = secBetweenSpawn;
         }
     }
     public void SpawnNext()
