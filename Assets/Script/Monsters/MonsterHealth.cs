@@ -19,13 +19,11 @@ public class MonsterHealth : MonoBehaviour
     public void NormalDamage(int Damage)
     {
         health -= Damage;
-        print("hit");
         monster.UpdateMonsterUI();
     }
     public void CritHit(int Damage)
     {
         health -= DMGMultiplier * Damage;
-        print("crit");
         monster.UpdateMonsterUI();
     }
 }

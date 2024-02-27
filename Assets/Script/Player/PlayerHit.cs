@@ -6,9 +6,10 @@ public class PlayerHit : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.tag == "Monster")
+        if (collision.transform.tag == "monster")
         {
             print("player hit");
+            Destroy(collision.gameObject);
         }
     }
 }
