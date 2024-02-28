@@ -1,30 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class LazerActivate : MonoBehaviour
 {
-    public GameObject hand;
-    // Start is called before the first frame update
-    void Start()
+    XRRayInteractor interactor;
+    private void Start()
     {
-        hand.SetActive(false);
+        interactor = GetComponent<XRRayInteractor>();
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit)) 
+        if (interactor.IsOverUIGameObject())
         {
-            if(hit.transform.tag == "UI")
-            {
-                hand.SetActive(true);
-            }
+            GetComponent<XRInteractorLineVisual>().enabled = true;
+            GetComponent<LineRenderer>().enabled = true;
         }
         else
         {
-            hand.SetActive(false);
+            GetComponent<XRInteractorLineVisual>().enabled = false;
+            GetComponent <LineRenderer>().enabled = false;
         }
     }
 }
