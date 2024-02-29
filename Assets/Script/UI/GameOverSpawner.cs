@@ -11,6 +11,7 @@ public class GameOverSpawner : MonoBehaviour
     private void Start()
     {
         gameOver.SetActive(false);
+        Time.timeScale = 1;
     }
     void Update()
     {
