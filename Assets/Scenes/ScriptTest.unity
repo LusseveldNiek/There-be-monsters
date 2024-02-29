@@ -485,10 +485,10 @@ RectTransform:
   - {fileID: 2145057872}
   m_Father: {fileID: 792311906}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 535, y: -855}
+  m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &143791155
 MonoBehaviour:
@@ -606,10 +606,10 @@ RectTransform:
   - {fileID: 287249621}
   m_Father: {fileID: 792311906}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 535, y: -430}
+  m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &154446172
 MonoBehaviour:
@@ -1072,10 +1072,10 @@ RectTransform:
   - {fileID: 1897786610}
   m_Father: {fileID: 792311906}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1385, y: -855}
+  m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &290967608
 MonoBehaviour:
@@ -1459,6 +1459,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6a812cf418b4444931cf7b39ae85ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!65 &390140218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1556,6 +1558,10 @@ PrefabInstance:
     - target: {fileID: 1750038279267163661, guid: ef38bc38d59dfb14fa24c855311bd641, type: 3}
       propertyPath: m_Name
       value: BlokspawnMidden (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750038279267163661, guid: ef38bc38d59dfb14fa24c855311bd641, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9063649074609418820, guid: ef38bc38d59dfb14fa24c855311bd641, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2846,6 +2852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlokspawnLings
       objectReference: {fileID: 0}
+    - target: {fileID: 1750038279267163661, guid: 5ffcfc685235f3b47ba00b69ca24f14b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9063649074609418820, guid: 5ffcfc685235f3b47ba00b69ca24f14b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3011,7 +3021,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &923479311
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3164,10 +3174,10 @@ RectTransform:
   - {fileID: 376839095}
   m_Father: {fileID: 792311906}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 1385, y: -430}
+  m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965717808
 MonoBehaviour:
@@ -3773,7 +3783,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1147536002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4281,6 +4291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   v3: {x: 0, y: 0, z: 0}
+  emptyOnShip: {fileID: 0}
 --- !u!114 &1222768584
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4293,6 +4304,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6a812cf418b4444931cf7b39ae85ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!1 &1312033411
 GameObject:
   m_ObjectHideFlags: 0
@@ -4558,6 +4571,10 @@ PrefabInstance:
     - target: {fileID: 1750038279267163661, guid: f42ffbe55837e2143a2a1d9c64fcb3c7, type: 3}
       propertyPath: m_Name
       value: BlokspawnBukken
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750038279267163661, guid: f42ffbe55837e2143a2a1d9c64fcb3c7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9063649074609418820, guid: f42ffbe55837e2143a2a1d9c64fcb3c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4967,6 +4984,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   v3: {x: 0, y: 0, z: 0}
+  emptyOnShip: {fileID: 0}
 --- !u!114 &1515593295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4979,6 +4997,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6a812cf418b4444931cf7b39ae85ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!1 &1548196206
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,6 +5297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlokspawnRechts
       objectReference: {fileID: 0}
+    - target: {fileID: 1750038279267163661, guid: ba18fbee3d82b7f45bf7e6cd7d117dd3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9063649074609418820, guid: ba18fbee3d82b7f45bf7e6cd7d117dd3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5468,6 +5492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlokspawnMidden
       objectReference: {fileID: 0}
+    - target: {fileID: 1750038279267163661, guid: ef38bc38d59dfb14fa24c855311bd641, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9063649074609418820, guid: ef38bc38d59dfb14fa24c855311bd641, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5592,6 +5620,10 @@ PrefabInstance:
     - target: {fileID: 1750038279267163661, guid: 14a2a1d5493ab544090c1b65636aa3fe, type: 3}
       propertyPath: m_Name
       value: BlokspawnZijkanten
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750038279267163661, guid: 14a2a1d5493ab544090c1b65636aa3fe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9063649074609418820, guid: 14a2a1d5493ab544090c1b65636aa3fe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5858,6 +5890,10 @@ PrefabInstance:
     - target: {fileID: 1750038279267163661, guid: ef38bc38d59dfb14fa24c855311bd641, type: 3}
       propertyPath: m_Name
       value: BlokspawnMidden (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1750038279267163661, guid: ef38bc38d59dfb14fa24c855311bd641, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9063649074609418820, guid: ef38bc38d59dfb14fa24c855311bd641, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6489,6 +6525,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   v3: {x: 0, y: 0, z: 0}
+  emptyOnShip: {fileID: 0}
 --- !u!114 &2106460300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6501,6 +6538,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6a812cf418b4444931cf7b39ae85ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 0}
 --- !u!1 &2145057871
 GameObject:
   m_ObjectHideFlags: 0
@@ -6647,13 +6686,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2054358982921513610, guid: 97dc95594ff35ed4997ebdd6d40d0047, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2975122731430150324, guid: 97dc95594ff35ed4997ebdd6d40d0047, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2975122731430150324, guid: 97dc95594ff35ed4997ebdd6d40d0047, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 2975122731430150324, guid: 97dc95594ff35ed4997ebdd6d40d0047, type: 3}
       propertyPath: m_LocalPosition.z

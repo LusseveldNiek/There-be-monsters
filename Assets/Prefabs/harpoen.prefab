@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2686643207893815680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2777140219588973978}
+  m_Layer: 0
+  m_Name: OppakPuntR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2777140219588973978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2686643207893815680}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8282381632589847833}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5125555418837656168
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,15 +94,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.8
+      value: 0.289
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.625
+      value: 3.361
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.7
+      value: 8.365
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -83,7 +114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       propertyPath: m_LocalRotation.z
@@ -95,7 +126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -118,6 +149,9 @@ PrefabInstance:
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 2777140219588973978}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 2814204744922031309}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
@@ -132,6 +166,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3004762723577100962}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3934345579779949073}
   m_SourcePrefab: {fileID: 100100000, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
 --- !u!4 &8282381632589847833 stripped
 Transform:
@@ -293,7 +330,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls: []
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 2777140219588973978}
   m_SecondaryAttachTransform: {fileID: 0}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
@@ -361,3 +398,16 @@ MonoBehaviour:
   RbHarpoen: {fileID: 4181912994449887419}
   damage: 5
   destroyTime: 10
+--- !u!114 &3934345579779949073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771673530817087395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4627c21b430c166449bc0fe5d369e4fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 6578692415821572728}
