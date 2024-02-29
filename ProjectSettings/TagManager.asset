@@ -9,6 +9,8 @@ TagManager:
   - Boat
   - UI
   - Water
+  - LeftHand
+  - RightHand
   layers:
   - Default
   - TransparentFX
