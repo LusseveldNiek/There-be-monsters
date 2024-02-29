@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class BlokMove : MonoBehaviour
@@ -15,13 +12,9 @@ public class BlokMove : MonoBehaviour
     }
     void Update()
     {
-        // Move towards the target position
         transform.position = Vector3.MoveTowards(transform.position, emptyOnShip.transform.position, speed * Time.deltaTime);
-
-        // Optionally, you can check if the object has reached the target position
         if (transform.position == emptyOnShip.transform.position)
         {
-            // Object has reached the target position, you can perform any additional actions here
             Destroy(gameObject);
         }
     }
