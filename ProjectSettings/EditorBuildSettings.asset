@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 482200d98596da3468a5dc32e00f3037
   - enabled: 1
-    path: Assets/Scenes/Niek.unity
+    path: Assets/Scenes/Nessie.unity
     guid: 830c4f21d9682cb429c900649d64dfb4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b9f4437b2e7ae8b4eb22493858e43b89, type: 2}
