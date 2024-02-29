@@ -25,6 +25,6 @@ public class PlacerSpawn : MonoBehaviour
     }
     public void SpawnNext()
     {
-        Instantiate(Obstakels[Random.Range(0, Obstakels.Length)], SpawnPositie.position, SpawnPositie.rotation);
+        Instantiate(Obstakels[Random.Range(0, Obstakels.Length)], SpawnPositie);
     }
 }
