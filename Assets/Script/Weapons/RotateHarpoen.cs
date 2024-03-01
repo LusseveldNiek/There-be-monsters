@@ -5,15 +5,13 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class RotateHarpoen : MonoBehaviour
 {
     public XRGrabInteractable grabInteractable;
-    private bool findPrefabRotater;
+    public bool findPrefabRotater;
 
+    [System.Obsolete]
     private void Start()
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
-
         grabInteractable.onSelectEntered.AddListener(OnGrabbed);
-
-        
     }
 
     private void OnGrabbed(XRBaseInteractor interactor)
@@ -30,7 +28,6 @@ public class RotateHarpoen : MonoBehaviour
             prefab.transform.rotation = Quaternion.Euler(116f, 0f, 0f);
             //prefab.transform.localPosition = new Vector3(0.03f, -0.04f, 0f);
             findPrefabRotater = false;
-
         }
     }
 }
