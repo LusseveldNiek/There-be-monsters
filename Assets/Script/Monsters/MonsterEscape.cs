@@ -23,8 +23,11 @@ public class MonsterEscape : MonoBehaviour
         //set distance
         transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, currentDistance);
 
-        //add escape speed
-        currentDistance += escapeSpeed * Time.deltaTime;
+        if(currentDistance < maxDistance)
+        {
+            //add escape speed
+            currentDistance += escapeSpeed * Time.deltaTime;
+        }
 
 
         //escape
