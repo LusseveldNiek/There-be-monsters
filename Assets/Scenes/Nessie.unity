@@ -14211,14 +14211,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 550506779444534928, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
-      propertyPath: m_BaseOffset
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5096091830158227997, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.4
-      objectReference: {fileID: 0}
     - target: {fileID: 7191133049084313811, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.7
@@ -14263,10 +14255,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: WholeBoat
       objectReference: {fileID: 0}
-    - target: {fileID: 8421606361577284977, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
-      propertyPath: agent
-      value: 
-      objectReference: {fileID: 5901537919965655091}
     - target: {fileID: 8421606361577284977, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
       propertyPath: shipPositions.Array.data[0]
       value: 
@@ -14340,11 +14328,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
---- !u!195 &5901537919965655091 stripped
-NavMeshAgent:
-  m_CorrespondingSourceObject: {fileID: 550506779444534928, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
-  m_PrefabInstance: {fileID: 3664491201206609130}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6323490522046579606
 PrefabInstance:
   m_ObjectHideFlags: 0
