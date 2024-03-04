@@ -964,10 +964,6 @@ PrefabInstance:
       propertyPath: m_LeftHandMoveAction.m_UseReference
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2746654480052610091, guid: 97dc95594ff35ed4997ebdd6d40d0047, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2975122731430150324, guid: 97dc95594ff35ed4997ebdd6d40d0047, type: 3}
       propertyPath: m_LocalPosition.x
       value: 946
@@ -1920,8 +1916,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   backgroundSlider: {fileID: 496141998142388449}
   soundEffectsSlider: {fileID: 2141843858}
-  backgroundAudio: {fileID: 0}
-  soundEffects: []
 --- !u!4 &1618397134
 Transform:
   m_ObjectHideFlags: 0
