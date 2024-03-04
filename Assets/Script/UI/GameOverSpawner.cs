@@ -3,7 +3,7 @@ using UnityEngine;
 public class GameOverSpawner : MonoBehaviour
 {
     public GameObject gameOver;
-    public Transform head;
+    public GameObject head;
     public float spawnDistance = 1.5f;
     public bool dood;
     public int spawns;
@@ -12,6 +12,7 @@ public class GameOverSpawner : MonoBehaviour
     {
         gameOver.SetActive(false);
         Time.timeScale = 1;
+        head = GameObject.Find("Main Camera");
     }
     void Update()
     {
@@ -27,10 +28,10 @@ public class GameOverSpawner : MonoBehaviour
         {
             gameOver.SetActive(true);
 
-            gameOver.transform.position = head.position + new Vector3(head.forward.x, 0, head.forward.z).normalized * spawnDistance;
+            gameOver.transform.position = head.transform.position + new Vector3(head.transform.forward.x, 0, head.transform.forward.z).normalized * spawnDistance;
             spawns = 1;
         }
-        gameOver.transform.LookAt(new Vector3(head.position.x, gameOver.transform.position.y, head.position.z));
+        gameOver.transform.LookAt(new Vector3(head.transform.position.x, gameOver.transform.position.y, head.transform.position.z));
         gameOver.transform.forward *= -1;
 
     }

@@ -7,6 +7,7 @@ public class Weapon : MonoBehaviour
     public Transform harpoenSpawnpiont;
     public GameObject harpoen;
     public Rigidbody RbHarpoen;
+    public GameObject doos;
     public int damage = 5;
     public int destroyTime = 10;
 
@@ -17,6 +18,7 @@ public class Weapon : MonoBehaviour
         //harpoenSpawnpiont = FindAnyObjectByType<>
         RbHarpoen.constraints = RigidbodyConstraints.None;
         RbHarpoen.useGravity = true;
+        doos = GameObject.Find("SpawnHarpoen");
     }
     private void OnTriggerEnter(Collider trigger)
     {
@@ -51,7 +53,7 @@ public class Weapon : MonoBehaviour
     }
     void SpawnHarpoon()
     {
-        GameObject newHarpoon = Instantiate(harpoen, harpoenSpawnpiont.position, harpoenSpawnpiont.rotation);
+        GameObject newHarpoon = Instantiate(harpoen, harpoenSpawnpiont.position, harpoenSpawnpiont.rotation, doos.transform);
         newHarpoon.name = gameObject.name;
     }
 }

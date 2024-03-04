@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlacerSpawn : MonoBehaviour
 {
     public GameObject[] Obstakels;
-    public Transform SpawnPositie;
+    public GameObject SpawnPositie;
     float spawnTimer;
     public float secBetweenSpawn;
     public float secBeforeFirstSpawn;
@@ -11,6 +11,7 @@ public class PlacerSpawn : MonoBehaviour
     {
         spawnTimer = secBetweenSpawn;
         spawnTimer += secBeforeFirstSpawn;
+        SpawnPositie = GameObject.Find("SpawnLocationBlokken");
     }
     private void Update()
     {
@@ -23,6 +24,6 @@ public class PlacerSpawn : MonoBehaviour
     }
     public void SpawnNext()
     {
-        Instantiate(Obstakels[Random.Range(0, Obstakels.Length)], SpawnPositie);
+        Instantiate(Obstakels[Random.Range(0, Obstakels.Length)], SpawnPositie.transform);
     }
 }
