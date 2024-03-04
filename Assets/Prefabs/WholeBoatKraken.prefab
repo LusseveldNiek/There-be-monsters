@@ -524,7 +524,7 @@ GameObject:
   - component: {fileID: 4262468360932556409}
   - component: {fileID: 1420347819302159858}
   m_Layer: 8
-  m_Name: Cube
+  m_Name: Doos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -542,8 +542,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 6.116, z: 8.138}
   m_LocalScale: {x: 0.65, y: 0.72, z: 0.4}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1235562567657365592}
+  m_Children: []
   m_Father: {fileID: 1714492858330938010}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &2361746224898055834
@@ -2005,7 +2004,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4602826921107921685}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
@@ -5336,6 +5335,7 @@ MonoBehaviour:
   harpoenSpawnpiont: {fileID: 1235562567657365592}
   harpoen: {fileID: 8396548570735643294}
   RbHarpoen: {fileID: 9170936848189630815}
+  doos: {fileID: 0}
   damage: 5
   destroyTime: 10
 --- !u!114 &867870568736451283
@@ -5518,12 +5518,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8792269482107476365}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.454, y: 0.57, z: -0.15}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.2951002, y: 6.5264, z: 8.078003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8745527789481734118}
+  m_Father: {fileID: 1714492858330938010}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &8913149236244189686
 GameObject:
@@ -5792,6 +5792,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8745527789481734118}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1235562567657365592}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
       insertIndex: -1
       addedObject: {fileID: 65606759369444133}

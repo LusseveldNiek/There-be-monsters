@@ -1921,7 +1921,7 @@ GameObject:
   - component: {fileID: 305172226}
   m_Layer: 0
   m_Name: water (1)
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -14378,6 +14378,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 530200833818049464, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1714492858330938010, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.7
@@ -14420,7 +14424,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2053864111861800992, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
       propertyPath: m_Name
-      value: StylizedBoat 1
+      value: WholeBoatKraken
       objectReference: {fileID: 0}
     - target: {fileID: 4029173381790075019, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
       propertyPath: shipPositions.Array.data[0]
@@ -14507,7 +14511,7 @@ SceneRoots:
   - {fileID: 481182607}
   - {fileID: 1590403977}
   - {fileID: 602928318}
-  - {fileID: 1239139326}
   - {fileID: 915709955}
+  - {fileID: 1239139326}
   - {fileID: 1483488790}
   - {fileID: 7685848366613420232}
