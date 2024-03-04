@@ -1920,8 +1920,8 @@ GameObject:
   - component: {fileID: 305172222}
   - component: {fileID: 305172226}
   m_Layer: 0
-  m_Name: water (1)
-  m_TagString: Untagged
+  m_Name: water
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
