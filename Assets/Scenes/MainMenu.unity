@@ -1688,6 +1688,10 @@ PrefabInstance:
       propertyPath: m_LineLength
       value: 400
       objectReference: {fileID: 0}
+    - target: {fileID: 8666691818591337247, guid: 97dc95594ff35ed4997ebdd6d40d0047, type: 3}
+      propertyPath: m_OverrideInteractorLineOrigin
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1210958102934930826, guid: 97dc95594ff35ed4997ebdd6d40d0047, type: 3}

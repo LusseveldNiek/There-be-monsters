@@ -8344,6 +8344,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4501793312764745674, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
+      propertyPath: m_OverrideInteractorLineOrigin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4668076611962711137, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
+      propertyPath: m_OverrideInteractorLineOrigin
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7191133049084313811, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.7

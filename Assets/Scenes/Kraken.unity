@@ -5772,6 +5772,14 @@ PrefabInstance:
       propertyPath: shipPositions.Array.data[16]
       value: 
       objectReference: {fileID: 556320140}
+    - target: {fileID: 5926325211100599744, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
+      propertyPath: m_OverrideInteractorLineOrigin
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8529008100402248840, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
+      propertyPath: m_OverrideInteractorLineOrigin
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
