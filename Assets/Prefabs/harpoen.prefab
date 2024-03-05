@@ -169,6 +169,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3934345579779949073}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5219205916703660314}
   m_SourcePrefab: {fileID: 100100000, guid: c952099912d4fc341a1921f1f994c7fe, type: 3}
 --- !u!4 &8282381632589847833 stripped
 Transform:
@@ -396,6 +399,7 @@ MonoBehaviour:
   harpoenSpawnpiont: {fileID: 0}
   harpoen: {fileID: 8771673530817087395}
   RbHarpoen: {fileID: 4181912994449887419}
+  doos: {fileID: 0}
   damage: 5
   destroyTime: 10
 --- !u!114 &3934345579779949073
@@ -411,3 +415,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabInteractable: {fileID: 6578692415821572728}
+  weapon: {fileID: 0}
+  findPrefabRotater: 0
+--- !u!114 &5219205916703660314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771673530817087395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7178e5b9056f44a4582fb86bd75c24bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 0}
+  lookAtPoint: {fileID: 0}
+  power: 0
+  rb: {fileID: 0}

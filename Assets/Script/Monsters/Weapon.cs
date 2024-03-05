@@ -24,24 +24,20 @@ public class Weapon : MonoBehaviour
     {
         if (trigger.transform.tag == "Monster")
         {
-            SpawnHarpoon();
             monsterHit.NormalDamage(damage);
             HarpoonHit();
         }
         if (trigger.transform.tag == "Crit")
         {
-            SpawnHarpoon();
             monsterHit.CritHit(damage);
             HarpoonHit();
         }
         if (trigger.transform.tag == "Water")
         {
-            SpawnHarpoon();
             Destroy(gameObject);
         }
         if (trigger.transform.tag == "Boat")
         {
-            SpawnHarpoon();
             Destroy(gameObject);
         }
     }
@@ -51,7 +47,7 @@ public class Weapon : MonoBehaviour
         RbHarpoen.constraints = RigidbodyConstraints.FreezeAll;
         Destroy(this);
     }
-    void SpawnHarpoon()
+    public void SpawnHarpoon()
     {
         GameObject newHarpoon = Instantiate(harpoen, harpoenSpawnpiont.position, harpoenSpawnpiont.rotation, doos.transform);
         newHarpoon.name = gameObject.name;

@@ -1633,6 +1633,111 @@ Transform:
   - {fileID: 6512558474396316298}
   m_Father: {fileID: 8268679926233945034}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3502244326183056773
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8803699080181868739}
+  - component: {fileID: 4363993152809334316}
+  - component: {fileID: 4142676927681606443}
+  - component: {fileID: 4153059982799596930}
+  m_Layer: 8
+  m_Name: DoosIcePotion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8803699080181868739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3502244326183056773}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.76174355, z: -0, w: 0.64787877}
+  m_LocalPosition: {x: -1.015, y: 6.116, z: 6.232}
+  m_LocalScale: {x: 0.65, y: 0.72, z: 0.4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1714492858330938010}
+  m_LocalEulerAnglesHint: {x: 0, y: 99.236, z: 0}
+--- !u!33 &4363993152809334316
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3502244326183056773}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &4142676927681606443
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3502244326183056773}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4153059982799596930
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3502244326183056773}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3625852310430615282
 GameObject:
   m_ObjectHideFlags: 0
@@ -1790,6 +1895,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6512558474396316298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4140073073155649768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5261414471324826826}
+  - component: {fileID: 8786714666062175433}
+  m_Layer: 0
+  m_Name: spawnPotion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5261414471324826826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4140073073155649768}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.04, y: 6.54, z: 6.198}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1714492858330938010}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8786714666062175433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4140073073155649768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 563ebf51b36ba234fb078cefbc0d21a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterEscape: {fileID: 530200833818049464}
+  ship: {fileID: 1714492858330938010}
+  spawnPosition: {fileID: 5261414471324826826}
+  icePotionGameObject: {fileID: 8879534908800497727, guid: 4629a98fc5e2b2943959bafdeb7e66f9, type: 3}
+  spawnNew: 0
 --- !u!1 &4207647566500597995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,7 +2297,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4602826921107921685}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
@@ -2154,6 +2308,7 @@ MonoBehaviour:
   freezeTime: 0
   freezeSpeed: 0
   isFrozen: 0
+  normalMaterial: {fileID: 0}
 --- !u!1 &4608755266916039293
 GameObject:
   m_ObjectHideFlags: 0
@@ -3137,7 +3292,7 @@ MonoBehaviour:
   m_StopLineAtSelection: 0
   m_SnapEndpointIfAvailable: 1
   m_LineBendRatio: 0.5
-  m_OverrideInteractorLineOrigin: 1
+  m_OverrideInteractorLineOrigin: 0
   m_LineOriginTransform: {fileID: 0}
   m_LineOriginOffset: 0
 --- !u!210 &1253481451630811041
@@ -5175,7 +5330,7 @@ MonoBehaviour:
   m_StopLineAtSelection: 0
   m_SnapEndpointIfAvailable: 1
   m_LineBendRatio: 0.5
-  m_OverrideInteractorLineOrigin: 1
+  m_OverrideInteractorLineOrigin: 0
   m_LineOriginTransform: {fileID: 0}
   m_LineOriginOffset: 0
 --- !u!210 &6166870192213658044
@@ -5398,7 +5553,7 @@ GameObject:
   - component: {fileID: 3586375765626270327}
   - component: {fileID: 8861427242626656204}
   - component: {fileID: 867870568736451283}
-  - component: {fileID: 8272224088795552534}
+  - component: {fileID: 4061701444805566187}
   m_Layer: 7
   m_Name: harpoen
   m_TagString: Untagged
@@ -5665,8 +5820,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.5
-  m_ThrowAngularVelocityScale: 1
+  m_ThrowVelocityScale: 3
+  m_ThrowAngularVelocityScale: 2
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
@@ -5705,15 +5860,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabInteractable: {fileID: 3586375765626270327}
+  weapon: {fileID: 0}
   findPrefabRotater: 0
---- !u!114 &8272224088795552534
+--- !u!114 &4061701444805566187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8396548570735643294}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7178e5b9056f44a4582fb86bd75c24bc, type: 3}
   m_Name: 
@@ -6162,6 +6318,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4880291457127055803}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8803699080181868739}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5261414471324826826}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8745527789481734118}

@@ -5711,7 +5711,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 530200833818049464, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1714492858330938010, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5756,6 +5756,14 @@ PrefabInstance:
     - target: {fileID: 2053864111861800992, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
       propertyPath: m_Name
       value: WholeBoatKraken
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586375765626270327, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
+      propertyPath: m_ThrowVelocityScale
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3586375765626270327, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
+      propertyPath: m_ThrowAngularVelocityScale
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4029173381790075019, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
       propertyPath: shipPositions.Array.data[0]
@@ -5842,7 +5850,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1714492858330938010, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
       insertIndex: 6
       addedObject: {fileID: 562652442}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8396548570735643294, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1279537922}
   m_SourcePrefab: {fileID: 100100000, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
 --- !u!4 &932608924 stripped
 Transform:
@@ -5855,7 +5866,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 932608923}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
@@ -8454,6 +8465,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2142459988}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1279537913 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8396548570735643294, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
+  m_PrefabInstance: {fileID: 932608923}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1279537922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279537913}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7178e5b9056f44a4582fb86bd75c24bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 0}
+  lookAtPoint: {fileID: 0}
+  power: 10
+  rb: {fileID: 0}
 --- !u!1 &1299465585
 GameObject:
   m_ObjectHideFlags: 0
