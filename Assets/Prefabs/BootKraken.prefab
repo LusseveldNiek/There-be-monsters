@@ -502,7 +502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escapeSpeed: 1
+  escapeSpeed: 0.25
   maxDistance: 75
   minDistance: 30
   freezeTime: 3
