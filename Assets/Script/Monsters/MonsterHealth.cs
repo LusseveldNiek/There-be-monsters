@@ -61,7 +61,7 @@ public class MonsterHealth : MonoBehaviour
     }
     public void CritHit(int Damage)
     {
-        Damage -= DMGMultiplier * Damage;
+        Damage = DMGMultiplier * Damage;
 
         if (hitByBomb)
         {
