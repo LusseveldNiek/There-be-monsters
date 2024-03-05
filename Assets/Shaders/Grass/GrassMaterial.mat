@@ -15,7 +15,7 @@ Material:
   - _USETERRAINCOLOR
   m_InvalidKeywords: []
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -60,17 +60,17 @@ Material:
     m_Floats:
     - _AlphaThreshold: 1
     - _GrassPower: 1
-    - _HeightBlend: 5.2
+    - _HeightBlend: 9
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0
+    - _Smoothness: 0.2
     - _TerrainOffset: 0
     - _TerrainSize: 1000
     - _USETERRAINCOLOR: 1
     - _WindHeight: -0.5
-    - _WindIntesity: 0.44
-    - _WindNoiseSpeed: 0
-    - _WindSpeed: 0.26
+    - _WindIntesity: 0.22
+    - _WindNoiseSpeed: -1.2
+    - _WindSpeed: -0.32
     m_Colors:
     - _BottomColor: {r: 0.90196085, g: 1, b: 0, a: 0}
     - _CursedColorFix: {r: 0, g: 0, b: 0, a: 0}
