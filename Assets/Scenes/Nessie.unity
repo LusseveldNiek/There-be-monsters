@@ -4348,6 +4348,27 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RaycastTriggerInteraction: 1
+--- !u!1 &654211969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7190243346794240781, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
+  m_PrefabInstance: {fileID: 1322245442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &654211971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654211969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7178e5b9056f44a4582fb86bd75c24bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 0}
+  lookAtPoint: {fileID: 0}
+  power: 0
+  rb: {fileID: 0}
 --- !u!1 &668845015
 GameObject:
   m_ObjectHideFlags: 0
@@ -8467,7 +8488,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7190243346794240781, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 654211971}
   m_SourcePrefab: {fileID: 100100000, guid: d7019491414d6774d941ec72be2de7d4, type: 3}
 --- !u!20 &1322245443 stripped
 Camera:
