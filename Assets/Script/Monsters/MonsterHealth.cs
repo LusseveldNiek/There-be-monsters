@@ -8,7 +8,7 @@ public class MonsterHealth : MonoBehaviour
     public int maxHealth = 200;
     public int DMGMultiplier = 3;
 
-    public GameObject winCanvas;
+    public CanvasPositioning winCanvas;
 
     [Header("Bomb")]
     
@@ -45,7 +45,7 @@ public class MonsterHealth : MonoBehaviour
         //monster defeated
         if(health <= 0)
         {
-            winCanvas.SetActive(true);
+            winCanvas.activateCanvas = true;
         }
     }
 
