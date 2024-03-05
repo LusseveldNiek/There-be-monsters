@@ -6,7 +6,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class ExtraForce : MonoBehaviour
 {
     public XRGrabInteractable grabInteractable;
-    public RotateHarpoen rotateHarpoen;
     public GameObject lookAtPoint;
     private bool thrown;
     public float power;
@@ -16,11 +15,9 @@ public class ExtraForce : MonoBehaviour
     private void Start()
     {
         grabInteractable = GetComponent<XRGrabInteractable>();
-        rotateHarpoen = GetComponent<RotateHarpoen>();
         grabInteractable.onSelectExited.AddListener(OnRelease);
-        thrown = rotateHarpoen.findPrefabRotater;
         rb = GetComponent<Rigidbody>();
-        lookAtPoint = GameObject.Find("SpawnLocationBlokken");
+        lookAtPoint = GameObject.Find("KijkpuntHarpoen");
     }
     public void OnRelease(XRBaseInteractor interactor)
     {

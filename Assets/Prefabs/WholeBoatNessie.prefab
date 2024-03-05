@@ -875,6 +875,37 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &1056030300713227039
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4257560645413729344}
+  m_Layer: 0
+  m_Name: KijkpuntHarpoen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4257560645413729344
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056030300713227039}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 6, z: 1000}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7191133049084313811}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1175726483721994745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,7 +3868,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4835050484367964595}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
@@ -3845,6 +3876,9 @@ MonoBehaviour:
   escapeSpeed: 1
   maxDistance: 50
   minDistance: 20
+  freezeTime: 0
+  freezeSpeed: 0
+  isFrozen: 0
 --- !u!1 &5253648163471898164
 GameObject:
   m_ObjectHideFlags: 0
@@ -4423,6 +4457,7 @@ GameObject:
   - component: {fileID: 4465933394156304568}
   - component: {fileID: 7320228450135414900}
   - component: {fileID: 5901753081139275732}
+  - component: {fileID: 9024781085514907729}
   m_Layer: 7
   m_Name: harpoen
   m_TagString: Untagged
@@ -4730,6 +4765,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grabInteractable: {fileID: 4465933394156304568}
   findPrefabRotater: 0
+--- !u!114 &9024781085514907729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190243346794240781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7178e5b9056f44a4582fb86bd75c24bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 0}
+  lookAtPoint: {fileID: 0}
+  power: 10
+  rb: {fileID: 0}
 --- !u!1 &7200488752700218010
 GameObject:
   m_ObjectHideFlags: 0
@@ -5789,6 +5840,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
       insertIndex: -1
       addedObject: {fileID: 462493439403517064}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4257560645413729344}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1436181af17fd9744819f75d574ae071, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6630683066305439794}
