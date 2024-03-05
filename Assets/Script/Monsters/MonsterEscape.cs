@@ -15,6 +15,9 @@ public class MonsterEscape : MonoBehaviour
     //minimum distance
     public float minDistance;
 
+    //gameover canvas
+    public GameObject escapedCanvas;
+
     [Header("Freezing")]
     public float freezeTime;
     private float freezeCounter;
@@ -47,6 +50,7 @@ public class MonsterEscape : MonoBehaviour
         if(currentDistance > maxDistance)
         {
             print("you lost");
+            escapedCanvas.SetActive(true);
         }
 
         if(isFrozen)
