@@ -13308,6 +13308,14 @@ PrefabInstance:
       propertyPath: normalMaterial
       value: 
       objectReference: {fileID: -876546973899608171, guid: bf1edc4f14495ae419b2f1ad900fb083, type: 3}
+    - target: {fileID: 1011473164208851194, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: ship
+      value: 
+      objectReference: {fileID: 676505841586968902}
+    - target: {fileID: 1011473164208851194, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: monsterHealth
+      value: 
+      objectReference: {fileID: 676505841586968903}
     - target: {fileID: 3279361462425532871, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: monsterEscape
       value: 
@@ -13449,6 +13457,22 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 672690206865625478, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
   m_PrefabInstance: {fileID: 676505841586968899}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &676505841586968902 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8674656105019031549, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &676505841586968903 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 385571347833352674, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83bae5efb57c7fe4d8a6b06792636467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1457439805497377762
 PrefabInstance:
   m_ObjectHideFlags: 0
