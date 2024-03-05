@@ -22,6 +22,8 @@ public class ExtraForce : MonoBehaviour
     public void OnRelease(XRBaseInteractor interactor)
     {
         Debug.Log("Object thrown!");
+        transform.parent = null;
+        rb.velocity.Equals(Vector3.forward * power);
         thrown = true;
     }
     
@@ -29,7 +31,7 @@ public class ExtraForce : MonoBehaviour
     {
         if (thrown)
         {
-            rb.AddForce(transform.forward * power);
+
             transform.LookAt(lookAtPoint.transform.position);
         }
     }
