@@ -3750,7 +3750,7 @@ Transform:
   m_GameObject: {fileID: 4835050484367964595}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0, y: 0.4, z: 21.91}
+  m_LocalPosition: {x: 0, y: 0.4, z: 22}
   m_LocalScale: {x: 100.00002, y: 100, z: 100.00037}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3879,6 +3879,7 @@ MonoBehaviour:
   freezeTime: 0
   freezeSpeed: 0
   isFrozen: 0
+  normalMaterial: {fileID: 0}
 --- !u!1 &5253648163471898164
 GameObject:
   m_ObjectHideFlags: 0
@@ -4764,6 +4765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grabInteractable: {fileID: 4465933394156304568}
+  weapon: {fileID: 0}
   findPrefabRotater: 0
 --- !u!114 &9024781085514907729
 MonoBehaviour:
