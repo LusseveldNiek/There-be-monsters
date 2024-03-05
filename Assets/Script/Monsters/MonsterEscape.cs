@@ -15,13 +15,14 @@ public class MonsterEscape : MonoBehaviour
     //minimum distance
     public float minDistance;
 
-    //time frozen
+    [Header("Freezing")]
     public float freezeTime;
     private float freezeCounter;
 
     public float freezeSpeed;
 
     public bool isFrozen;
+    public Material normalMaterial;
 
     private void Start()
     {
@@ -59,6 +60,7 @@ public class MonsterEscape : MonoBehaviour
 
             if(freezeCounter > freezeTime)
             {
+                GetComponent<MeshRenderer>().material = normalMaterial;
                 freezeCounter = 0;
                 isFrozen = false;
                 escapeSpeed = beginEscapeSpeed;
