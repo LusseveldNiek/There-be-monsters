@@ -7742,10 +7742,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1626067742}
     - target: {fileID: 6093586814332013693, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: escapeSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6093586814332013693, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: escapedCanvas
       value: 
       objectReference: {fileID: 866512954}

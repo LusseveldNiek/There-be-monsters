@@ -46,7 +46,6 @@ public class MonsterHealth : MonoBehaviour
         if(health <= 0)
         {
             winCanvas.activateCanvas = true;
-            Time.timeScale = 0;
         }
     }
 

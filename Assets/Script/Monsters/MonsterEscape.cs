@@ -51,7 +51,6 @@ public class MonsterEscape : MonoBehaviour
         {
             print("you lost");
             escapedCanvas.activateCanvas = true;
-            Time.timeScale = 0;
         }
 
         if(isFrozen)
