@@ -2894,14 +2894,14 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3914162929979133494}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7178e5b9056f44a4582fb86bd75c24bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   grabInteractable: {fileID: 0}
   lookAtPoint: {fileID: 0}
-  power: 0
+  power: 10
   rb: {fileID: 0}
 --- !u!1 &4359904025090747379
 GameObject:
@@ -4386,8 +4386,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.02050037, y: 0.030396726, z: 0.85}
-  m_Center: {x: 0, y: 0.0043952554, z: 0.30039507}
+  m_Size: {x: 0.03033446, y: 0.055452347, z: 0.904317}
+  m_Center: {x: 0, y: 0, z: 0.3}
 --- !u!1 &6751769755672243280
 GameObject:
   m_ObjectHideFlags: 0
@@ -4719,7 +4719,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.2, y: 0.2, z: 0.2}
+  m_Size: {x: 0.1, y: 0.2, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &3882247423209352943
 MonoBehaviour:
@@ -5444,7 +5444,7 @@ CharacterController:
   m_Enabled: 1
   serializedVersion: 3
   m_Height: 2
-  m_Radius: 0.1
+  m_Radius: 0.05
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08

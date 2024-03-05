@@ -129,7 +129,7 @@ MonoBehaviour:
   hitByBomb: 0
   bombDamage: 0
   bombDuration: 0
-  normalMaterial: {fileID: 0}
+  normalMaterial: {fileID: -876546973899608171, guid: bf1edc4f14495ae419b2f1ad900fb083, type: 3}
 --- !u!114 &117908058366680333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   freezeTime: 0
   freezeSpeed: 0
   isFrozen: 0
-  normalMaterial: {fileID: 0}
+  normalMaterial: {fileID: -876546973899608171, guid: bf1edc4f14495ae419b2f1ad900fb083, type: 3}
 --- !u!1 &3625926395431776746
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,6 +453,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: BootNessie
       objectReference: {fileID: 0}
+    - target: {fileID: 6227291325111523056, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: monsterEscape
+      value: 
+      objectReference: {fileID: 6093586814332013693}
+    - target: {fileID: 8493807506229569485, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: ship
+      value: 
+      objectReference: {fileID: 8674656105019031549}
+    - target: {fileID: 8493807506229569485, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: monsterHealth
+      value: 
+      objectReference: {fileID: 385571347833352674}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:

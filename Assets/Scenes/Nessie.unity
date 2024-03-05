@@ -2321,22 +2321,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 385571347833352674, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: normalMaterial
-      value: 
-      objectReference: {fileID: -876546973899608171, guid: bf1edc4f14495ae419b2f1ad900fb083, type: 3}
-    - target: {fileID: 1011473164208851194, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: ship
-      value: 
-      objectReference: {fileID: 676505841586968902}
-    - target: {fileID: 1011473164208851194, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: monsterHealth
-      value: 
-      objectReference: {fileID: 676505841586968903}
-    - target: {fileID: 3279361462425532871, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: monsterEscape
-      value: 
-      objectReference: {fileID: 676505841586968900}
     - target: {fileID: 3507053860836643293, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: shipPositions.Array.data[0]
       value: 
@@ -2405,10 +2389,6 @@ PrefabInstance:
       propertyPath: shipPositions.Array.data[16]
       value: 
       objectReference: {fileID: 1626067742}
-    - target: {fileID: 6093586814332013693, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: normalMaterial
-      value: 
-      objectReference: {fileID: -876546973899608171, guid: bf1edc4f14495ae419b2f1ad900fb083, type: 3}
     - target: {fileID: 8298235707414373703, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_Name
       value: BootNessie
@@ -2458,38 +2438,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
---- !u!114 &676505841586968900 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6093586814332013693, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-  m_PrefabInstance: {fileID: 676505841586968899}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!20 &676505841586968901 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 672690206865625478, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
   m_PrefabInstance: {fileID: 676505841586968899}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &676505841586968902 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8674656105019031549, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-  m_PrefabInstance: {fileID: 676505841586968899}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &676505841586968903 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 385571347833352674, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-  m_PrefabInstance: {fileID: 676505841586968899}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83bae5efb57c7fe4d8a6b06792636467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
