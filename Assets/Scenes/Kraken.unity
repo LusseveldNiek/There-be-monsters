@@ -3990,6 +3990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterEscape: {fileID: 932608925}
+  ship: {fileID: 932608924}
   spawnPosition: {fileID: 562652442}
   icePotionGameObject: {fileID: 8879534908800497727, guid: 4629a98fc5e2b2943959bafdeb7e66f9, type: 3}
   spawnNew: 0
@@ -5839,7 +5840,7 @@ PrefabInstance:
       insertIndex: 5
       addedObject: {fileID: 1668616099}
     - targetCorrespondingSourceObject: {fileID: 1714492858330938010, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}
-      insertIndex: -1
+      insertIndex: 6
       addedObject: {fileID: 562652442}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09b94a8e2babae240a2fca1d1d52fd5c, type: 3}

@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3743354057645345484}
   - component: {fileID: 7776308443848413703}
   - component: {fileID: 1200635531178547924}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ice potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,5 +324,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterEscape: {fileID: 0}
-  spawnPosition: {fileID: 0}
-  icePotionGameObject: {fileID: 8879534908800497727}
+  iceSpawner: {fileID: 0}
