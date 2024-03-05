@@ -8,8 +8,17 @@ public class MonsterHealth : MonoBehaviour
     public int maxHealth = 200;
     public int DMGMultiplier = 3;
 
+    [Header("Bomb")]
+    
+    //if hit by bomb
     public bool hitByBomb;
+    //amount of damage
     public int bombDamage;
+    //duration bomb effect
+    private float bombDurationCounter;
+    public float bombDuration;
+    //change material monster back to normal
+    public Material normalMaterial;
 
     private void Awake()
     {
@@ -18,6 +27,19 @@ public class MonsterHealth : MonoBehaviour
         health = maxHealth;
     }
 
+    private void Update()
+    {
+        if(hitByBomb)
+        {
+            bombDurationCounter += Time.deltaTime;
+            if(bombDurationCounter > bombDuration)
+            {
+                GetComponent<MeshRenderer>().material = normalMaterial;
+                bombDurationCounter = 0;
+                hitByBomb = false;
+            }
+        }
+    }
 
     public void NormalDamage(int Damage)
     {

@@ -4,30 +4,30 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
-    public MonsterEscape monsterEscape;
-    public IceSpawner iceSpawner;
-    public Material frozenMaterial;
+    public MonsterHealth monsterHealth;
+    public BombSpawner bombSpawner;
+    public Material bombHitMaterial;
 
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Monster")
         {
-            collision.gameObject.GetComponent<MeshRenderer>().material = frozenMaterial;
-            monsterEscape.isFrozen = true;
-            iceSpawner.spawnNew = true;
+            collision.gameObject.GetComponent<MeshRenderer>().material = bombHitMaterial;
+            monsterHealth.hitByBomb = true;
+            bombSpawner.spawnNew = true;
             Destroy(gameObject);
         }
 
         else if (collision.gameObject.tag == "Water")
         {
-            iceSpawner.spawnNew = true;
+            bombSpawner.spawnNew = true;
             Destroy(gameObject);
         }
 
         else if (collision.gameObject.tag == "Boat")
         {
-            iceSpawner.spawnNew = true;
+            bombSpawner.spawnNew = true;
             Destroy(gameObject);
         }
     }

@@ -8,7 +8,7 @@ public class BombSpawner : MonoBehaviour
 
     public Transform ship;
     public Transform spawnPosition;
-    public GameObject icePotionGameObject;
+    public GameObject bombGameObject;
 
     public bool spawnNew;
 
@@ -21,9 +21,9 @@ public class BombSpawner : MonoBehaviour
     {
         if (spawnNew)
         {
-            GameObject bombPrefab = Instantiate(icePotionGameObject, spawnPosition.position, Quaternion.identity);
+            GameObject bombPrefab = Instantiate(bombGameObject, spawnPosition.position, Quaternion.identity);
             bombPrefab.transform.parent = ship.transform;
-            bombPrefab.GetComponent<Bomb>().iceSpawner = GetComponent<Bomb>();
+            bombPrefab.GetComponent<Bomb>().bombSpawner = GetComponent<BombSpawner>();
             bombPrefab.GetComponent<Bomb>().monsterHealth = monsterHealth;
             spawnNew = false;
         }
