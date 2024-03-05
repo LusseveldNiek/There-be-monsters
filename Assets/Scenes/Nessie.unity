@@ -2389,10 +2389,6 @@ PrefabInstance:
       propertyPath: shipPositions.Array.data[16]
       value: 
       objectReference: {fileID: 1626067742}
-    - target: {fileID: 4729745910937667941, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 27.5
-      objectReference: {fileID: 0}
     - target: {fileID: 8298235707414373703, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_Name
       value: BootNessie
