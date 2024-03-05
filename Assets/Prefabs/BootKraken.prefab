@@ -470,7 +470,6 @@ MonoBehaviour:
   health: 0
   maxHealth: 200
   DMGMultiplier: 3
-  winCanvas: {fileID: 0}
   hitByBomb: 0
   bombDamage: 4
   bombDuration: 5
@@ -506,7 +505,6 @@ MonoBehaviour:
   escapeSpeed: 0.25
   maxDistance: 75
   minDistance: 30
-  escapedCanvas: {fileID: 0}
   freezeTime: 3
   freezeSpeed: 1
   isFrozen: 0
@@ -773,10 +771,6 @@ PrefabInstance:
     - target: {fileID: 630549025950206576, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
       propertyPath: m_Name
       value: BootKraken
-      objectReference: {fileID: 0}
-    - target: {fileID: 630549025950206576, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
-      propertyPath: m_TagString
-      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 3516035072647000198, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
       propertyPath: m_LocalPosition.x
