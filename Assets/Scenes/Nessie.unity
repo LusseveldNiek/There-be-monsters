@@ -2321,14 +2321,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 385571347833352674, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: bombDamage
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 385571347833352674, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: bombDuration
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 3507053860836643293, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: shipPositions.Array.data[0]
       value: 
@@ -2397,13 +2389,9 @@ PrefabInstance:
       propertyPath: shipPositions.Array.data[16]
       value: 
       objectReference: {fileID: 1626067742}
-    - target: {fileID: 6093586814332013693, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: freezeTime
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6093586814332013693, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: freezeSpeed
-      value: 1
+    - target: {fileID: 4729745910937667941, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 27.5
       objectReference: {fileID: 0}
     - target: {fileID: 8298235707414373703, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_Name

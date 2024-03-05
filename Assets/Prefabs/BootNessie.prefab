@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 3246073442074327322}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 0, y: 0.4, z: 22}
+  m_LocalPosition: {x: 0, y: 0.4, z: 27.5}
   m_LocalScale: {x: 100.00004, y: 100.000046, z: 100.000404}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -127,8 +127,8 @@ MonoBehaviour:
   maxHealth: 200
   DMGMultiplier: 3
   hitByBomb: 0
-  bombDamage: 0
-  bombDuration: 0
+  bombDamage: 4
+  bombDuration: 5
   normalMaterial: {fileID: -876546973899608171, guid: bf1edc4f14495ae419b2f1ad900fb083, type: 3}
 --- !u!114 &117908058366680333
 MonoBehaviour:
@@ -158,11 +158,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escapeSpeed: 1
-  maxDistance: 50
-  minDistance: 20
-  freezeTime: 0
-  freezeSpeed: 0
+  escapeSpeed: 0.25
+  maxDistance: 75
+  minDistance: 27.5
+  freezeTime: 3
+  freezeSpeed: 1
   isFrozen: 0
   normalMaterial: {fileID: -876546973899608171, guid: bf1edc4f14495ae419b2f1ad900fb083, type: 3}
 --- !u!1 &3625926395431776746
