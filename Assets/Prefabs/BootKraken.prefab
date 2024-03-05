@@ -470,6 +470,10 @@ MonoBehaviour:
   health: 0
   maxHealth: 200
   DMGMultiplier: 3
+  hitByBomb: 0
+  bombDamage: 4
+  bombDuration: 5
+  normalMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
 --- !u!114 &136008209669536165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -493,7 +497,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3603382964039539498}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
@@ -501,10 +505,10 @@ MonoBehaviour:
   escapeSpeed: 1
   maxDistance: 50
   minDistance: 20
-  freezeTime: 0
-  freezeSpeed: 0
+  freezeTime: 3
+  freezeSpeed: 1
   isFrozen: 0
-  normalMaterial: {fileID: 0}
+  normalMaterial: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
 --- !u!1 &6000588048695480614
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,15 +730,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 255570839436218570, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 14.7
       objectReference: {fileID: 0}
     - target: {fileID: 255570839436218570, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.5
       objectReference: {fileID: 0}
     - target: {fileID: 255570839436218570, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 428.7
       objectReference: {fileID: 0}
     - target: {fileID: 255570839436218570, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
       propertyPath: m_LocalRotation.w
@@ -767,6 +771,50 @@ PrefabInstance:
     - target: {fileID: 630549025950206576, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
       propertyPath: m_Name
       value: BootKraken
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516035072647000198, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.708
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516035072647000198, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.718
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003249097040536256, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.585
+      objectReference: {fileID: 0}
+    - target: {fileID: 4003249097040536256, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.582
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406311317819119812, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.779
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406311317819119812, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.644
+      objectReference: {fileID: 0}
+    - target: {fileID: 6227291325111523056, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: monsterEscape
+      value: 
+      objectReference: {fileID: 6227130174738310400}
+    - target: {fileID: 8493807506229569485, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: ship
+      value: 
+      objectReference: {fileID: 8674656105019031549}
+    - target: {fileID: 8493807506229569485, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: monsterHealth
+      value: 
+      objectReference: {fileID: 249204916037138635}
+    - target: {fileID: 8643371513611253136, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.568
+      objectReference: {fileID: 0}
+    - target: {fileID: 8643371513611253136, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.571
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
