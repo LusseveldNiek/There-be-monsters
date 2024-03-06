@@ -204,14 +204,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 255570839436218570}
-  - component: {fileID: 3757167323744853871}
+  - component: {fileID: 6152514087187117558}
   - component: {fileID: 1423371195706026917}
   - component: {fileID: 5358388864559579606}
   - component: {fileID: 5423151373229948650}
   - component: {fileID: 4701451985363962204}
   m_Layer: 0
   m_Name: AlleenBootBase
-  m_TagString: Boat
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -242,14 +242,14 @@ Transform:
   - {fileID: 3963022677002406929}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3757167323744853871
+--- !u!33 &6152514087187117558
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630549025950206576}
-  m_Mesh: {fileID: 6409861774469267533, guid: 3585f4b3ab3a3dd47bcf0fa2204718d9, type: 3}
+  m_Mesh: {fileID: 6409861774469267533, guid: 39febeadfdcd11047a361add90c4a3f7, type: 3}
 --- !u!23 &1423371195706026917
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -270,16 +270,16 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -876546973899608171, guid: 1436181af17fd9744819f75d574ae071, type: 3}
-  - {fileID: 6699446615349125189, guid: 1436181af17fd9744819f75d574ae071, type: 3}
-  - {fileID: 880774007180850119, guid: 1436181af17fd9744819f75d574ae071, type: 3}
-  - {fileID: -3846018093981099296, guid: 1436181af17fd9744819f75d574ae071, type: 3}
-  - {fileID: -2813467912831258332, guid: 1436181af17fd9744819f75d574ae071, type: 3}
-  - {fileID: -6629797300637803691, guid: 1436181af17fd9744819f75d574ae071, type: 3}
-  - {fileID: 9185737683893222716, guid: 1436181af17fd9744819f75d574ae071, type: 3}
-  - {fileID: -6087771358165109452, guid: 1436181af17fd9744819f75d574ae071, type: 3}
-  - {fileID: -6974606749012444556, guid: 1436181af17fd9744819f75d574ae071, type: 3}
-  - {fileID: 2141126021990138764, guid: 1436181af17fd9744819f75d574ae071, type: 3}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
+  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
