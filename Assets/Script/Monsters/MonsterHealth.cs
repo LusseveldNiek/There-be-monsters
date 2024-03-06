@@ -37,6 +37,17 @@ public class MonsterHealth : MonoBehaviour
         {
             win.dood = true;
         }
+
+        if (hitByBomb)
+        {
+            bombDurationCounter += Time.deltaTime;
+            if (bombDurationCounter > bombDuration)
+            {
+                GetComponent<MeshRenderer>().material = normalMaterial;
+                bombDurationCounter = 0;
+                hitByBomb = false;
+            }
+        }
     }
     public void NormalDamage(int Damage)
     {
