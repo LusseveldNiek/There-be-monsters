@@ -33,7 +33,7 @@ public class MonsterHealth : MonoBehaviour
     }
     public void Update()
     {
-        if (health >= 0)
+        if (health <= 0)
         {
             win.dood = true;
         }
