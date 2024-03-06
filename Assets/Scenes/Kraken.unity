@@ -1345,9 +1345,25 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 249204916037138635, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 249204916037138635, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: winCanvas
       value: 
       objectReference: {fileID: 142573517}
+    - target: {fileID: 249204916037138635, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: bombDamage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 249204916037138635, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 915709951}
+    - target: {fileID: 249204916037138635, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: bombDuration
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3507053860836643293, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: shipPositions.Array.data[0]
       value: 
@@ -1417,9 +1433,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 556320140}
     - target: {fileID: 6227130174738310400, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 915709951}
+    - target: {fileID: 6227130174738310400, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: escapedCanvas
       value: 
-      objectReference: {fileID: 1321384157}
+      objectReference: {fileID: 0}
     - target: {fileID: 8298235707414373703, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_Name
       value: BootKraken
@@ -1785,6 +1805,8 @@ GameObject:
   - component: {fileID: 915709954}
   - component: {fileID: 915709953}
   - component: {fileID: 915709952}
+  - component: {fileID: 915709957}
+  - component: {fileID: 915709956}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1876,6 +1898,42 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &915709956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915709951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3c870c08b7167349b49d861d6374312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  winScreen: {fileID: 142573517}
+  head: {fileID: 0}
+  spawnDistance: 1.5
+  dood: 0
+  spawns: 0
+  gespawnd: 0
+--- !u!114 &915709957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915709951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5727d0efb91fff4ab93335c00a11831, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 1321384157}
+  head: {fileID: 0}
+  spawnDistance: 1.5
+  escaped: 0
+  spawns: 0
+  gespawnd: 0
 --- !u!1 &938220248
 GameObject:
   m_ObjectHideFlags: 0

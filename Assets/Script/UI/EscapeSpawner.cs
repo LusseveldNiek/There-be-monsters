@@ -1,11 +1,11 @@
 using UnityEngine;
 
-public class GameOverSpawner : MonoBehaviour
+public class EscapeSpawner : MonoBehaviour
 {
     public GameObject gameOver;
     public GameObject head;
     public float spawnDistance = 1.5f;
-    public bool dood;
+    public bool escaped;
     public int spawns;
     public bool gespawnd;
     private void Start()
@@ -23,7 +23,7 @@ public class GameOverSpawner : MonoBehaviour
         {
             gespawnd = false;
         }
-        if (dood && gespawnd)
+        if (escaped && gespawnd)
         {
             gameOver.SetActive(true);
 

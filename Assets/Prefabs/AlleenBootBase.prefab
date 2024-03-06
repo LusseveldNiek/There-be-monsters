@@ -353,7 +353,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  agent: {fileID: 4701451985363962204}
+  ship: {fileID: 0}
+  shipRotation: {fileID: 0}
+  speed: 0
 --- !u!195 &4701451985363962204
 NavMeshAgent:
   m_ObjectHideFlags: 0

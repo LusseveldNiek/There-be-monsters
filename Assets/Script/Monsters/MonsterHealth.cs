@@ -8,12 +8,8 @@ public class MonsterHealth : MonoBehaviour
     public int maxHealth = 200;
     public int DMGMultiplier = 3;
 
-    public GameObject WinScreen;
-    public GameObject head;
-    public float spawnDistance = 1.5f;
-    public int spawns = 0;
-    public bool dood;
-    public bool gespawnd;
+    public WinSpawner win;
+    public GameObject controller;
 
 
     [Header("Bomb")]
@@ -32,36 +28,16 @@ public class MonsterHealth : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         monster = GetComponent<MonsterUI>();
-        head = GameObject.Find("Main Camera");
+        win = controller.GetComponent<WinSpawner>();
         health = maxHealth;
     }
-
-    private void Update()
+    public void Update()
     {
-        if (health <= 0)
+        if (health >= 0)
         {
-            dood = true;
+            win.dood = true;
         }
-        if (spawns == 0)
-        {
-            gespawnd = true;
-        }
-        else
-        {
-            gespawnd = false;
-        }
-        if (dood && gespawnd)
-        {
-            WinScreen.SetActive(true);
-
-            WinScreen.transform.position = head.transform.position + new Vector3(head.transform.forward.x, 0, head.transform.forward.z).normalized * spawnDistance;
-            spawns = 1;
-        }
-        WinScreen.transform.LookAt(new Vector3(head.transform.position.x, WinScreen.transform.position.y, head.transform.position.z));
-        WinScreen.transform.forward *= -1;
-
     }
-
     public void NormalDamage(int Damage)
     {
         if(hitByBomb)

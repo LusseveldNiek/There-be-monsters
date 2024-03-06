@@ -12,6 +12,7 @@ public class PlacerSpawn : MonoBehaviour
         spawnTimer = secBetweenSpawn;
         spawnTimer += secBeforeFirstSpawn;
         SpawnPositie = GameObject.Find("SpawnLocationBlokken");
+        Time.timeScale = 1;
     }
     private void Update()
     {
