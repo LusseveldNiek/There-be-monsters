@@ -26,12 +26,12 @@ public class CheckpointMovement : MonoBehaviour
 
         shipRotation.LookAt(targetPosition);
 
-        transform.rotation = shipRotation.rotation;
+        transform.rotation = Quaternion.Euler(transform.rotation.x, shipRotation.rotation.y, transform.rotation.z);
 
         if (Vector3.Distance(ship.position, targetPosition) < 30)
         {
             currentCheckpointIndex = (currentCheckpointIndex + 1) % shipPositions.Length;
-            print("newPosition");
+            print("newPosition" + currentCheckpointIndex);
         }
     }
 }
