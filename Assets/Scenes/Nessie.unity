@@ -349,12 +349,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116601890}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.7, y: -1.5, z: 428.7}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1773259512}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &116762114
 GameObject:
@@ -735,7 +735,7 @@ GameObject:
   m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!64 &305172222
 MeshCollider:
@@ -817,8 +817,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 305172221}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.4603187, z: -0, w: 0.8877537}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -382.30017, y: -8, z: -313.00012}
   m_LocalScale: {x: 100.000015, y: 1, z: 100.000015}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -826,7 +826,7 @@ Transform:
   - {fileID: 205983655}
   - {fileID: 1746914932}
   - {fileID: 97393197}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1597205365}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &305172226
 MonoBehaviour:
@@ -878,7 +878,7 @@ MonoBehaviour:
   - {fileID: 159770703}
   - {fileID: 1626067742}
   ship: {fileID: 1773259512}
-  shipRotation: {fileID: 0}
+  shipRotation: {fileID: 116601891}
   speed: 10
   checkpointsManager: {fileID: 2127512448}
 --- !u!1 &305975463
@@ -5776,12 +5776,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1597205364}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 382.3001, y: 8, z: 313.00006}
+  m_LocalRotation: {x: -0, y: 0.4603187, z: -0, w: 0.8877537}
+  m_LocalPosition: {x: 476.10126, y: 8, z: -132.09879}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2127512448}
+  m_Children:
+  - {fileID: 305172225}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -205.729, z: 0}
 --- !u!114 &1597205366
 MonoBehaviour:
@@ -6382,7 +6383,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
+  m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!218 &1746914931
 Terrain:
@@ -8079,7 +8080,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1892019616}
-  - {fileID: 1597205365}
   - {fileID: 914832410}
   - {fileID: 116762115}
   - {fileID: 1639762423}
@@ -8253,7 +8253,10 @@ PrefabInstance:
     - {fileID: 4239998572599371371, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
     - {fileID: 3507053860836643293, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8674656105019031549, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 116601891}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
 --- !u!20 &676505841586968901 stripped
@@ -8273,8 +8276,7 @@ SceneRoots:
   - {fileID: 1483488790}
   - {fileID: 305975467}
   - {fileID: 905797501}
-  - {fileID: 116601891}
   - {fileID: 676505841586968899}
   - {fileID: 1918257721}
-  - {fileID: 305172225}
+  - {fileID: 1597205365}
   - {fileID: 1009470104}
