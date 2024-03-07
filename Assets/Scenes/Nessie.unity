@@ -881,6 +881,8 @@ MonoBehaviour:
   shipRotation: {fileID: 116601891}
   speed: 10
   checkpointsManager: {fileID: 2127512448}
+  rotationSpeed: 10
+  isRotating: 0
 --- !u!1 &305975463
 GameObject:
   m_ObjectHideFlags: 0

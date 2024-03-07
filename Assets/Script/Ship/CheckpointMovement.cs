@@ -4,10 +4,14 @@ public class CheckpointMovement : MonoBehaviour
 {
     public Transform[] shipPositions;
     private int currentCheckpointIndex;
+    private int rotateCheckpoint;
     public Transform ship;
     public Transform shipRotation;
     public float speed;
     public Transform checkpointsManager;
+    public float rotationSpeed;
+    public bool isRotating;
+    private Quaternion targetRotation;
 
     void Update()
     {
@@ -28,23 +32,37 @@ public class CheckpointMovement : MonoBehaviour
         shipRotation.LookAt(targetPosition);
 
 
-        //reached checkpoint
+        // reached checkpoint
         if (Vector3.Distance(ship.position, targetPosition) < 7)
         {
             print("working");
             shipPositions[currentCheckpointIndex].parent = null;
-            //terrain will become child of checkpoint
+            // terrain will become child of checkpoint
             transform.parent = shipPositions[currentCheckpointIndex].transform;
-            //rotate with checkpoint rotation
-            shipPositions[currentCheckpointIndex].rotation = Quaternion.Euler(shipPositions[currentCheckpointIndex].rotation.x, shipPositions[currentCheckpointIndex].GetComponent<CheckpointRotation>().yRotation, shipPositions[currentCheckpointIndex].rotation.z);
 
-            //switch to next checkpoint
+            // Get the target rotation from the checkpoint
+            targetRotation = Quaternion.Euler(shipPositions[currentCheckpointIndex].rotation.x, shipPositions[currentCheckpointIndex].GetComponent<CheckpointRotation>().yRotation, shipPositions[currentCheckpointIndex].rotation.z);
+
+            rotateCheckpoint = currentCheckpointIndex;
+            isRotating = true;
+
+            // switch to next checkpoint
             currentCheckpointIndex = (currentCheckpointIndex + 1) % shipPositions.Length;
-            //remove parent from next checkpoint
-            
-            print("newPosition" + currentCheckpointIndex);
+            // remove parent from next checkpoint
 
-            //I NEED TO ROTATE THE TERRAIN BEFORE GOING TO NEXT CHECKPOINT!!!!
+            print("newPosition" + currentCheckpointIndex);
+        }
+
+        if(isRotating)
+        {
+            //smoothly rotate towards the target rotation
+            shipPositions[rotateCheckpoint].rotation = Quaternion.RotateTowards(shipPositions[rotateCheckpoint].rotation, targetRotation, rotationSpeed * Time.deltaTime);
+
+            //check if the difference between current rotation and target rotation is very small
+            if (Quaternion.Angle(transform.rotation, targetRotation) < 0.1f)
+            {
+                isRotating = false; //turn off rotation
+            }
         }
     }
 }
