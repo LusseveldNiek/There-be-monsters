@@ -3,6 +3,7 @@ using UnityEngine;
 public class CheckpointMovement : MonoBehaviour
 {
     public Transform[] shipPositions;
+    public Transform[] originalShipPositions;
     private int currentCheckpointIndex;
     private int rotateCheckpoint;
     public Transform ship;
@@ -50,6 +51,14 @@ public class CheckpointMovement : MonoBehaviour
             currentCheckpointIndex = (currentCheckpointIndex + 1) % shipPositions.Length;
 
             print("newPosition" + currentCheckpointIndex);
+
+            if(currentCheckpointIndex == 16)
+            {
+                for (int i = 0; i < originalShipPositions.Length; i++)
+                {
+                    shipPositions[i].position = originalShipPositions[i].position;
+                }
+            }
         }
 
         if(isRotating)
