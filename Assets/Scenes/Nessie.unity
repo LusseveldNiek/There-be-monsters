@@ -878,7 +878,7 @@ MonoBehaviour:
   - {fileID: 159770703}
   - {fileID: 1626067742}
   ship: {fileID: 1773259512}
-  shipRotation: {fileID: 116601891}
+  shipRotation: {fileID: 0}
   speed: 10
   checkpointsManager: {fileID: 2127512448}
 --- !u!1 &305975463
@@ -7459,7 +7459,7 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: 49d5f69085ae422458d7d3e0b3941f64, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4f3475149d406e747aa162111c2c0bb9, type: 2}
+      objectReference: {fileID: 2100000, guid: cb96a9bc4cac5f84ea33be9fce9a5130, type: 2}
     - target: {fileID: 919132149155446097, guid: 49d5f69085ae422458d7d3e0b3941f64, type: 3}
       propertyPath: m_Name
       value: Terrain
