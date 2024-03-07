@@ -17,7 +17,7 @@ public class MonsterHealth : MonoBehaviour
     //if hit by bomb
     public bool hitByBomb;
     //amount of damage
-    public int bombDamage;
+    public int bombTimesDamage;
     //duration bomb effect
     private float bombDurationCounter;
     public float bombDuration;
@@ -53,7 +53,7 @@ public class MonsterHealth : MonoBehaviour
     {
         if(hitByBomb)
         {
-            Damage += bombDamage;
+            Damage *= bombTimesDamage;
         }
 
         health -= Damage;
@@ -65,7 +65,7 @@ public class MonsterHealth : MonoBehaviour
 
         if (hitByBomb)
         {
-            Damage += bombDamage;
+            Damage *= bombTimesDamage;
         }
 
         health -= Damage;
