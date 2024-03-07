@@ -17,7 +17,7 @@ public class Sound : MonoBehaviour
     void Start()
     {
         firstPlayInt = PlayerPrefs.GetInt(FirstPlay);
-
+        /*
         if (firstPlayInt == 0)
         {
             backgroundFloat = .125f;
@@ -37,6 +37,13 @@ public class Sound : MonoBehaviour
             soundEffectsFloat = PlayerPrefs.GetFloat(SoundEffectsPref);
             soundEffectsSlider.value = soundEffectsFloat;
 
+        }
+        */
+
+
+        for (int i = 0; i < soundEffects.Length; i++)
+        {
+            soundEffects[i].volume = soundEffectsSlider.value;
         }
     }
 
@@ -58,9 +65,5 @@ public class Sound : MonoBehaviour
     public void UpdateSound()
     {
         backgroundAudio.volume = backgroundSlider.value;
-        for (int i = 0; i < soundEffects.Length; i++)
-        {
-            soundEffects[i].volume = soundEffectsSlider.value;
-        }
     }
 }
