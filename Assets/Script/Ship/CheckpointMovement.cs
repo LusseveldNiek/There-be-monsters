@@ -48,7 +48,6 @@ public class CheckpointMovement : MonoBehaviour
 
             // switch to next checkpoint
             currentCheckpointIndex = (currentCheckpointIndex + 1) % shipPositions.Length;
-            // remove parent from next checkpoint
 
             print("newPosition" + currentCheckpointIndex);
         }
@@ -62,6 +61,8 @@ public class CheckpointMovement : MonoBehaviour
             if (Quaternion.Angle(transform.rotation, targetRotation) < 0.1f)
             {
                 isRotating = false; //turn off rotation
+                transform.parent = null;
+                shipPositions[rotateCheckpoint].parent = checkpointsManager;
             }
         }
     }
