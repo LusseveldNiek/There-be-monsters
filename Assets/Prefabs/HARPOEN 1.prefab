@@ -51,8 +51,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.07055661, y: 0.16043329, z: 2.1275408}
-  m_Center: {x: -9.465317e-10, y: 0.046898127, z: 0.13665497}
+  m_Size: {x: 0.13701534, y: 0.31780148, z: 2.3275442}
+  m_Center: {x: 3.1693305e-16, y: 0.044689655, z: 0.14730215}
 --- !u!1 &2804940424103773530
 GameObject:
   m_ObjectHideFlags: 0
@@ -67,6 +67,7 @@ GameObject:
   - component: {fileID: 6038391809098749321}
   - component: {fileID: 8790197496511371134}
   - component: {fileID: 8761548432257225744}
+  - component: {fileID: 3151476399748271098}
   - component: {fileID: 1319626978901468087}
   - component: {fileID: 3673267313697669577}
   m_Layer: 7
@@ -343,6 +344,25 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &3151476399748271098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2804940424103773530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ef8a184c1036c48bce66998ca0738a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterHit: {fileID: 0}
+  harpoenSpawnpiont: {fileID: 0}
+  harpoen: {fileID: 2804940424103773530}
+  RbHarpoen: {fileID: 6038391809098749321}
+  doos: {fileID: 0}
+  damage: 5
+  destroyTime: 10
 --- !u!114 &1319626978901468087
 MonoBehaviour:
   m_ObjectHideFlags: 0

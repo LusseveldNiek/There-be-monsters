@@ -7,6 +7,7 @@ public class RotateHarpoen : MonoBehaviour
     public XRGrabInteractable grabInteractable;
     public Weapon weapon;
     public bool findPrefabRotater;
+    public bool thrown;
 
     [System.Obsolete]
     private void Start()
@@ -20,7 +21,7 @@ public class RotateHarpoen : MonoBehaviour
     {
         Debug.Log("Object grabbed!");
         findPrefabRotater = true;
-        weapon.SpawnHarpoon();
+
     }
 
     private void Update()

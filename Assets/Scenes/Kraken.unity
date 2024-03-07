@@ -1382,6 +1382,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11650193}
     - target: {fileID: 3507053860836643293, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3507053860836643293, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: shipRotation
       value: 
       objectReference: {fileID: 11650193}
@@ -1453,6 +1457,10 @@ PrefabInstance:
       propertyPath: shipPositions.Array.data[16]
       value: 
       objectReference: {fileID: 556320140}
+    - target: {fileID: 4239998572599371371, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4458004682834887141, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: grabInteractable
       value: 
@@ -1516,7 +1524,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 676494771384067848, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1486441740}
   m_SourcePrefab: {fileID: 100100000, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
 --- !u!20 &685984880 stripped
 Camera:
@@ -2204,6 +2215,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 994878391}
   m_CullTransparentMesh: 1
+--- !u!1 &1062242729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 676494771384067848, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1067698634
 GameObject:
   m_ObjectHideFlags: 0
@@ -2505,7 +2521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f1e9b364d63c4243bfc6a1381a30858, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 1
+  scene: 2
 --- !u!114 &1096269954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3860,12 +3876,29 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6203998747924756034, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
   m_PrefabInstance: {fileID: 685984878}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1062242729}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1486441740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062242729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5959790a3fce1e4f846f73c721e1084, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabInteractable: {fileID: 0}
+  weapon: {fileID: 0}
+  fast: 0
+  grabbed: 0
+  spawned: 0
 --- !u!1 &1553976239
 GameObject:
   m_ObjectHideFlags: 0
@@ -4878,7 +4911,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f1e9b364d63c4243bfc6a1381a30858, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 1
+  scene: 2
 --- !u!114 &1857625938
 MonoBehaviour:
   m_ObjectHideFlags: 0

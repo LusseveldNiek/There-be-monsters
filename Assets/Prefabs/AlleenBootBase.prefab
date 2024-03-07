@@ -204,11 +204,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 255570839436218570}
-  - component: {fileID: 6152514087187117558}
-  - component: {fileID: 1423371195706026917}
-  - component: {fileID: 5358388864559579606}
+  - component: {fileID: 853046540240097619}
+  - component: {fileID: 5970919007860976045}
   - component: {fileID: 5423151373229948650}
   - component: {fileID: 4701451985363962204}
+  - component: {fileID: 1692296407322899622}
   m_Layer: 0
   m_Name: AlleenBootBase
   m_TagString: Untagged
@@ -243,15 +243,15 @@ Transform:
   - {fileID: 8773536897473417861}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &6152514087187117558
+--- !u!33 &853046540240097619
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 630549025950206576}
-  m_Mesh: {fileID: 6409861774469267533, guid: 39febeadfdcd11047a361add90c4a3f7, type: 3}
---- !u!23 &1423371195706026917
+  m_Mesh: {fileID: 6409861774469267533, guid: 48d74f59b54f52344af3ea67991f5626, type: 3}
+--- !u!23 &5970919007860976045
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -271,15 +271,6 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
-  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
-  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
-  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
-  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
-  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
-  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
-  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
-  - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
   - {fileID: 2100000, guid: acb3d5adb03ef5a468656c76c6f809fb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -302,28 +293,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5358388864559579606
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 630549025950206576}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 6409861774469267533, guid: 1436181af17fd9744819f75d574ae071, type: 3}
 --- !u!114 &5423151373229948650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -358,6 +327,8 @@ MonoBehaviour:
   shipRotation: {fileID: 0}
   speed: 0
   checkpointsManager: {fileID: 0}
+  rotationSpeed: 0
+  isRotating: 0
 --- !u!195 &4701451985363962204
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -380,6 +351,28 @@ NavMeshAgent:
   m_BaseOffset: -2
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!64 &1692296407322899622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630549025950206576}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6409861774469267533, guid: 48d74f59b54f52344af3ea67991f5626, type: 3}
 --- !u!1 &675883128532959488
 GameObject:
   m_ObjectHideFlags: 0
@@ -2891,6 +2884,7 @@ MonoBehaviour:
   grabInteractable: {fileID: 6448281049992980462}
   weapon: {fileID: 0}
   findPrefabRotater: 0
+  thrown: 0
 --- !u!114 &2775803741103773382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4470,7 +4464,7 @@ GameObject:
   - component: {fileID: 6625694242869829477}
   - component: {fileID: 5429577543731244843}
   - component: {fileID: 3882247423209352943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -5887,6 +5881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HARPOEN 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3151476399748271098, guid: 8d5cd2fc630b4f14881f85873ca93a6e, type: 3}
+      propertyPath: harpoenSpawnpiont
+      value: 
+      objectReference: {fileID: 4256609553543971288}
     - target: {fileID: 3289587988642045920, guid: 8d5cd2fc630b4f14881f85873ca93a6e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.28899956
@@ -5930,40 +5928,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2804940424103773530, guid: 8d5cd2fc630b4f14881f85873ca93a6e, type: 3}
-      insertIndex: 6
-      addedObject: {fileID: 978624920311550581}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d5cd2fc630b4f14881f85873ca93a6e, type: 3}
---- !u!54 &552683614680946924 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 6038391809098749321, guid: 8d5cd2fc630b4f14881f85873ca93a6e, type: 3}
-  m_PrefabInstance: {fileID: 6081877694394994021}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8253424653547063359 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2804940424103773530, guid: 8d5cd2fc630b4f14881f85873ca93a6e, type: 3}
-  m_PrefabInstance: {fileID: 6081877694394994021}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &978624920311550581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8253424653547063359}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48ef8a184c1036c48bce66998ca0738a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monsterHit: {fileID: 0}
-  harpoenSpawnpiont: {fileID: 4256609553543971288}
-  harpoen: {fileID: 2804940424103773530, guid: 8d5cd2fc630b4f14881f85873ca93a6e, type: 3}
-  RbHarpoen: {fileID: 552683614680946924}
-  doos: {fileID: 0}
-  damage: 5
-  destroyTime: 10
 --- !u!4 &8773536897473417861 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3289587988642045920, guid: 8d5cd2fc630b4f14881f85873ca93a6e, type: 3}
