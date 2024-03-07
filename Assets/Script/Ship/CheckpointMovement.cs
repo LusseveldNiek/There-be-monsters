@@ -7,6 +7,7 @@ public class CheckpointMovement : MonoBehaviour
     public Transform ship;
     public Transform shipRotation;
     public float speed;
+    public Transform checkpointsManager;
 
     void Update()
     {
@@ -26,15 +27,15 @@ public class CheckpointMovement : MonoBehaviour
 
         shipRotation.LookAt(targetPosition);
 
-        transform.rotation = Quaternion.Euler(transform.rotation.x, shipRotation.rotation.y, transform.rotation.z);
-
-        ship.rotation = shipRotation.rotation;
 
 
-
-        if (Vector3.Distance(ship.position, targetPosition) < 30)
+        if (Vector3.Distance(ship.position, targetPosition) < 7)
         {
+            print("working");
+            shipPositions[currentCheckpointIndex].parent = checkpointsManager.transform;
             currentCheckpointIndex = (currentCheckpointIndex + 1) % shipPositions.Length;
+            transform.parent = shipPositions[currentCheckpointIndex].transform;
+            transform.rotation = Quaternion.Euler(ship.rotation.x, shipPositions[currentCheckpointIndex].GetComponent<CheckpointRotation>().yRotation, ship.rotation.z);
             print("newPosition" + currentCheckpointIndex);
         }
     }

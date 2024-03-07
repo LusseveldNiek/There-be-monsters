@@ -356,6 +356,7 @@ MonoBehaviour:
   ship: {fileID: 0}
   shipRotation: {fileID: 0}
   speed: 0
+  checkpointsManager: {fileID: 0}
 --- !u!195 &4701451985363962204
 NavMeshAgent:
   m_ObjectHideFlags: 0

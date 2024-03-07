@@ -126,6 +126,8 @@ MonoBehaviour:
   health: 0
   maxHealth: 200
   DMGMultiplier: 3
+  win: {fileID: 0}
+  controller: {fileID: 0}
   hitByBomb: 0
   bombDamage: 4
   bombDuration: 5
@@ -161,6 +163,8 @@ MonoBehaviour:
   escapeSpeed: 0.25
   maxDistance: 75
   minDistance: 27.5
+  escape: {fileID: 0}
+  controller: {fileID: 0}
   freezeTime: 3
   freezeSpeed: 1
   isFrozen: 0
