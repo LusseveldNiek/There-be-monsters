@@ -34,8 +34,9 @@ public class CheckpointMovement : MonoBehaviour
             print("working");
             shipPositions[currentCheckpointIndex].parent = checkpointsManager.transform;
             currentCheckpointIndex = (currentCheckpointIndex + 1) % shipPositions.Length;
+            shipPositions[currentCheckpointIndex].parent = null;
             transform.parent = shipPositions[currentCheckpointIndex].transform;
-            transform.rotation = Quaternion.Euler(ship.rotation.x, shipPositions[currentCheckpointIndex].GetComponent<CheckpointRotation>().yRotation, ship.rotation.z);
+            shipPositions[currentCheckpointIndex].rotation = Quaternion.Euler(shipPositions[currentCheckpointIndex].rotation.x, shipPositions[currentCheckpointIndex].GetComponent<CheckpointRotation>().yRotation, shipPositions[currentCheckpointIndex].rotation.z);
             print("newPosition" + currentCheckpointIndex);
         }
     }

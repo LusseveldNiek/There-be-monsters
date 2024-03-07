@@ -8193,6 +8193,10 @@ PrefabInstance:
       propertyPath: shipPositions.Array.data[16]
       value: 
       objectReference: {fileID: 1626067742}
+    - target: {fileID: 3779185778848328873, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6093586814332013693, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
