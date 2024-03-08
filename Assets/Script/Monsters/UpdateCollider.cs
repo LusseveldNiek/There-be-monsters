@@ -2,18 +2,29 @@ using UnityEngine;
 
 public class UpdateCollider : MonoBehaviour
 {
-    private MeshCollider meshCollider;
     private SkinnedMeshRenderer skinnedMeshRenderer;
+    private MeshCollider meshCollider;
 
     void Start()
     {
-        meshCollider = GetComponent<MeshCollider>();
         skinnedMeshRenderer = GetComponent<SkinnedMeshRenderer>();
+        meshCollider = GetComponent<MeshCollider>();
     }
 
-    void Update()
+    void LateUpdate()
     {
-        // Update the mesh collider mesh with the current animated mesh
-        meshCollider.sharedMesh = skinnedMeshRenderer.sharedMesh;
+        UpdateColliderMesh();
+    }
+
+    void UpdateColliderMesh()
+    {
+        if (skinnedMeshRenderer == null || meshCollider == null)
+            return;
+
+        Mesh skinnedMesh = new Mesh();
+        skinnedMeshRenderer.BakeMesh(skinnedMesh);
+
+        meshCollider.sharedMesh = null; //reset mesh
+        meshCollider.sharedMesh = skinnedMesh;
     }
 }
