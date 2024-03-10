@@ -97,6 +97,9 @@ public class KrakenAnimations : MonoBehaviour
         yield return new WaitForSeconds(time);
         blockRIndicator.SetActive(false);
         yield return new WaitForSeconds(0.5f);
+        blockR.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        blockR.SetActive(false);
     }
     IEnumerator BlockM(float time)
     {
@@ -104,6 +107,9 @@ public class KrakenAnimations : MonoBehaviour
         yield return new WaitForSeconds(time);
         blockMIndicator.SetActive(false);
         yield return new WaitForSeconds(0.5f);
+        blockM.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        blockM.SetActive(false);
     }
     IEnumerator BlockL(float time)
     {
@@ -111,7 +117,9 @@ public class KrakenAnimations : MonoBehaviour
         yield return new WaitForSeconds(time);
         blockLIndicator.SetActive(false);
         yield return new WaitForSeconds(0.5f);
-
+        blockL.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        blockL.SetActive(false);
     }
     IEnumerator Buck(float time)
     {
@@ -119,5 +127,8 @@ public class KrakenAnimations : MonoBehaviour
         yield return new WaitForSeconds(time);
         buckIndicator.SetActive(false);
         yield return new WaitForSeconds(0.5f);
+        buck.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        buck.SetActive(false);
     }
 }
