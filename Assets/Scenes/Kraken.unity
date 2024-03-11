@@ -1577,6 +1577,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1241422403833193129, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3507053860836643293, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: shipPositions.Array.data[0]
       value: 
@@ -1650,9 +1654,21 @@ PrefabInstance:
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 4489759140041083745, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489759140041083745, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 915709951}
+    - target: {fileID: 4489759140041083745, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: beginEscapeSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4489759140041083745, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: escapeSpeedRemoval
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: buck
       value: 
@@ -1674,6 +1690,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: animatieHit
+      value: 
+      objectReference: {fileID: 2009722505}
+    - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: timeWaitBuck
       value: 0.75
       objectReference: {fileID: 0}
@@ -1681,6 +1701,10 @@ PrefabInstance:
       propertyPath: buckIndicator
       value: 
       objectReference: {fileID: 877725176}
+    - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: monsterEscape
+      value: 
+      objectReference: {fileID: 2009722499}
     - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: timeWaitBlockL
       value: 2
@@ -5911,6 +5935,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9063649074609418820, guid: 5ffcfc685235f3b47ba00b69ca24f14b, type: 3}
   m_PrefabInstance: {fileID: 1537073892}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2009722499 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4489759140041083745, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2009722505 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4436766348617065310, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b37972839be244896a294aa5f4c7d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2034291146
 GameObject:
   m_ObjectHideFlags: 0

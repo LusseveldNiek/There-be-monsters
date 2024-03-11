@@ -3,7 +3,7 @@ using UnityEngine;
 public class MonsterEscape : MonoBehaviour
 {
     //added speed per frame
-    private float currentEscapeSpeed;
+    public float currentEscapeSpeed;
     public float beginEscapeSpeed;
     public float escapeSpeedRemoval;
     public bool isEscaping;
