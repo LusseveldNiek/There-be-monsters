@@ -6,7 +6,6 @@ public class ExtraForce : MonoBehaviour
     public XRGrabInteractable grabInteractable;
     public GameObject lookAtPoint;
     private bool thrown;
-    public float power;
     public Rigidbody rb;
 
     [System.Obsolete]
@@ -27,8 +26,8 @@ public class ExtraForce : MonoBehaviour
     {
         if (thrown)
         {
-            rb.AddForce(transform.forward * power);
-            transform.LookAt(lookAtPoint.transform.position);
+            Vector3 lookat = transform.position + rb.velocity;
+            transform.LookAt(lookat);
         }
     }
 }
