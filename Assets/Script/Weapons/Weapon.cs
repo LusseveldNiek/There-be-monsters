@@ -20,23 +20,23 @@ public class Weapon : MonoBehaviour
         RbHarpoen.useGravity = true;
         doos = GameObject.Find("SpawnHarpoen");
     }
-    private void OnTriggerEnter(Collider trigger)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (trigger.transform.tag == "Monster")
+        if (collision.transform.tag == "Monster")
         {
             monsterHit.NormalDamage(damage);
             HarpoonHit();
         }
-        if (trigger.transform.tag == "Crit")
+        if (collision.transform.tag == "Crit")
         {
             monsterHit.CritHit(damage);
             HarpoonHit();
         }
-        if (trigger.transform.tag == "Water")
+        if (collision.transform.tag == "Water")
         {
             Destroy(gameObject);
         }
-        if (trigger.transform.tag == "Boat")
+        if (collision.transform.tag == "Boat")
         {
             Destroy(gameObject);
         }
