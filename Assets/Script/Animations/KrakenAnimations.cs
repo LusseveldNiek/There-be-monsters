@@ -25,9 +25,12 @@ public class KrakenAnimations : MonoBehaviour
     public GameObject blockL;
     public GameObject buck;
 
+    public AnimatieHit animatieHit;
+
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
+        animatieHit = GetComponent<AnimatieHit>();
     }
     IEnumerator WaitForSpawn()
     {
@@ -61,11 +64,13 @@ public class KrakenAnimations : MonoBehaviour
         {
             Debug.Log("Charge");
             anim.SetTrigger("Charge");
+            animatieHit.inAnimatieCharge = true;
         }
         if (animatie == 5)
         {
             Debug.Log("Leaving");
             anim.SetTrigger("Leave");
+            animatieHit.inAnimatieLeave = true;
         }
         if (animatie == 6)
         {

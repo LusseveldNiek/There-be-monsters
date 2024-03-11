@@ -12,6 +12,7 @@ public class GameMenu : MonoBehaviour
     {
         Menu.SetActive(false);
         head = GameObject.Find("Main Camera");
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame

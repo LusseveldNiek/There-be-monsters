@@ -11,6 +11,8 @@ public class MonsterHealth : MonoBehaviour
     public WinSpawner win;
     public GameObject controller;
 
+    public AnimatieHit hit;
+
 
     [Header("Bomb")]
     
@@ -29,6 +31,7 @@ public class MonsterHealth : MonoBehaviour
         animator = GetComponent<Animator>();
         monster = GetComponent<MonsterUI>();
         win = controller.GetComponent<WinSpawner>();
+        hit = GetComponent<AnimatieHit>();
         health = maxHealth;
     }
     public void Update()
@@ -36,6 +39,7 @@ public class MonsterHealth : MonoBehaviour
         if (health <= 0)
         {
             win.dood = true;
+            animator.SetBool("Death", true);
         }
 
         if (hitByBomb)
@@ -55,21 +59,19 @@ public class MonsterHealth : MonoBehaviour
         {
             Damage *= bombTimesDamage;
         }
-
+        hit.ishit = true;
         health -= Damage;
         monster.UpdateMonsterUI();
     }
     public void CritHit(int Damage)
     {
         Damage = DMGMultiplier * Damage;
-
         if (hitByBomb)
         {
             Damage *= bombTimesDamage;
         }
-
+        hit.ishit = true;
         health -= Damage;
-
         monster.UpdateMonsterUI();
     }
 }
