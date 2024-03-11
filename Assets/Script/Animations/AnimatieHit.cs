@@ -4,22 +4,45 @@ using UnityEngine;
 
 public class AnimatieHit : MonoBehaviour
 {
-    public bool ishit;
+    public Animator animator;
+    public bool isHit;
+    private bool activeHit;
+    public float isHitTime = 0.5f;
+    private float timer;
     public bool inAnimatieCharge;
     public bool inAnimatieLeave;
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (inAnimatieLeave && ishit)
+        if (inAnimatieLeave && activeHit)
         {
-
+            animator.SetTrigger("Hurt");
+            inAnimatieLeave = false;
         }
-
+        if (inAnimatieCharge && activeHit)
+        {
+            animator.SetTrigger("Hurt");
+            inAnimatieCharge = false;
+        }
+        if (isHit)
+        {
+            timer = isHitTime;
+            activeHit = true;
+            isHit = false;
+        }
+        if (timer >= 0)
+        {
+            timer -= Time.deltaTime;
+        }
+        else
+        {
+            activeHit = false;
+        }
     }
 }

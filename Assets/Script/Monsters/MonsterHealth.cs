@@ -59,7 +59,7 @@ public class MonsterHealth : MonoBehaviour
         {
             Damage *= bombTimesDamage;
         }
-        hit.ishit = true;
+        hit.isHit = true;
         health -= Damage;
         monster.UpdateMonsterUI();
     }
@@ -70,7 +70,7 @@ public class MonsterHealth : MonoBehaviour
         {
             Damage *= bombTimesDamage;
         }
-        hit.ishit = true;
+        hit.isHit = true;
         health -= Damage;
         monster.UpdateMonsterUI();
     }
