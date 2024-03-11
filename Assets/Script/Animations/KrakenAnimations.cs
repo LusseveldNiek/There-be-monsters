@@ -5,6 +5,7 @@ using UnityEngine;
 public class KrakenAnimations : MonoBehaviour
 {
     public Animator anim;
+    public AnimatorClipInfo[] clip;
     public bool isPlaying;
     private int animatie;
     public float minTime;
@@ -27,12 +28,15 @@ public class KrakenAnimations : MonoBehaviour
 
     public AnimatieHit animatieHit;
     public MonsterEscape monsterEscape;
+    public MonsterHealth hp;
+    public bool dood;
 
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
         animatieHit = GetComponent<AnimatieHit>();
         monsterEscape = GetComponent<MonsterEscape>();
+        hp = GetComponent<MonsterHealth>();
     }
     IEnumerator WaitForSpawn()
     {
@@ -90,14 +94,27 @@ public class KrakenAnimations : MonoBehaviour
     }
     void Update()
     {
-        if (isPlaying)
+        if (hp.health > 0 && !dood)
         {
-            return;
+            if (isPlaying)
+            {
+
+                return;
+            }
+            else
+            {
+                StartCoroutine(WaitForSpawn());
+            }
         }
-        else
-        {
-            StartCoroutine(WaitForSpawn());
-        }
+    }
+    public string GetCurrentClipName()
+    {
+
+        int layerIndex = 0;
+
+        info = anim.GetCurrentAnimatorClipInfo(layerIndex); 
+        return info[0].clip.name;
+
     }
     IEnumerator BlockR(float time)
     {
