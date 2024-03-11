@@ -26,11 +26,13 @@ public class KrakenAnimations : MonoBehaviour
     public GameObject buck;
 
     public AnimatieHit animatieHit;
+    public MonsterEscape monsterEscape;
 
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
         animatieHit = GetComponent<AnimatieHit>();
+        monsterEscape = GetComponent<MonsterEscape>();
     }
     IEnumerator WaitForSpawn()
     {
@@ -41,7 +43,7 @@ public class KrakenAnimations : MonoBehaviour
     }
     public void RandomAnimation()
     {
-        animatie = Random.Range(1, 8);
+        animatie = Random.Range(5, 6);
         if (animatie == 1)
         {
             Debug.Log("Atc row 1");
@@ -66,11 +68,12 @@ public class KrakenAnimations : MonoBehaviour
             anim.SetTrigger("Charge");
             animatieHit.inAnimatieCharge = true;
         }
-        if (animatie == 5)
+        if (animatie == 5 && monsterEscape.isEscaping == false)
         {
             Debug.Log("Leaving");
             anim.SetTrigger("Leave");
             animatieHit.inAnimatieLeave = true;
+            monsterEscape.isEscaping = true;
         }
         if (animatie == 6)
         {

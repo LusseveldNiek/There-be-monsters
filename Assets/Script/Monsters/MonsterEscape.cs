@@ -3,8 +3,10 @@ using UnityEngine;
 public class MonsterEscape : MonoBehaviour
 {
     //added speed per frame
-    public float escapeSpeed;
-    private float beginEscapeSpeed;
+    private float currentEscapeSpeed;
+    public float beginEscapeSpeed;
+    public float escapeSpeedRemoval;
+    public bool isEscaping;
 
     //distance atm
     private float currentDistance;
@@ -32,8 +34,10 @@ public class MonsterEscape : MonoBehaviour
     {
         //enemy begins with minDistance
         currentDistance = minDistance;
-        beginEscapeSpeed = escapeSpeed;
         escape = controller.GetComponent<EscapeSpawner>();
+
+
+        currentEscapeSpeed = beginEscapeSpeed;
     }
 
     void Update()
@@ -43,8 +47,23 @@ public class MonsterEscape : MonoBehaviour
 
         if(currentDistance < maxDistance)
         {
-            //add escape speed
-            currentDistance += escapeSpeed * Time.deltaTime;
+            if(isEscaping)
+            {
+                print("works");
+
+                //add escape speed
+                currentDistance += currentEscapeSpeed;
+
+                currentEscapeSpeed -= escapeSpeedRemoval;
+
+                //done with movement
+                if(currentEscapeSpeed <= 0)
+                {
+                    currentEscapeSpeed = beginEscapeSpeed;
+                    isEscaping = false;
+                    print("doneEscaping");
+                }
+            }
         }
 
 
@@ -57,7 +76,6 @@ public class MonsterEscape : MonoBehaviour
 
         if(isFrozen)
         {
-            escapeSpeed = 0;
             freezeCounter += Time.deltaTime;
             if(currentDistance > minDistance)
             {
@@ -69,7 +87,6 @@ public class MonsterEscape : MonoBehaviour
                 GetComponent<MeshRenderer>().material = normalMaterial;
                 freezeCounter = 0;
                 isFrozen = false;
-                escapeSpeed = beginEscapeSpeed;
             }
         }
     }
