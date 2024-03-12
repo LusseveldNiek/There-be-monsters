@@ -9,9 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5725837169779553053}
+  - component: {fileID: 3713374230206267437}
   m_Layer: 0
   m_Name: Bone.002_L.004
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,6 +33,27 @@ Transform:
   - {fileID: 1390522707156871420}
   m_Father: {fileID: 6130236695828085526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3713374230206267437
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178830704154763712}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &190449746591897025
 GameObject:
   m_ObjectHideFlags: 0
@@ -41,9 +63,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8407708267618191108}
+  - component: {fileID: 4017041818694072978}
   m_Layer: 0
   m_Name: Bone_R.003
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64,6 +87,27 @@ Transform:
   - {fileID: 5295250046721453090}
   m_Father: {fileID: 2507944706374367323}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4017041818694072978
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190449746591897025}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &194321427861525089
 GameObject:
   m_ObjectHideFlags: 0
@@ -73,9 +117,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2777088158636995162}
+  - component: {fileID: 548750765463893976}
   m_Layer: 0
   m_Name: Bone_L.015
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,6 +141,27 @@ Transform:
   - {fileID: 7758593711928478470}
   m_Father: {fileID: 8426152035415451163}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &548750765463893976
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194321427861525089}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &243499670586173904
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,9 +171,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9203483453534751972}
+  - component: {fileID: 4657067941074055319}
   m_Layer: 0
   m_Name: Bone.002_R.013
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,6 +195,27 @@ Transform:
   - {fileID: 6177991320920481424}
   m_Father: {fileID: 6005404327517250389}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4657067941074055319
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243499670586173904}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &296762681311273970
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,9 +225,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6130236695828085526}
+  - component: {fileID: 2798964384273686271}
   m_Layer: 0
   m_Name: Bone.002_L
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,6 +250,27 @@ Transform:
   - {fileID: 5725837169779553053}
   m_Father: {fileID: 1364981525003808472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2798964384273686271
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296762681311273970}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &405732379010963414
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,9 +308,6 @@ Transform:
   - {fileID: 8240028814458559986}
   - {fileID: 6659990548437680497}
   - {fileID: 3658301900542067790}
-  - {fileID: 7496278113160264179}
-  - {fileID: 1359996601415117171}
-  - {fileID: 8099314883223000151}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1486613825472716945
@@ -242,6 +349,9 @@ MonoBehaviour:
   DMGMultiplier: 3
   win: {fileID: 0}
   controller: {fileID: 0}
+  hit: {fileID: 0}
+  animations: {fileID: 0}
+  trophy: {fileID: 0}
   hitByBomb: 0
   bombTimesDamage: 0
   bombDuration: 5
@@ -274,7 +384,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  escapeSpeed: 0.25
+  currentEscapeSpeed: 0
+  beginEscapeSpeed: 0
+  escapeSpeedRemoval: 0
+  isEscaping: 0
   maxDistance: 75
   minDistance: 30
   escape: {fileID: 0}
@@ -297,6 +410,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   isPlaying: 0
+  isSwimming: 0
   minTime: 7.5
   maxTime: 15
   timeWaitBlockR: 0
@@ -304,6 +418,7 @@ MonoBehaviour:
   timeWaitBlockM: 0
   timeWaitBlockL: 0
   timeWaitBuck: 0
+  timeWaitCharge: 0
   blockRIndicator: {fileID: 0}
   blockMIndicator: {fileID: 0}
   blockLIndicator: {fileID: 0}
@@ -312,6 +427,13 @@ MonoBehaviour:
   blockM: {fileID: 0}
   blockL: {fileID: 0}
   buck: {fileID: 0}
+  bigBlock: {fileID: 0}
+  animatieHit: {fileID: 0}
+  monsterEscape: {fileID: 0}
+  hp: {fileID: 0}
+  dood: 0
+  monsterDood: 0
+  chargeHit: 0
 --- !u!1 &430187183698225151
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,9 +443,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6587727508303232734}
+  - component: {fileID: 6480346176377308625}
   m_Layer: 0
   m_Name: Bone.001_L.006
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -344,6 +467,27 @@ Transform:
   - {fileID: 3194622952609323843}
   m_Father: {fileID: 7376829319430731363}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6480346176377308625
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430187183698225151}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &557371786005714282
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,9 +497,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6109941127540163502}
+  - component: {fileID: 7474658686220417554}
   m_Layer: 0
   m_Name: Bone.001_L.007_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -375,6 +520,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3194622952609323843}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7474658686220417554
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557371786005714282}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &583265809443759750
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,9 +550,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 604214216267001775}
+  - component: {fileID: 8612130499945069397}
   m_Layer: 0
   m_Name: Bone.002_R.015_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -406,6 +573,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5946613550007895406}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8612130499945069397
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583265809443759750}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &635604671257366374
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,9 +603,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5353221729438891769}
+  - component: {fileID: 878818748656747766}
   m_Layer: 0
   m_Name: Bone.001_R.013
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -438,6 +627,27 @@ Transform:
   - {fileID: 6506184097177816380}
   m_Father: {fileID: 4816706341837606917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &878818748656747766
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635604671257366374}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &679506732823645084
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,9 +657,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5295250046721453090}
+  - component: {fileID: 3060239078656516935}
   m_Layer: 0
   m_Name: Bone_R.004
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -470,6 +681,27 @@ Transform:
   - {fileID: 6480913959413499409}
   m_Father: {fileID: 8407708267618191108}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3060239078656516935
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679506732823645084}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &713556845977725614
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,9 +711,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4342453453807253316}
+  - component: {fileID: 8615926333351934617}
   m_Layer: 0
   m_Name: Bone.002_L.008
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -502,6 +735,27 @@ Transform:
   - {fileID: 2699233040716395589}
   m_Father: {fileID: 2703003327479973296}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8615926333351934617
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 713556845977725614}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &738194801450186819
 GameObject:
   m_ObjectHideFlags: 0
@@ -513,7 +767,7 @@ GameObject:
   - component: {fileID: 5781779552504264571}
   m_Layer: 0
   m_Name: Bone.006_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -542,9 +796,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5813966349464219734}
+  - component: {fileID: 4540886063353366497}
   m_Layer: 0
   m_Name: Bone.001_R.004
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -566,6 +821,27 @@ Transform:
   - {fileID: 4816706341837606917}
   m_Father: {fileID: 6522794203100287892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4540886063353366497
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887606159176166739}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &960178183655574759
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,9 +851,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4174863793686584325}
+  - component: {fileID: 5265253383155466947}
   m_Layer: 0
   m_Name: Bone_L.017
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -598,6 +875,27 @@ Transform:
   - {fileID: 9014702090683394620}
   m_Father: {fileID: 7758593711928478470}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5265253383155466947
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960178183655574759}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &960261661002486542
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,9 +905,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8292179847571332297}
+  - component: {fileID: 687900243269874115}
   m_Layer: 0
   m_Name: Bone.002_L.015
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -630,6 +929,27 @@ Transform:
   - {fileID: 4803382045242021057}
   m_Father: {fileID: 2978210975541508071}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &687900243269874115
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960261661002486542}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1055476176385084456
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,9 +959,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1352493559869865950}
+  - component: {fileID: 1990077356894635841}
   m_Layer: 0
   m_Name: Bone.001_R.012
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -662,6 +983,27 @@ Transform:
   - {fileID: 4552165755941397132}
   m_Father: {fileID: 3755165533478820199}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1990077356894635841
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1055476176385084456}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1060332852736489632
 GameObject:
   m_ObjectHideFlags: 0
@@ -671,9 +1013,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8827761450134219205}
+  - component: {fileID: 4589815143353382000}
   m_Layer: 0
   m_Name: Bone.001_R.001
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -694,6 +1037,27 @@ Transform:
   - {fileID: 2975819143467676097}
   m_Father: {fileID: 6522794203100287892}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4589815143353382000
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060332852736489632}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1086125161815252529
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,7 +1069,7 @@ GameObject:
   - component: {fileID: 2736594628607585973}
   m_Layer: 0
   m_Name: Bone_R
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -735,9 +1099,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2615648708004032631}
+  - component: {fileID: 513393837556527424}
   m_Layer: 0
   m_Name: Bone_L.008
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -758,6 +1123,27 @@ Transform:
   - {fileID: 8462405707067248363}
   m_Father: {fileID: 2724449890426931913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &513393837556527424
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161072810925238658}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &1211931894471552309
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,9 +1153,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5292567018392470353}
+  - component: {fileID: 374930651273323654}
   m_Layer: 0
   m_Name: Bone_R.006_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -789,6 +1176,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8796335443989657216}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &374930651273323654
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211931894471552309}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.005
+  m_Center: {x: 0, y: -0.0075, z: 0}
 --- !u!1 &1238908930241628763
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,9 +1206,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4816706341837606917}
+  - component: {fileID: 1655122137671801539}
   m_Layer: 0
   m_Name: Bone.001_R.008
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -822,6 +1231,27 @@ Transform:
   - {fileID: 5353221729438891769}
   m_Father: {fileID: 5813966349464219734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1655122137671801539
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238908930241628763}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1276797377756312285
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,9 +1261,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3385977035027190293}
+  - component: {fileID: 5795245137938682798}
   m_Layer: 0
   m_Name: Bone.001
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -856,6 +1287,27 @@ Transform:
   - {fileID: 8820822999059410105}
   m_Father: {fileID: 5926178896573382302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5795245137938682798
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276797377756312285}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1336781120378901777
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,9 +1317,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4819669610381693153}
+  - component: {fileID: 6427143305967911349}
   m_Layer: 0
   m_Name: Bone.002_L.011
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -888,6 +1341,27 @@ Transform:
   - {fileID: 2977949092716507151}
   m_Father: {fileID: 4199724351590677131}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6427143305967911349
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1336781120378901777}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1412961739701842172
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,9 +1371,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8274813547900694859}
+  - component: {fileID: 3700961602675495709}
   m_Layer: 0
   m_Name: Bone.004
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -920,6 +1395,27 @@ Transform:
   - {fileID: 5892151256034816145}
   m_Father: {fileID: 7109673295870816691}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3700961602675495709
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412961739701842172}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.035
+  m_Center: {x: 0, y: 0.015, z: 0.015}
 --- !u!1 &1444118969547795585
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,7 +1427,7 @@ GameObject:
   - component: {fileID: 4530171417671863181}
   m_Layer: 0
   m_Name: Bone_L.001
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -963,7 +1459,7 @@ GameObject:
   - component: {fileID: 3125356587313780777}
   m_Layer: 0
   m_Name: Bone_R.001
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -993,9 +1489,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4712289674504023063}
+  - component: {fileID: 2872174109192306117}
   m_Layer: 0
   m_Name: Bone_R.024
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1016,6 +1513,27 @@ Transform:
   - {fileID: 1371777047367976831}
   m_Father: {fileID: 3342830671064398786}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2872174109192306117
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505702294877774122}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &1543435427993108258
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,9 +1543,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 869936283435189157}
+  - component: {fileID: 8920775322373910235}
   m_Layer: 0
   m_Name: Bone_L.011
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1048,6 +1567,27 @@ Transform:
   - {fileID: 3149253441801513344}
   m_Father: {fileID: 8505676613440254015}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8920775322373910235
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543435427993108258}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &1676277526578291448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,9 +1597,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2794097445180775438}
+  - component: {fileID: 4244330723614272427}
   m_Layer: 0
   m_Name: Bone_R.021
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1080,6 +1621,27 @@ Transform:
   - {fileID: 1520581857047436763}
   m_Father: {fileID: 7179859365502364866}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4244330723614272427
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676277526578291448}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &1685071173568896366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1089,9 +1651,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8462405707067248363}
+  - component: {fileID: 5717047533973097068}
   m_Layer: 0
   m_Name: Bone_L.009
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1112,6 +1675,27 @@ Transform:
   - {fileID: 8505676613440254015}
   m_Father: {fileID: 2615648708004032631}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5717047533973097068
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685071173568896366}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &1750756845195718089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,9 +1705,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8911317204832020555}
+  - component: {fileID: 7737315125444539464}
   m_Layer: 0
   m_Name: Bone.001_L.009
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1144,6 +1729,27 @@ Transform:
   - {fileID: 7465495331979106998}
   m_Father: {fileID: 7086557176101058756}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7737315125444539464
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750756845195718089}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1832707103756444187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,9 +1759,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8306388982873677864}
+  - component: {fileID: 8377195273355948279}
   m_Layer: 0
   m_Name: Bone.002_R.006_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1175,6 +1782,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1989389572534865274}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8377195273355948279
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1832707103756444187}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1900621839942768456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1184,9 +1812,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6290722041618144533}
+  - component: {fileID: 6547292167579955633}
   m_Layer: 0
   m_Name: Bone.002_R.005
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1207,6 +1836,27 @@ Transform:
   - {fileID: 1989389572534865274}
   m_Father: {fileID: 5750619283712859826}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6547292167579955633
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900621839942768456}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1950673185364135493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,9 +1866,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1371777047367976831}
+  - component: {fileID: 6964148319443592229}
   m_Layer: 0
   m_Name: Bone_R.024_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1238,6 +1889,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4712289674504023063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6964148319443592229
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1950673185364135493}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.005
+  m_Center: {x: 0, y: -0.0075, z: 0}
 --- !u!1 &1958806807746386249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,9 +1919,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1390522707156871420}
+  - component: {fileID: 6104358658811171519}
   m_Layer: 0
   m_Name: Bone.002_L.005
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1270,6 +1943,27 @@ Transform:
   - {fileID: 399778589217450579}
   m_Father: {fileID: 5725837169779553053}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6104358658811171519
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1958806807746386249}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2072602998376852450
 GameObject:
   m_ObjectHideFlags: 0
@@ -1279,9 +1973,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3149253441801513344}
+  - component: {fileID: 465415173627819804}
   m_Layer: 0
   m_Name: Bone_L.012
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1302,6 +1997,27 @@ Transform:
   - {fileID: 2775872486443839030}
   m_Father: {fileID: 869936283435189157}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &465415173627819804
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072602998376852450}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &2075304413271157422
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,9 +2027,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9016613102659084679}
+  - component: {fileID: 3363408879606566892}
   m_Layer: 0
   m_Name: Bone_L.023
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1334,6 +2051,27 @@ Transform:
   - {fileID: 4434080125864836486}
   m_Father: {fileID: 7933833830792679461}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3363408879606566892
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075304413271157422}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &2103201140502223057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1343,9 +2081,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 937718073542924703}
+  - component: {fileID: 7685798578210195319}
   m_Layer: 0
   m_Name: Bone.001_L.016_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1365,6 +2104,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3501751857342873901}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7685798578210195319
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103201140502223057}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2192606218511464030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,7 +2136,7 @@ GameObject:
   - component: {fileID: 2516973458235438685}
   m_Layer: 0
   m_Name: Bone.013
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1406,9 +2166,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8796335443989657216}
+  - component: {fileID: 5081233185260119077}
   m_Layer: 0
   m_Name: Bone_R.006
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1429,6 +2190,27 @@ Transform:
   - {fileID: 5292567018392470353}
   m_Father: {fileID: 6480913959413499409}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5081233185260119077
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2249184365929413359}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &2280171499951937809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,9 +2220,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6366001010637406468}
+  - component: {fileID: 4512439072832766878}
   m_Layer: 0
   m_Name: Bone_L.006
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1461,6 +2244,27 @@ Transform:
   - {fileID: 1945777820723847870}
   m_Father: {fileID: 1165265790463318753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4512439072832766878
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2280171499951937809}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &2341479476190884509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1470,9 +2274,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1249422182598182127}
+  - component: {fileID: 2472571450002569713}
   m_Layer: 0
   m_Name: Bone_L.018_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1492,6 +2297,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 9014702090683394620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2472571450002569713
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2341479476190884509}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.005
+  m_Center: {x: 0, y: -0.0075, z: 0}
 --- !u!1 &2349204439391733438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,9 +2327,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2722860419290386970}
+  - component: {fileID: 6983211130696473722}
   m_Layer: 0
   m_Name: Bone.001_L.013
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1524,6 +2351,27 @@ Transform:
   - {fileID: 2191334256361361805}
   m_Father: {fileID: 7086557176101058756}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6983211130696473722
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2349204439391733438}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2408379943565849275
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,7 +2383,7 @@ GameObject:
   - component: {fileID: 732593004253915243}
   m_Layer: 0
   m_Name: Bone_R.007
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1565,9 +2413,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5008997806163748018}
+  - component: {fileID: 6369041351751708358}
   m_Layer: 0
   m_Name: Bone.002_R
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1589,6 +2438,27 @@ Transform:
   - {fileID: 5750619283712859826}
   m_Father: {fileID: 1364981525003808472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6369041351751708358
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2576950986075953474}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2726199465456739101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,9 +2468,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3501751857342873901}
+  - component: {fileID: 4231008661621841181}
   m_Layer: 0
   m_Name: Bone.001_L.016
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1621,6 +2492,27 @@ Transform:
   - {fileID: 937718073542924703}
   m_Father: {fileID: 2407093591696214769}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4231008661621841181
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2726199465456739101}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2763981394070797932
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,9 +2522,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1122169076718821457}
+  - component: {fileID: 732388411175344362}
   m_Layer: 0
   m_Name: Bone_L.003
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1653,6 +2546,27 @@ Transform:
   - {fileID: 8467482777538486985}
   m_Father: {fileID: 2785091708180563171}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &732388411175344362
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2763981394070797932}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &2792302553271611969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,9 +2576,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1356031025627978315}
+  - component: {fileID: 3924090062750117594}
   m_Layer: 0
   m_Name: Bone.001_R.016_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1684,6 +2599,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2002070484613689216}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3924090062750117594
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2792302553271611969}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2842924504580041644
 GameObject:
   m_ObjectHideFlags: 0
@@ -1693,9 +2629,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7170360364272782259}
+  - component: {fileID: 7646249823500137768}
   m_Layer: 0
   m_Name: Bone.002_R.002
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1717,6 +2654,27 @@ Transform:
   - {fileID: 1876029956986006933}
   m_Father: {fileID: 1549814667683289722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7646249823500137768
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2842924504580041644}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2850739691783131538
 GameObject:
   m_ObjectHideFlags: 0
@@ -1744,12 +2702,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2850739691783131538}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.7449999, y: 6.21, z: 2.6669922}
-  m_LocalScale: {x: 1.48, y: 1.48, z: 1.48}
+  m_LocalRotation: {x: 0.11866165, y: 0.000000118367026, z: -0.000000014145585, w: 0.99293476}
+  m_LocalPosition: {x: 0.017450005, y: 0.057490103, z: 0.026433121}
+  m_LocalScale: {x: 0.0148, y: 0.0148, z: 0.0148}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1074851636811320684}
+  m_Father: {fileID: 5926178896573382302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8657570857742833297
 MeshFilter:
@@ -1831,9 +2789,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7109673295870816691}
+  - component: {fileID: 3905026400049401132}
   m_Layer: 0
   m_Name: Bone.003
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1855,6 +2814,27 @@ Transform:
   - {fileID: 2516973458235438685}
   m_Father: {fileID: 5926178896573382302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &3905026400049401132
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2950582833222033237}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.062285602, y: 0.12338654, z: 0.063619465}
+  m_Center: {x: -4.2682345e-16, y: -0.01169314, z: -0.018190188}
 --- !u!1 &2992701080098689778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1864,9 +2844,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7179859365502364866}
+  - component: {fileID: 7215889783288097596}
   m_Layer: 0
   m_Name: Bone_R.020
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1887,6 +2868,27 @@ Transform:
   - {fileID: 2794097445180775438}
   m_Father: {fileID: 8232136989764565136}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7215889783288097596
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2992701080098689778}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &3088111538649314531
 GameObject:
   m_ObjectHideFlags: 0
@@ -1896,9 +2898,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6005404327517250389}
+  - component: {fileID: 6102476065891755491}
   m_Layer: 0
   m_Name: Bone.002_R.003
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1919,6 +2922,27 @@ Transform:
   - {fileID: 9203483453534751972}
   m_Father: {fileID: 7170360364272782259}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6102476065891755491
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3088111538649314531}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3120767454626112883
 GameObject:
   m_ObjectHideFlags: 0
@@ -1946,12 +2970,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3120767454626112883}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.5392638, y: -0, z: -0, w: 0.842137}
-  m_LocalPosition: {x: 0, y: 2.883, z: 2.703003}
-  m_LocalScale: {x: 3, y: 0.20000002, z: 3.3400002}
+  m_LocalRotation: {x: 0.6353831, y: 0.00000009205304, z: -0.00000007574357, w: 0.77219707}
+  m_LocalPosition: {x: 0, y: 0.025072174, z: 0.018943127}
+  m_LocalScale: {x: 0.03, y: 0.0020000003, z: 0.033400007}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1074851636811320684}
+  m_Father: {fileID: 5926178896573382302}
   m_LocalEulerAnglesHint: {x: 65.267, y: 0, z: 0}
 --- !u!33 &8711611566104252119
 MeshFilter:
@@ -2034,9 +3058,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 657562903077858294}
+  - component: {fileID: 2199292018947230467}
   m_Layer: 0
   m_Name: Bone.002_R.007
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2057,6 +3082,27 @@ Transform:
   - {fileID: 2257690773987898939}
   m_Father: {fileID: 1549814667683289722}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2199292018947230467
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3141760638665439499}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3157433217804694290
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,9 +3112,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5892151256034816145}
+  - component: {fileID: 6221141716080088862}
   m_Layer: 0
   m_Name: Bone.005
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2089,6 +3136,27 @@ Transform:
   - {fileID: 513008820033856423}
   m_Father: {fileID: 8274813547900694859}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6221141716080088862
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3157433217804694290}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.05
+  m_Center: {x: 0, y: 0.01, z: 0.01}
 --- !u!1 &3179832464372476769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,9 +3166,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4659118791655204542}
+  - component: {fileID: 5874276105303496270}
   m_Layer: 0
   m_Name: Bone_L.020
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2121,6 +3190,27 @@ Transform:
   - {fileID: 7375559230345284342}
   m_Father: {fileID: 900125609504094792}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5874276105303496270
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3179832464372476769}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &3263154943195462057
 GameObject:
   m_ObjectHideFlags: 0
@@ -2130,9 +3220,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3978308185156717731}
+  - component: {fileID: 4694082993439923300}
   m_Layer: 0
   m_Name: Bone.001_R.005
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2153,6 +3244,27 @@ Transform:
   - {fileID: 2331913183823753305}
   m_Father: {fileID: 5813966349464219734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4694082993439923300
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3263154943195462057}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3284416386625034462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,9 +3274,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4638823083412916587}
+  - component: {fileID: 7527897922764895437}
   m_Layer: 0
   m_Name: Bone.001_R.003
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2185,6 +3298,27 @@ Transform:
   - {fileID: 3607993350137813447}
   m_Father: {fileID: 2975819143467676097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7527897922764895437
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3284416386625034462}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3308083970918049160
 GameObject:
   m_ObjectHideFlags: 0
@@ -2194,9 +3328,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 804298481897462657}
+  - component: {fileID: 7654590537033537719}
   m_Layer: 0
   m_Name: Bone.002_L.001
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2218,6 +3353,27 @@ Transform:
   - {fileID: 2703003327479973296}
   m_Father: {fileID: 6130236695828085526}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7654590537033537719
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3308083970918049160}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3321015313313616351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,9 +3383,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1414355008083032182}
+  - component: {fileID: 5586981243392850721}
   m_Layer: 0
   m_Name: Bone.002_L.013
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2250,6 +3407,27 @@ Transform:
   - {fileID: 2978210975541508071}
   m_Father: {fileID: 7777537529694810650}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5586981243392850721
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3321015313313616351}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3346189373976096468
 GameObject:
   m_ObjectHideFlags: 0
@@ -2259,9 +3437,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2474476287476692020}
+  - component: {fileID: 5824318995473329973}
   m_Layer: 0
   m_Name: Bone.002_L.009_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2281,6 +3460,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2699233040716395589}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5824318995473329973
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3346189373976096468}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3410217757438903360
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,7 +3492,7 @@ GameObject:
   - component: {fileID: 2850882588881143182}
   m_Layer: 0
   m_Name: Bone_L
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2322,9 +3522,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2775872486443839030}
+  - component: {fileID: 7914529924498487391}
   m_Layer: 0
   m_Name: Bone_L.012_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2344,6 +3545,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3149253441801513344}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7914529924498487391
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3589817551368979584}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.005
+  m_Center: {x: 0, y: -0.0075, z: 0}
 --- !u!1 &3642516793135378125
 GameObject:
   m_ObjectHideFlags: 0
@@ -2353,9 +3575,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2002070484613689216}
+  - component: {fileID: 7531675489817151400}
   m_Layer: 0
   m_Name: Bone.001_R.016
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2376,6 +3599,27 @@ Transform:
   - {fileID: 1356031025627978315}
   m_Father: {fileID: 3280131514762732900}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7531675489817151400
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3642516793135378125}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3771155880777528249
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,9 +3629,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4552165755941397132}
+  - component: {fileID: 388991996403941537}
   m_Layer: 0
   m_Name: Bone.001_R.012_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2407,6 +3652,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1352493559869865950}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &388991996403941537
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3771155880777528249}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3852899125265365140
 GameObject:
   m_ObjectHideFlags: 0
@@ -2416,9 +3682,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8132816956330411624}
+  - component: {fileID: 3865687788689032607}
   m_Layer: 0
   m_Name: Bone.009_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2438,6 +3705,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6428372939481321686}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3865687788689032607
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3852899125265365140}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3862879148693003574
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,9 +3735,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5946613550007895406}
+  - component: {fileID: 8738469922494406447}
   m_Layer: 0
   m_Name: Bone.002_R.015
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2470,6 +3759,27 @@ Transform:
   - {fileID: 604214216267001775}
   m_Father: {fileID: 6177991320920481424}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8738469922494406447
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3862879148693003574}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4109354513149875818
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,9 +3789,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2331913183823753305}
+  - component: {fileID: 2780416442206622009}
   m_Layer: 0
   m_Name: Bone.001_R.006
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2502,6 +3813,27 @@ Transform:
   - {fileID: 5419196194845120913}
   m_Father: {fileID: 3978308185156717731}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2780416442206622009
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4109354513149875818}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4154573627711048272
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,9 +3843,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2785091708180563171}
+  - component: {fileID: 8890954579669501961}
   m_Layer: 0
   m_Name: Bone_L.002
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2534,6 +3867,27 @@ Transform:
   - {fileID: 1122169076718821457}
   m_Father: {fileID: 4530171417671863181}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8890954579669501961
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4154573627711048272}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &4208505546178353675
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,9 +3897,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3342830671064398786}
+  - component: {fileID: 8999172127559189530}
   m_Layer: 0
   m_Name: Bone_R.023
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2566,6 +3921,27 @@ Transform:
   - {fileID: 4712289674504023063}
   m_Father: {fileID: 1520581857047436763}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8999172127559189530
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4208505546178353675}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &4324671412194325635
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,9 +3951,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3607993350137813447}
+  - component: {fileID: 5592878229626941516}
   m_Layer: 0
   m_Name: Bone.001_R.003_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2597,6 +3974,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4638823083412916587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5592878229626941516
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4324671412194325635}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4505114435925362361
 GameObject:
   m_ObjectHideFlags: 0
@@ -2608,7 +4006,7 @@ GameObject:
   - component: {fileID: 8232136989764565136}
   m_Layer: 0
   m_Name: Bone_R.019
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2638,9 +4036,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3593151948904932566}
+  - component: {fileID: 1090047038860864877}
   m_Layer: 0
   m_Name: Bone_R.018
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2661,6 +4060,27 @@ Transform:
   - {fileID: 3474405235646768027}
   m_Father: {fileID: 7650884000360097265}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1090047038860864877
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4643706058243538866}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &4678751738739725155
 GameObject:
   m_ObjectHideFlags: 0
@@ -2670,9 +4090,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7650884000360097265}
+  - component: {fileID: 6581966575397438608}
   m_Layer: 0
   m_Name: Bone_R.017
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2693,6 +4114,27 @@ Transform:
   - {fileID: 3593151948904932566}
   m_Father: {fileID: 8765255289977744537}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6581966575397438608
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678751738739725155}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &4678941522818524798
 GameObject:
   m_ObjectHideFlags: 0
@@ -2702,9 +4144,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8765255289977744537}
+  - component: {fileID: 6670462299194944708}
   m_Layer: 0
   m_Name: Bone_R.016
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2725,6 +4168,27 @@ Transform:
   - {fileID: 7650884000360097265}
   m_Father: {fileID: 7217328088888831298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6670462299194944708
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4678941522818524798}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &4719568916190489192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2736,7 +4200,7 @@ GameObject:
   - component: {fileID: 2687134605027690484}
   m_Layer: 0
   m_Name: Bone.013_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2765,9 +4229,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2439749846577675098}
+  - component: {fileID: 6861180566952248723}
   m_Layer: 0
   m_Name: Bone.012_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2787,6 +4252,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 983347008405722855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6861180566952248723
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4828957063650432697}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4916513486501445423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2798,7 +4284,7 @@ GameObject:
   - component: {fileID: 537219910380715975}
   m_Layer: 0
   m_Name: Bone_R_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2827,9 +4313,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6480913959413499409}
+  - component: {fileID: 2870698429928872385}
   m_Layer: 0
   m_Name: Bone_R.005
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2850,6 +4337,27 @@ Transform:
   - {fileID: 8796335443989657216}
   m_Father: {fileID: 5295250046721453090}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2870698429928872385
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4938967102841015814}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &4939716460874114981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,9 +4367,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1945777820723847870}
+  - component: {fileID: 4631277961549648392}
   m_Layer: 0
   m_Name: Bone_L.006_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2881,6 +4390,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6366001010637406468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4631277961549648392
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4939716460874114981}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.005
+  m_Center: {x: 0, y: -0.0075, z: 0}
 --- !u!1 &5043030767761188623
 GameObject:
   m_ObjectHideFlags: 0
@@ -2890,9 +4420,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5120417159697583455}
+  - component: {fileID: 960581240826003493}
   m_Layer: 0
   m_Name: Bone.001_L.002
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2913,6 +4444,27 @@ Transform:
   - {fileID: 1683163555248124932}
   m_Father: {fileID: 4746235166994075243}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &960581240826003493
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5043030767761188623}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5055661048458843175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,7 +4476,7 @@ GameObject:
   - component: {fileID: 7289183432408792253}
   m_Layer: 0
   m_Name: Bone_R.013
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2954,9 +4506,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3194622952609323843}
+  - component: {fileID: 3267545361916291389}
   m_Layer: 0
   m_Name: Bone.001_L.007
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2977,6 +4530,27 @@ Transform:
   - {fileID: 6109941127540163502}
   m_Father: {fileID: 6587727508303232734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3267545361916291389
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5065848556133794873}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5269846252571049777
 GameObject:
   m_ObjectHideFlags: 0
@@ -2987,8 +4561,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6659990548437680497}
   - component: {fileID: 7265622962205943021}
-  - component: {fileID: 7293792471198621988}
-  - component: {fileID: 7211618608730549212}
   m_Layer: 0
   m_Name: Kraken
   m_TagString: Monster
@@ -3192,40 +4764,6 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.005453199, y: 0.05826862, z: 0.0020245537}
     m_Extent: {x: 0.18683824, y: 0.114634916, z: 0.17786634}
   m_DirtyAABB: 0
---- !u!64 &7293792471198621988
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5269846252571049777}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 869425346371609108, guid: 63b434e991cd21d48b6ca773b4e9f7a6, type: 3}
---- !u!114 &7211618608730549212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5269846252571049777}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0996fc8fe756f74ea48ef11db5cb4ef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5344589366073494493
 GameObject:
   m_ObjectHideFlags: 0
@@ -3235,9 +4773,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4746235166994075243}
+  - component: {fileID: 6287215397968641074}
   m_Layer: 0
   m_Name: Bone.001_L.001
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3258,6 +4797,27 @@ Transform:
   - {fileID: 5120417159697583455}
   m_Father: {fileID: 7738906182264341252}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6287215397968641074
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5344589366073494493}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5366140931610629357
 GameObject:
   m_ObjectHideFlags: 0
@@ -3267,9 +4827,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1364981525003808472}
+  - component: {fileID: 2926422918615139114}
   m_Layer: 0
   m_Name: Bone.002
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3292,6 +4853,27 @@ Transform:
   - {fileID: 7002236867467582519}
   m_Father: {fileID: 5926178896573382302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2926422918615139114
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5366140931610629357}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5491109714348209186
 GameObject:
   m_ObjectHideFlags: 0
@@ -3301,9 +4883,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7738906182264341252}
+  - component: {fileID: 620491014907308211}
   m_Layer: 0
   m_Name: Bone.001_L
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3325,6 +4908,27 @@ Transform:
   - {fileID: 7600349390325783303}
   m_Father: {fileID: 3385977035027190293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &620491014907308211
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5491109714348209186}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5506645003561305547
 GameObject:
   m_ObjectHideFlags: 0
@@ -3334,9 +4938,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3274186060824231900}
+  - component: {fileID: 756171305661270072}
   m_Layer: 0
   m_Name: Bone.001_L.012_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3356,6 +4961,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3280718657516564212}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &756171305661270072
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5506645003561305547}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5515024761093066638
 GameObject:
   m_ObjectHideFlags: 0
@@ -3365,9 +4991,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 399778589217450579}
+  - component: {fileID: 6308401242441894645}
   m_Layer: 0
   m_Name: Bone.002_L.006
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3388,6 +5015,27 @@ Transform:
   - {fileID: 4056529687792628097}
   m_Father: {fileID: 1390522707156871420}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6308401242441894645
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5515024761093066638}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5516363077958840379
 GameObject:
   m_ObjectHideFlags: 0
@@ -3397,9 +5045,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 513153503527428259}
+  - component: {fileID: 5663656160376457237}
   m_Layer: 0
   m_Name: Bone_L.024_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3419,6 +5068,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4434080125864836486}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5663656160376457237
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5516363077958840379}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.005
+  m_Center: {x: 0, y: -0.0075, z: 0}
 --- !u!1 &5547718170238567883
 GameObject:
   m_ObjectHideFlags: 0
@@ -3428,9 +5098,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3280718657516564212}
+  - component: {fileID: 6484847086171104210}
   m_Layer: 0
   m_Name: Bone.001_L.012
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3451,6 +5122,27 @@ Transform:
   - {fileID: 3274186060824231900}
   m_Father: {fileID: 7465495331979106998}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6484847086171104210
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5547718170238567883}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5565386196616816817
 GameObject:
   m_ObjectHideFlags: 0
@@ -3460,9 +5152,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3474405235646768027}
+  - component: {fileID: 5641697142354142069}
   m_Layer: 0
   m_Name: Bone_R.018_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3482,6 +5175,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3593151948904932566}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5641697142354142069
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565386196616816817}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.005
+  m_Center: {x: 0, y: -0.0075, z: 0}
 --- !u!1 &5617334447048541407
 GameObject:
   m_ObjectHideFlags: 0
@@ -3491,9 +5205,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6428372939481321686}
+  - component: {fileID: 4405258200261434422}
   m_Layer: 0
   m_Name: Bone.009
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3514,6 +5229,27 @@ Transform:
   - {fileID: 8132816956330411624}
   m_Father: {fileID: 771466149128806076}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4405258200261434422
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5617334447048541407}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5639715450799685850
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,9 +5259,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1989389572534865274}
+  - component: {fileID: 2776784372741623986}
   m_Layer: 0
   m_Name: Bone.002_R.006
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3546,6 +5283,27 @@ Transform:
   - {fileID: 8306388982873677864}
   m_Father: {fileID: 6290722041618144533}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2776784372741623986
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5639715450799685850}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5792649789590181030
 GameObject:
   m_ObjectHideFlags: 0
@@ -3555,9 +5313,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6506184097177816380}
+  - component: {fileID: 5601799059682243086}
   m_Layer: 0
   m_Name: Bone.001_R.014
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3578,6 +5337,27 @@ Transform:
   - {fileID: 3280131514762732900}
   m_Father: {fileID: 5353221729438891769}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5601799059682243086
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5792649789590181030}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5849547942812496226
 GameObject:
   m_ObjectHideFlags: 0
@@ -3587,9 +5367,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6818669175909646351}
+  - component: {fileID: 1668031143491910392}
   m_Layer: 0
   m_Name: Bone.001_R.007_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3609,6 +5390,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 5419196194845120913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1668031143491910392
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5849547942812496226}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5909559651654602652
 GameObject:
   m_ObjectHideFlags: 0
@@ -3618,9 +5420,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1856957015867447212}
+  - component: {fileID: 2528175016702145580}
   m_Layer: 0
   m_Name: Bone.002_R.011
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3641,6 +5444,27 @@ Transform:
   - {fileID: 2532931445461227690}
   m_Father: {fileID: 1876029956986006933}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2528175016702145580
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5909559651654602652}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5923855020099019830
 GameObject:
   m_ObjectHideFlags: 0
@@ -3650,9 +5474,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7002236867467582519}
+  - component: {fileID: 7810475868987499541}
   m_Layer: 0
   m_Name: Bone.010
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3673,6 +5498,27 @@ Transform:
   - {fileID: 3341135363944715509}
   m_Father: {fileID: 1364981525003808472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7810475868987499541
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5923855020099019830}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5943868314987214702
 GameObject:
   m_ObjectHideFlags: 0
@@ -3682,9 +5528,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5750619283712859826}
+  - component: {fileID: 5606796522428123263}
   m_Layer: 0
   m_Name: Bone.002_R.004
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3705,6 +5552,27 @@ Transform:
   - {fileID: 6290722041618144533}
   m_Father: {fileID: 5008997806163748018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5606796522428123263
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5943868314987214702}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5988719656295048530
 GameObject:
   m_ObjectHideFlags: 0
@@ -3714,9 +5582,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2407093591696214769}
+  - component: {fileID: 906199777143651905}
   m_Layer: 0
   m_Name: Bone.001_L.015
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3737,6 +5606,27 @@ Transform:
   - {fileID: 3501751857342873901}
   m_Father: {fileID: 2191334256361361805}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &906199777143651905
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5988719656295048530}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5992064300323332636
 GameObject:
   m_ObjectHideFlags: 0
@@ -3764,12 +5654,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5992064300323332636}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.7449999, y: 6.21, z: 2.6669922}
-  m_LocalScale: {x: 1.48, y: 1.48, z: 1.48}
+  m_LocalRotation: {x: 0.11866165, y: 0.000000118367026, z: -0.000000014145585, w: 0.99293476}
+  m_LocalPosition: {x: -0.017449994, y: 0.057490103, z: 0.026433129}
+  m_LocalScale: {x: 0.0148, y: 0.0148, z: 0.0148}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1074851636811320684}
+  m_Father: {fileID: 5926178896573382302}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5441652234806175067
 MeshFilter:
@@ -3851,9 +5741,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7777537529694810650}
+  - component: {fileID: 8572505167113445518}
   m_Layer: 0
   m_Name: Bone.002_L.003
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3874,6 +5765,27 @@ Transform:
   - {fileID: 1414355008083032182}
   m_Father: {fileID: 3411796638850220530}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8572505167113445518
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6013246869948699010}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6018485532410287109
 GameObject:
   m_ObjectHideFlags: 0
@@ -3883,9 +5795,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8505676613440254015}
+  - component: {fileID: 6493608892372574352}
   m_Layer: 0
   m_Name: Bone_L.010
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3906,6 +5819,27 @@ Transform:
   - {fileID: 869936283435189157}
   m_Father: {fileID: 8462405707067248363}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6493608892372574352
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6018485532410287109}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &6034371826004911547
 GameObject:
   m_ObjectHideFlags: 0
@@ -3915,9 +5849,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8820822999059410105}
+  - component: {fileID: 6271751178795195705}
   m_Layer: 0
   m_Name: Bone.007
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3938,6 +5873,27 @@ Transform:
   - {fileID: 771466149128806076}
   m_Father: {fileID: 3385977035027190293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6271751178795195705
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6034371826004911547}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6035196490403364680
 GameObject:
   m_ObjectHideFlags: 0
@@ -3947,9 +5903,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 983347008405722855}
+  - component: {fileID: 6175779459280544285}
   m_Layer: 0
   m_Name: Bone.012
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3970,6 +5927,27 @@ Transform:
   - {fileID: 2439749846577675098}
   m_Father: {fileID: 3341135363944715509}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6175779459280544285
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6035196490403364680}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6176451456103204346
 GameObject:
   m_ObjectHideFlags: 0
@@ -3979,9 +5957,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8426152035415451163}
+  - component: {fileID: 5011861202781540699}
   m_Layer: 0
   m_Name: Bone_L.014
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4002,6 +5981,27 @@ Transform:
   - {fileID: 2777088158636995162}
   m_Father: {fileID: 2345775329661658628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5011861202781540699
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6176451456103204346}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &6205395379668184103
 GameObject:
   m_ObjectHideFlags: 0
@@ -4011,9 +6011,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6522794203100287892}
+  - component: {fileID: 8297097296994285444}
   m_Layer: 0
   m_Name: Bone.001_R
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4035,6 +6036,27 @@ Transform:
   - {fileID: 5813966349464219734}
   m_Father: {fileID: 3385977035027190293}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8297097296994285444
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6205395379668184103}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6220765895296030011
 GameObject:
   m_ObjectHideFlags: 0
@@ -4044,9 +6066,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9014702090683394620}
+  - component: {fileID: 31528542701837228}
   m_Layer: 0
   m_Name: Bone_L.018
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4067,6 +6090,27 @@ Transform:
   - {fileID: 1249422182598182127}
   m_Father: {fileID: 4174863793686584325}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &31528542701837228
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6220765895296030011}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &6229583691427406936
 GameObject:
   m_ObjectHideFlags: 0
@@ -4076,9 +6120,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4803382045242021057}
+  - component: {fileID: 2529456118285044162}
   m_Layer: 0
   m_Name: Bone.002_L.015_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4098,6 +6143,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8292179847571332297}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2529456118285044162
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6229583691427406936}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6248108089354774306
 GameObject:
   m_ObjectHideFlags: 0
@@ -4107,9 +6173,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5926178896573382302}
+  - component: {fileID: 8654578549604114627}
   m_Layer: 0
   m_Name: Bone
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4140,8 +6207,32 @@ Transform:
   - {fileID: 732593004253915243}
   - {fileID: 7289183432408792253}
   - {fileID: 8232136989764565136}
+  - {fileID: 7496278113160264179}
+  - {fileID: 1359996601415117171}
+  - {fileID: 8099314883223000151}
   m_Father: {fileID: 8240028814458559986}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &8654578549604114627
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6248108089354774306}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.122345924, y: 0.020613868, z: 0.090404116}
+  m_Center: {x: -1.9631712e-16, y: -0.007358339, z: -0.004797965}
 --- !u!1 &6351704641080120223
 GameObject:
   m_ObjectHideFlags: 0
@@ -4151,9 +6242,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8491341325375443319}
+  - component: {fileID: 1342466507931729701}
   m_Layer: 0
   m_Name: Bone.002_L.012_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4173,6 +6265,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2977949092716507151}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1342466507931729701
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6351704641080120223}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6478414217369902002
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,9 +6295,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1876029956986006933}
+  - component: {fileID: 6619983404156654631}
   m_Layer: 0
   m_Name: Bone.002_R.010
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4205,6 +6319,27 @@ Transform:
   - {fileID: 1856957015867447212}
   m_Father: {fileID: 7170360364272782259}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6619983404156654631
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6478414217369902002}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6487601302394968867
 GameObject:
   m_ObjectHideFlags: 0
@@ -4216,7 +6351,7 @@ GameObject:
   - component: {fileID: 2345775329661658628}
   m_Layer: 0
   m_Name: Bone_L.013
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4246,9 +6381,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7217328088888831298}
+  - component: {fileID: 2530429317717639497}
   m_Layer: 0
   m_Name: Bone_R.015
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4269,6 +6405,27 @@ Transform:
   - {fileID: 8765255289977744537}
   m_Father: {fileID: 4655289858481377409}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2530429317717639497
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6543545099224452012}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &6584557219638606506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4278,9 +6435,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4199724351590677131}
+  - component: {fileID: 5458825785193024243}
   m_Layer: 0
   m_Name: Bone.002_L.010
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4301,6 +6459,27 @@ Transform:
   - {fileID: 4819669610381693153}
   m_Father: {fileID: 3411796638850220530}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5458825785193024243
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6584557219638606506}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6586726698569662683
 GameObject:
   m_ObjectHideFlags: 0
@@ -4310,9 +6489,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2703003327479973296}
+  - component: {fileID: 2801149233172342969}
   m_Layer: 0
   m_Name: Bone.002_L.007
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4333,6 +6513,27 @@ Transform:
   - {fileID: 4342453453807253316}
   m_Father: {fileID: 804298481897462657}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2801149233172342969
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6586726698569662683}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6589810034964878646
 GameObject:
   m_ObjectHideFlags: 0
@@ -4344,7 +6545,7 @@ GameObject:
   - component: {fileID: 2724449890426931913}
   m_Layer: 0
   m_Name: Bone_L.007
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4374,9 +6575,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4655289858481377409}
+  - component: {fileID: 7894345117950559998}
   m_Layer: 0
   m_Name: Bone_R.014
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4397,6 +6599,27 @@ Transform:
   - {fileID: 7217328088888831298}
   m_Father: {fileID: 7289183432408792253}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7894345117950559998
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6616485184651378509}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &6645973572408214754
 GameObject:
   m_ObjectHideFlags: 0
@@ -4408,7 +6631,7 @@ GameObject:
   - component: {fileID: 481265551233645671}
   m_Layer: 0
   m_Name: Bone_L_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4437,9 +6660,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2977949092716507151}
+  - component: {fileID: 1013623477848090061}
   m_Layer: 0
   m_Name: Bone.002_L.012
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4460,6 +6684,27 @@ Transform:
   - {fileID: 8491341325375443319}
   m_Father: {fileID: 4819669610381693153}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1013623477848090061
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6684332797247800917}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6696501851328410587
 GameObject:
   m_ObjectHideFlags: 0
@@ -4471,7 +6716,7 @@ GameObject:
   - component: {fileID: 900125609504094792}
   m_Layer: 0
   m_Name: Bone_L.019
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4603,9 +6848,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2191334256361361805}
+  - component: {fileID: 3287182469360271305}
   m_Layer: 0
   m_Name: Bone.001_L.014
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4626,6 +6872,27 @@ Transform:
   - {fileID: 2407093591696214769}
   m_Father: {fileID: 2722860419290386970}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3287182469360271305
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6884550519779759732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6896654093223562590
 GameObject:
   m_ObjectHideFlags: 0
@@ -4635,9 +6902,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2699233040716395589}
+  - component: {fileID: 366818558835412530}
   m_Layer: 0
   m_Name: Bone.002_L.009
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4658,6 +6926,27 @@ Transform:
   - {fileID: 2474476287476692020}
   m_Father: {fileID: 4342453453807253316}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &366818558835412530
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896654093223562590}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6896775080602188582
 GameObject:
   m_ObjectHideFlags: 0
@@ -4667,9 +6956,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3341135363944715509}
+  - component: {fileID: 3156096332809935010}
   m_Layer: 0
   m_Name: Bone.011
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4690,6 +6980,27 @@ Transform:
   - {fileID: 983347008405722855}
   m_Father: {fileID: 7002236867467582519}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3156096332809935010
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6896775080602188582}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6902497405330239886
 GameObject:
   m_ObjectHideFlags: 0
@@ -4699,9 +7010,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3411796638850220530}
+  - component: {fileID: 4460554562255707736}
   m_Layer: 0
   m_Name: Bone.002_L.002
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4723,6 +7035,27 @@ Transform:
   - {fileID: 4199724351590677131}
   m_Father: {fileID: 804298481897462657}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4460554562255707736
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6902497405330239886}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6918968520213944365
 GameObject:
   m_ObjectHideFlags: 0
@@ -4732,9 +7065,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2532931445461227690}
+  - component: {fileID: 4918175633525433901}
   m_Layer: 0
   m_Name: Bone.002_R.012
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4755,6 +7089,27 @@ Transform:
   - {fileID: 6900514167773063814}
   m_Father: {fileID: 1856957015867447212}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4918175633525433901
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6918968520213944365}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &6937347238396531779
 GameObject:
   m_ObjectHideFlags: 0
@@ -4764,9 +7119,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7758593711928478470}
+  - component: {fileID: 5025686534511711075}
   m_Layer: 0
   m_Name: Bone_L.016
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4787,6 +7143,27 @@ Transform:
   - {fileID: 4174863793686584325}
   m_Father: {fileID: 2777088158636995162}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5025686534511711075
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6937347238396531779}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &6948818244255722246
 GameObject:
   m_ObjectHideFlags: 0
@@ -4796,9 +7173,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4056529687792628097}
+  - component: {fileID: 6410016945771156792}
   m_Layer: 0
   m_Name: Bone.002_L.006_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4818,6 +7196,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 399778589217450579}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6410016945771156792
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6948818244255722246}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7161849596550311241
 GameObject:
   m_ObjectHideFlags: 0
@@ -4827,9 +7226,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7086557176101058756}
+  - component: {fileID: 7637528973562732321}
   m_Layer: 0
   m_Name: Bone.001_L.008
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4851,6 +7251,27 @@ Transform:
   - {fileID: 2722860419290386970}
   m_Father: {fileID: 7600349390325783303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7637528973562732321
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7161849596550311241}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7341652358381067187
 GameObject:
   m_ObjectHideFlags: 0
@@ -4860,9 +7281,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6177991320920481424}
+  - component: {fileID: 1494962023584887107}
   m_Layer: 0
   m_Name: Bone.002_R.014
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4883,6 +7305,27 @@ Transform:
   - {fileID: 5946613550007895406}
   m_Father: {fileID: 9203483453534751972}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1494962023584887107
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7341652358381067187}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7393417561350445914
 GameObject:
   m_ObjectHideFlags: 0
@@ -4892,9 +7335,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3654831101042159326}
+  - component: {fileID: 8140834709618824922}
   m_Layer: 0
   m_Name: Bone_R.010
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4915,6 +7359,27 @@ Transform:
   - {fileID: 6334325153294530973}
   m_Father: {fileID: 5414911397505317017}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8140834709618824922
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7393417561350445914}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &7401207864019808537
 GameObject:
   m_ObjectHideFlags: 0
@@ -4924,9 +7389,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7600349390325783303}
+  - component: {fileID: 4687492248724352649}
   m_Layer: 0
   m_Name: Bone.001_L.004
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4948,6 +7414,27 @@ Transform:
   - {fileID: 7086557176101058756}
   m_Father: {fileID: 7738906182264341252}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4687492248724352649
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7401207864019808537}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7483139584287188096
 GameObject:
   m_ObjectHideFlags: 0
@@ -4957,9 +7444,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3755165533478820199}
+  - component: {fileID: 7503012012843402345}
   m_Layer: 0
   m_Name: Bone.001_R.011
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4980,6 +7468,27 @@ Transform:
   - {fileID: 1352493559869865950}
   m_Father: {fileID: 6705230792962222668}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7503012012843402345
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7483139584287188096}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7539451775168358419
 GameObject:
   m_ObjectHideFlags: 0
@@ -4989,9 +7498,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5414911397505317017}
+  - component: {fileID: 76600187981889146}
   m_Layer: 0
   m_Name: Bone_R.009
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5012,6 +7522,27 @@ Transform:
   - {fileID: 3654831101042159326}
   m_Father: {fileID: 4200237344328779407}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &76600187981889146
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7539451775168358419}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &7549648012591388600
 GameObject:
   m_ObjectHideFlags: 0
@@ -5023,7 +7554,7 @@ GameObject:
   - component: {fileID: 8240028814458559986}
   m_Layer: 0
   m_Name: Armature
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5053,9 +7584,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4200237344328779407}
+  - component: {fileID: 5996043409417625090}
   m_Layer: 0
   m_Name: Bone_R.008
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5076,6 +7608,27 @@ Transform:
   - {fileID: 5414911397505317017}
   m_Father: {fileID: 732593004253915243}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5996043409417625090
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7603268500559808497}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &7724869291716676108
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,9 +7638,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6334325153294530973}
+  - component: {fileID: 5911973375824279779}
   m_Layer: 0
   m_Name: Bone_R.011
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5108,6 +7662,27 @@ Transform:
   - {fileID: 663469495521275549}
   m_Father: {fileID: 3654831101042159326}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5911973375824279779
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7724869291716676108}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &7813922504246273424
 GameObject:
   m_ObjectHideFlags: 0
@@ -5117,9 +7692,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2257690773987898939}
+  - component: {fileID: 3434938433467944657}
   m_Layer: 0
   m_Name: Bone.002_R.008
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5140,6 +7716,27 @@ Transform:
   - {fileID: 4783400544069043970}
   m_Father: {fileID: 657562903077858294}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3434938433467944657
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7813922504246273424}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7826906096592744355
 GameObject:
   m_ObjectHideFlags: 0
@@ -5149,9 +7746,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 513008820033856423}
+  - component: {fileID: 6123233963248706785}
   m_Layer: 0
   m_Name: Bone.006
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5172,6 +7770,27 @@ Transform:
   - {fileID: 5781779552504264571}
   m_Father: {fileID: 5892151256034816145}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6123233963248706785
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7826906096592744355}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.05
+  m_Center: {x: 0, y: -0.01, z: 0}
 --- !u!1 &7843968418703469106
 GameObject:
   m_ObjectHideFlags: 0
@@ -5181,9 +7800,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4783400544069043970}
+  - component: {fileID: 6134553962311787111}
   m_Layer: 0
   m_Name: Bone.002_R.009
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5204,6 +7824,27 @@ Transform:
   - {fileID: 3163622753355327192}
   m_Father: {fileID: 2257690773987898939}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6134553962311787111
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7843968418703469106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8060926005902454269
 GameObject:
   m_ObjectHideFlags: 0
@@ -5213,9 +7854,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1165265790463318753}
+  - component: {fileID: 6524467137897675960}
   m_Layer: 0
   m_Name: Bone_L.005
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5236,6 +7878,27 @@ Transform:
   - {fileID: 6366001010637406468}
   m_Father: {fileID: 8467482777538486985}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6524467137897675960
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8060926005902454269}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &8094885014163381758
 GameObject:
   m_ObjectHideFlags: 0
@@ -5245,9 +7908,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8467482777538486985}
+  - component: {fileID: 5663543595158531646}
   m_Layer: 0
   m_Name: Bone_L.004
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5268,6 +7932,27 @@ Transform:
   - {fileID: 1165265790463318753}
   m_Father: {fileID: 1122169076718821457}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5663543595158531646
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8094885014163381758}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &8116605891490695702
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,9 +7962,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 771466149128806076}
+  - component: {fileID: 6092097620381168759}
   m_Layer: 0
   m_Name: Bone.008
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5300,6 +7986,27 @@ Transform:
   - {fileID: 6428372939481321686}
   m_Father: {fileID: 8820822999059410105}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6092097620381168759
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8116605891490695702}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8175908462736604749
 GameObject:
   m_ObjectHideFlags: 0
@@ -5309,9 +8016,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1520581857047436763}
+  - component: {fileID: 4141659818960758193}
   m_Layer: 0
   m_Name: Bone_R.022
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5332,6 +8040,27 @@ Transform:
   - {fileID: 3342830671064398786}
   m_Father: {fileID: 2794097445180775438}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4141659818960758193
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8175908462736604749}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &8239087894535147278
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,9 +8070,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2975819143467676097}
+  - component: {fileID: 5658374392204461380}
   m_Layer: 0
   m_Name: Bone.001_R.002
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5364,6 +8094,27 @@ Transform:
   - {fileID: 4638823083412916587}
   m_Father: {fileID: 8827761450134219205}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5658374392204461380
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8239087894535147278}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8268711030587262432
 GameObject:
   m_ObjectHideFlags: 0
@@ -5373,9 +8124,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2978210975541508071}
+  - component: {fileID: 3517104396830228055}
   m_Layer: 0
   m_Name: Bone.002_L.014
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5396,6 +8148,27 @@ Transform:
   - {fileID: 8292179847571332297}
   m_Father: {fileID: 1414355008083032182}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3517104396830228055
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8268711030587262432}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8335939261069369335
 GameObject:
   m_ObjectHideFlags: 0
@@ -5405,9 +8178,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 663469495521275549}
+  - component: {fileID: 8915016056680747189}
   m_Layer: 0
   m_Name: Bone_R.012
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5428,6 +8202,27 @@ Transform:
   - {fileID: 5774626235952017440}
   m_Father: {fileID: 6334325153294530973}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8915016056680747189
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335939261069369335}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &8373933003391466143
 GameObject:
   m_ObjectHideFlags: 0
@@ -5437,9 +8232,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5419196194845120913}
+  - component: {fileID: 4142512664441422181}
   m_Layer: 0
   m_Name: Bone.001_R.007
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5460,6 +8256,27 @@ Transform:
   - {fileID: 6818669175909646351}
   m_Father: {fileID: 2331913183823753305}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4142512664441422181
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8373933003391466143}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8395528263523952813
 GameObject:
   m_ObjectHideFlags: 0
@@ -5469,9 +8286,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4434080125864836486}
+  - component: {fileID: 3108554452616309669}
   m_Layer: 0
   m_Name: Bone_L.024
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5492,6 +8310,27 @@ Transform:
   - {fileID: 513153503527428259}
   m_Father: {fileID: 9016613102659084679}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3108554452616309669
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8395528263523952813}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &8412606340638771505
 GameObject:
   m_ObjectHideFlags: 0
@@ -5635,9 +8474,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7933833830792679461}
+  - component: {fileID: 2161512443368101258}
   m_Layer: 0
   m_Name: Bone_L.022
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5658,6 +8498,27 @@ Transform:
   - {fileID: 9016613102659084679}
   m_Father: {fileID: 7375559230345284342}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2161512443368101258
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8504790466886760751}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &8561771110267433388
 GameObject:
   m_ObjectHideFlags: 0
@@ -5667,9 +8528,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8495462208299765115}
+  - component: {fileID: 4794431125441206888}
   m_Layer: 0
   m_Name: Bone.001_L.003_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5689,6 +8551,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1683163555248124932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &4794431125441206888
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8561771110267433388}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8567809019282831990
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,9 +8581,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3163622753355327192}
+  - component: {fileID: 7386857088693579365}
   m_Layer: 0
   m_Name: Bone.002_R.009_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5720,6 +8604,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4783400544069043970}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &7386857088693579365
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8567809019282831990}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8673078550183492750
 GameObject:
   m_ObjectHideFlags: 0
@@ -5729,9 +8634,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5774626235952017440}
+  - component: {fileID: 2826661688875528304}
   m_Layer: 0
   m_Name: Bone_R.012_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5751,6 +8657,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 663469495521275549}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2826661688875528304
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8673078550183492750}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.005
+  m_Center: {x: 0, y: -0.0075, z: 0}
 --- !u!1 &8680632713897539973
 GameObject:
   m_ObjectHideFlags: 0
@@ -5760,9 +8687,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2507944706374367323}
+  - component: {fileID: 982802428297922333}
   m_Layer: 0
   m_Name: Bone_R.002
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5783,6 +8711,27 @@ Transform:
   - {fileID: 8407708267618191108}
   m_Father: {fileID: 3125356587313780777}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &982802428297922333
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8680632713897539973}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &8710535310100223414
 GameObject:
   m_ObjectHideFlags: 0
@@ -5792,9 +8741,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1683163555248124932}
+  - component: {fileID: 5128667097574536118}
   m_Layer: 0
   m_Name: Bone.001_L.003
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5815,6 +8765,27 @@ Transform:
   - {fileID: 8495462208299765115}
   m_Father: {fileID: 5120417159697583455}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5128667097574536118
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8710535310100223414}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8939761163109249751
 GameObject:
   m_ObjectHideFlags: 0
@@ -5824,9 +8795,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6900514167773063814}
+  - component: {fileID: 6292750427384603902}
   m_Layer: 0
   m_Name: Bone.002_R.012_end
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5846,6 +8818,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2532931445461227690}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6292750427384603902
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8939761163109249751}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8991157461621158361
 GameObject:
   m_ObjectHideFlags: 0
@@ -5855,9 +8848,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3280131514762732900}
+  - component: {fileID: 3626051771093083223}
   m_Layer: 0
   m_Name: Bone.001_R.015
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5878,6 +8872,27 @@ Transform:
   - {fileID: 2002070484613689216}
   m_Father: {fileID: 6506184097177816380}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &3626051771093083223
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8991157461621158361}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9009298778642959169
 GameObject:
   m_ObjectHideFlags: 0
@@ -5887,9 +8902,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7465495331979106998}
+  - component: {fileID: 5276623795787831219}
   m_Layer: 0
   m_Name: Bone.001_L.011
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5910,6 +8926,27 @@ Transform:
   - {fileID: 3280718657516564212}
   m_Father: {fileID: 8911317204832020555}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &5276623795787831219
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9009298778642959169}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9062482903614548038
 GameObject:
   m_ObjectHideFlags: 0
@@ -5919,9 +8956,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7375559230345284342}
+  - component: {fileID: 1178065726539312259}
   m_Layer: 0
   m_Name: Bone_L.021
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5942,6 +8980,27 @@ Transform:
   - {fileID: 7933833830792679461}
   m_Father: {fileID: 4659118791655204542}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1178065726539312259
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9062482903614548038}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.015
+  m_Center: {x: 0, y: 0, z: -0.005}
 --- !u!1 &9095205888998043186
 GameObject:
   m_ObjectHideFlags: 0
@@ -5951,9 +9010,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7376829319430731363}
+  - component: {fileID: 8030862839197659183}
   m_Layer: 0
   m_Name: Bone.001_L.005
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5974,6 +9034,27 @@ Transform:
   - {fileID: 6587727508303232734}
   m_Father: {fileID: 7600349390325783303}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &8030862839197659183
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9095205888998043186}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9136020756166886767
 GameObject:
   m_ObjectHideFlags: 0
@@ -5983,9 +9064,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1549814667683289722}
+  - component: {fileID: 2145711802891504209}
   m_Layer: 0
   m_Name: Bone.002_R.001
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6007,6 +9089,27 @@ Transform:
   - {fileID: 657562903077858294}
   m_Father: {fileID: 5008997806163748018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &2145711802891504209
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9136020756166886767}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9190224983982265389
 GameObject:
   m_ObjectHideFlags: 0
@@ -6016,9 +9119,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6705230792962222668}
+  - component: {fileID: 331729447359686717}
   m_Layer: 0
   m_Name: Bone.001_R.009
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6039,3 +9143,24 @@ Transform:
   - {fileID: 3755165533478820199}
   m_Father: {fileID: 4816706341837606917}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &331729447359686717
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9190224983982265389}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.002
+  m_Center: {x: 0, y: 0, z: 0}

@@ -26,11 +26,13 @@ public class Weapon : MonoBehaviour
         {
             monsterHit.NormalDamage(damage);
             HarpoonHit();
+            transform.parent = collision.gameObject.transform;
         }
         if (collision.transform.tag == "Crit")
         {
             monsterHit.CritHit(damage);
             HarpoonHit();
+            transform.parent = collision.gameObject.transform;
         }
         if (collision.transform.tag == "Water")
         {

@@ -13,12 +13,14 @@ public class AnimatieHit : MonoBehaviour
     public bool inAnimatieLeave;
 
     public KrakenAnimations animations;
+    public MonsterEscape monster;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         animations = GetComponent<KrakenAnimations>();
+        monster = GetComponent<MonsterEscape>();
     }
 
     // Update is called once per frame
@@ -30,6 +32,7 @@ public class AnimatieHit : MonoBehaviour
             inAnimatieLeave = false;
             animations.isSwimming = false;
             animations.isPlaying = false;
+            monster.isEscaping = false;
         }
         if (inAnimatieCharge && activeHit)
         {

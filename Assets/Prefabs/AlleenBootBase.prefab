@@ -5489,6 +5489,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8342383015205102894, guid: f233682ddcbe96645a7586f6bdded1ed, type: 3}
+      propertyPath: harpoenSpawnpiont
+      value: 
+      objectReference: {fileID: 4256609553543971288}
     - target: {fileID: 9187744824360962167, guid: f233682ddcbe96645a7586f6bdded1ed, type: 3}
       propertyPath: m_Name
       value: harpoenEmpty
