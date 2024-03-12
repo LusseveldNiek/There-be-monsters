@@ -1344,6 +1344,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1011473164208851194, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: monsterHealth
+      value: 
+      objectReference: {fileID: 685984879}
     - target: {fileID: 3070410345231518821, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1356,6 +1360,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3279361462425532871, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: monsterEscape
+      value: 
+      objectReference: {fileID: 685984880}
     - target: {fileID: 3507053860836643293, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: shipPositions.Array.data[0]
       value: 
@@ -1513,6 +1521,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+--- !u!114 &685984879 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7577712641485368189, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83bae5efb57c7fe4d8a6b06792636467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &685984880 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4489759140041083745, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &734081796
 GameObject:
   m_ObjectHideFlags: 0
