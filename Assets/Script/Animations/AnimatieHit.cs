@@ -11,10 +11,14 @@ public class AnimatieHit : MonoBehaviour
     private float timer;
     public bool inAnimatieCharge;
     public bool inAnimatieLeave;
+
+    public KrakenAnimations animations;
+
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        animations = GetComponent<KrakenAnimations>();
     }
 
     // Update is called once per frame
@@ -29,6 +33,7 @@ public class AnimatieHit : MonoBehaviour
         {
             animator.SetTrigger("Hurt");
             inAnimatieCharge = false;
+            animations.chargeHit = true;
         }
         if (isHit)
         {

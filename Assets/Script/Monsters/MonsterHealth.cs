@@ -12,6 +12,8 @@ public class MonsterHealth : MonoBehaviour
     public GameObject controller;
 
     public AnimatieHit hit;
+    public KrakenAnimations animations;
+    public TrophyManager trophy;
 
 
     [Header("Bomb")]
@@ -32,6 +34,8 @@ public class MonsterHealth : MonoBehaviour
         monster = GetComponent<MonsterUI>();
         win = controller.GetComponent<WinSpawner>();
         hit = GetComponent<AnimatieHit>();
+        animations = GetComponent<KrakenAnimations>();
+        trophy = FindAnyObjectByType<TrophyManager>();
         health = maxHealth;
     }
     public void Update()
@@ -39,6 +43,8 @@ public class MonsterHealth : MonoBehaviour
         if (health <= 0)
         {
             win.dood = true;
+            animations.monsterDood = true;
+            trophy.krakenVerslagen = true;
             animator.SetBool("Death", true);
         }
 

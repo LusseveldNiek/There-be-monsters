@@ -5,8 +5,8 @@ using UnityEngine;
 public class KrakenAnimations : MonoBehaviour
 {
     public Animator anim;
-    public AnimatorClipInfo[] clip;
     public bool isPlaying;
+    public bool isSwimming;
     private int animatie;
     public float minTime;
     public float maxTime;
@@ -16,6 +16,7 @@ public class KrakenAnimations : MonoBehaviour
     public float timeWaitBlockM;
     public float timeWaitBlockL;
     public float timeWaitBuck;
+    public float timeWaitCharge;
 
     public GameObject blockRIndicator;
     public GameObject blockMIndicator;
@@ -25,11 +26,14 @@ public class KrakenAnimations : MonoBehaviour
     public GameObject blockM;
     public GameObject blockL;
     public GameObject buck;
+    public GameObject bigBlock;
 
     public AnimatieHit animatieHit;
     public MonsterEscape monsterEscape;
     public MonsterHealth hp;
     public bool dood;
+    public bool monsterDood;
+    public bool chargeHit;
 
     void Start()
     {
@@ -42,8 +46,11 @@ public class KrakenAnimations : MonoBehaviour
     {
         isPlaying = true;
         yield return new WaitForSeconds(Random.Range(minTime, maxTime));
-        RandomAnimation();
-        isPlaying = false;
+        if (!dood && !monsterDood)
+        {
+            RandomAnimation();
+            isPlaying = false;
+        }
     }
     public void RandomAnimation()
     {
@@ -69,11 +76,14 @@ public class KrakenAnimations : MonoBehaviour
         if (animatie == 4)
         {
             Debug.Log("Charge");
+            
             anim.SetTrigger("Charge");
+            StartCoroutine(Charge(timeWaitBlockL));
             animatieHit.inAnimatieCharge = true;
         }
         if (animatie == 5 && monsterEscape.isEscaping == false)
         {
+            isSwimming = true;
             Debug.Log("Leaving");
             anim.SetTrigger("Leave");
             animatieHit.inAnimatieLeave = true;
@@ -94,11 +104,10 @@ public class KrakenAnimations : MonoBehaviour
     }
     void Update()
     {
-        if (hp.health > 0 && !dood)
+        if (!isSwimming)
         {
             if (isPlaying)
             {
-
                 return;
             }
             else
@@ -147,5 +156,26 @@ public class KrakenAnimations : MonoBehaviour
         buck.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         buck.SetActive(false);
+    }
+    IEnumerator Charge(float time)
+    {
+        buckIndicator.SetActive(true);
+        yield return new WaitForSeconds(time);
+        buckIndicator.SetActive(false);
+        yield return new WaitForSeconds(0.5f);
+        if (!chargeHit)
+        {
+            blockL.SetActive(true);
+            blockM.SetActive(true);
+            blockR.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+            blockL.SetActive(false);
+            blockM.SetActive(false);
+            blockR.SetActive(false);
+        }
+        else
+        {
+            chargeHit = false;
+        }
     }
 }

@@ -17,7 +17,6 @@ public class PlayerHit : MonoBehaviour
     {
         if (other.transform.tag == "Player")
         {
-            Destroy(gameObject);
             gameOver.dood = true;
             krakenAnimations.dood = true;
         }

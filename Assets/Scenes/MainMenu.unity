@@ -578,6 +578,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfbade32bb7b6c9498fb3d6f38538d53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  krakenTrophy: {fileID: 0}
+  nessieTrophy: {fileID: 8415227315608533118, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+  krakenSpawn: {fileID: 962893836}
+  nessieSpawn: {fileID: 850584507}
+  krakenVerslagen: 0
+  krakenGespawnd: 0
+  nessieVerslagen: 0
+  nessieGespwawnd: 0
 --- !u!114 &427277265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1086,6 +1094,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842524059}
   m_CullTransparentMesh: 1
+--- !u!1 &850584506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 850584507}
+  m_Layer: 0
+  m_Name: NessieTrophySpawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &850584507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 850584506}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &898643966
 GameObject:
   m_ObjectHideFlags: 0
@@ -1161,6 +1200,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898643966}
   m_CullTransparentMesh: 1
+--- !u!1 &962893835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 962893836}
+  m_Layer: 0
+  m_Name: KrakenTrophySpawnpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &962893836
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962893835}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1004328228
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,3 +4252,5 @@ SceneRoots:
   - {fileID: 1068309977}
   - {fileID: 285133529}
   - {fileID: 427277266}
+  - {fileID: 850584507}
+  - {fileID: 962893836}
