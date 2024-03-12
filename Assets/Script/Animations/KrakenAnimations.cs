@@ -107,15 +107,7 @@ public class KrakenAnimations : MonoBehaviour
             }
         }
     }
-    public string GetCurrentClipName()
-    {
 
-        int layerIndex = 0;
-
-        info = anim.GetCurrentAnimatorClipInfo(layerIndex); 
-        return info[0].clip.name;
-
-    }
     IEnumerator BlockR(float time)
     {
         blockRIndicator.SetActive(true);
