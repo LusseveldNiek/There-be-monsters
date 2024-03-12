@@ -29,6 +29,7 @@ public class AnimatieHit : MonoBehaviour
             animator.SetTrigger("Hurt");
             inAnimatieLeave = false;
             animations.isSwimming = false;
+            animations.isPlaying = false;
         }
         if (inAnimatieCharge && activeHit)
         {
