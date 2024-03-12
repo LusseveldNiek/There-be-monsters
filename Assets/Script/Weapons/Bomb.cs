@@ -11,7 +11,7 @@ public class Bomb : MonoBehaviour
     {
         if (collision.gameObject.tag == "Monster")
         {
-            collision.gameObject.GetComponent<MeshRenderer>().material = bombHitMaterial;
+            collision.gameObject.GetComponent<SkinnedMeshRenderer>().material = bombHitMaterial;
             monsterHealth.hitByBomb = true;
             bombSpawner.spawnNew = true;
             Destroy(gameObject);

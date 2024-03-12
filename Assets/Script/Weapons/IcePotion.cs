@@ -11,7 +11,8 @@ public class IcePotion : MonoBehaviour
     {
         if(collision.gameObject.tag == "Monster")
         {
-            collision.gameObject.GetComponent<MeshRenderer>().material = frozenMaterial;
+            print("hit");
+            collision.gameObject.GetComponent<SkinnedMeshRenderer>().material = frozenMaterial;
             monsterEscape.isFrozen = true;
             iceSpawner.spawnNew = true;
             Destroy(gameObject);

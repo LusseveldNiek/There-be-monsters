@@ -7,25 +7,20 @@ public class Sound : MonoBehaviour
 {
     private static readonly string FirstPlay = "FirstPlay";
     private static readonly string BackgroundPref = "BackgroundPref";
-    private static readonly string SoundEffectsPref = "SoundEffectsPref";
     private int firstPlayInt;
-    public Slider backgroundSlider, soundEffectsSlider;
-    private float backgroundFloat, soundEffectsFloat;
+    public Slider backgroundSlider;
+    private float backgroundFloat;
     public AudioSource backgroundAudio;
-    public AudioSource[] soundEffects;
 
     void Start()
     {
         firstPlayInt = PlayerPrefs.GetInt(FirstPlay);
-        /*
+        
         if (firstPlayInt == 0)
         {
             backgroundFloat = .125f;
-            soundEffectsFloat = .75f;
             backgroundSlider.value = backgroundFloat;
-            soundEffectsSlider.value = soundEffectsFloat;
             PlayerPrefs.SetFloat(BackgroundPref, backgroundFloat);
-            PlayerPrefs.SetFloat(SoundEffectsPref, soundEffectsFloat);
             PlayerPrefs.SetInt(FirstPlay, -1);
         }
 
@@ -34,23 +29,13 @@ public class Sound : MonoBehaviour
             backgroundFloat = PlayerPrefs.GetFloat(BackgroundPref);
             backgroundSlider.value = backgroundFloat;
 
-            soundEffectsFloat = PlayerPrefs.GetFloat(SoundEffectsPref);
-            soundEffectsSlider.value = soundEffectsFloat;
-
         }
-        */
-
-
-        for (int i = 0; i < soundEffects.Length; i++)
-        {
-            soundEffects[i].volume = soundEffectsSlider.value;
-        }
+       
     }
 
     public void SaveSoundSettings()
     {
         PlayerPrefs.SetFloat(BackgroundPref, backgroundSlider.value);
-        PlayerPrefs.SetFloat(SoundEffectsPref, soundEffectsSlider.value);
 
     }
 
