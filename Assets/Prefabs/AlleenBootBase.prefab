@@ -4338,6 +4338,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOver: {fileID: 0}
   controller: {fileID: 0}
+  krakenAnimations: {fileID: 0}
+  kraken: {fileID: 0}
 --- !u!1 &6953114122166553622
 GameObject:
   m_ObjectHideFlags: 0
