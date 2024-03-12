@@ -49,12 +49,11 @@ public class KrakenAnimations : MonoBehaviour
         if (!dood && !monsterDood)
         {
             RandomAnimation();
-            isPlaying = false;
         }
     }
     public void RandomAnimation()
     {
-        animatie = Random.Range(1, 8);
+        animatie = Random.Range(4, 5);
         if (animatie == 1)
         {
             Debug.Log("Atc row 1");
@@ -78,10 +77,10 @@ public class KrakenAnimations : MonoBehaviour
             Debug.Log("Charge");
             
             anim.SetTrigger("Charge");
-            StartCoroutine(Charge(timeWaitBlockL));
+            StartCoroutine(Charge(timeWaitCharge));
             animatieHit.inAnimatieCharge = true;
         }
-        if (animatie == 5 && monsterEscape.isEscaping == false)
+        if (animatie == 5)
         {
             isSwimming = true;
             Debug.Log("Leaving");
@@ -126,6 +125,7 @@ public class KrakenAnimations : MonoBehaviour
         blockR.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         blockR.SetActive(false);
+        isPlaying = false;
     }
     IEnumerator BlockM(float time)
     {
@@ -136,6 +136,7 @@ public class KrakenAnimations : MonoBehaviour
         blockM.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         blockM.SetActive(false);
+        isPlaying = false;
     }
     IEnumerator BlockL(float time)
     {
@@ -146,6 +147,7 @@ public class KrakenAnimations : MonoBehaviour
         blockL.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         blockL.SetActive(false);
+        isPlaying = false;
     }
     IEnumerator Buck(float time)
     {
@@ -156,10 +158,11 @@ public class KrakenAnimations : MonoBehaviour
         buck.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         buck.SetActive(false);
+        isPlaying = false;
     }
     IEnumerator Charge(float time)
     {
-        yield return new WaitForSeconds(time + 0.5f);
+        yield return new WaitForSeconds(time);
         if (!chargeHit)
         {
             bigBlock.SetActive(true);
@@ -170,5 +173,6 @@ public class KrakenAnimations : MonoBehaviour
         {
             chargeHit = false;
         }
+        isPlaying = false;
     }
 }
