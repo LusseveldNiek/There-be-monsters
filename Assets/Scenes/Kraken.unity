@@ -1429,6 +1429,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 915709951}
+    - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7577712641485368189, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: controller
       value: 
@@ -1488,7 +1492,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8172046360321152866, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1888946313}
   m_SourcePrefab: {fileID: 100100000, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
 --- !u!1 &734081796
 GameObject:
@@ -5075,6 +5082,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857625935}
   m_CullTransparentMesh: 1
+--- !u!1 &1888946305 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8172046360321152866, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1888946313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888946305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f41e0cf4ce2343e48957b241f6e5bc9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPosition: 30
+  currentPosition: 0
+  endPosition: 75
+  distance: 0
+  swims: 9
+  timeBtwnStrokes: 1.275
+  strokeTime: 0
+  speed: 1
+  escaping: 0
+  isSwimming: 0
+  hit: 0
 --- !u!1 &1900228550
 GameObject:
   m_ObjectHideFlags: 0

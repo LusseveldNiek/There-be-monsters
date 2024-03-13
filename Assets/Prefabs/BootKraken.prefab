@@ -755,6 +755,7 @@ MonoBehaviour:
   inAnimatieCharge: 0
   inAnimatieLeave: 0
   animations: {fileID: 0}
+  monster: {fileID: 0}
 --- !u!4 &8800913773231017432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1074851636811320684, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
