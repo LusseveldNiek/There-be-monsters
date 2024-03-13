@@ -5099,6 +5099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f41e0cf4ce2343e48957b241f6e5bc9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 0}
   startPosition: 30
   currentPosition: 0
   endPosition: 75
@@ -5107,9 +5108,10 @@ MonoBehaviour:
   timeBtwnStrokes: 1.275
   strokeTime: 0
   speed: 1
-  escaping: 0
+  escaping: 1
   isSwimming: 0
   hit: 0
+  startTime: 0
 --- !u!1 &1900228550
 GameObject:
   m_ObjectHideFlags: 0
