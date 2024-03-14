@@ -40,8 +40,13 @@ Material:
     - _Fill: 0.559
     - _QueueControl: 0
     - _QueueOffset: 0
+<<<<<<< Updated upstream
     - _WobbleX: -0
     - _WobbleZ: -0
+=======
+    - _WobbleX: 0
+    - _WobbleZ: 0
+>>>>>>> Stashed changes
     m_Colors:
     - _SideColor: {r: 0, g: 0.5341148, b: 0.6226415, a: 0}
     - _TopColor: {r: 0, g: 0.8444605, b: 1, a: 0}
