@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 0
+  m_ActiveColorSpace: 1
   unsupportedMSAAFallback: 0
   m_SpriteBatchVertexThreshold: 300
   m_MTRendering: 1
@@ -138,8 +138,8 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: -7296871177430558818, guid: e05fb3df1e883154f8d07893b255c6da, type: 2}
   - {fileID: 11400000, guid: b9f4437b2e7ae8b4eb22493858e43b89, type: 2}
+  - {fileID: -7296871177430558818, guid: e05fb3df1e883154f8d07893b255c6da, type: 2}
   - {fileID: 3410833195111195732, guid: 1432a636b7180c344813380f81d9caa5, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
