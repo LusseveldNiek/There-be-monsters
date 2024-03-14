@@ -37,11 +37,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Fill: 0.587
+    - _Fill: 0.621
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _WobbleX: -0.000000114320194
-    - _WobbleZ: -0.000000008046955
+    - _WobbleX: 1.6316847e-11
+    - _WobbleZ: 1.6316847e-11
     m_Colors:
     - _SideColor: {r: 0, g: 0.5341148, b: 0.6226415, a: 0}
     - _TopColor: {r: 0, g: 0.8444605, b: 1, a: 0}
