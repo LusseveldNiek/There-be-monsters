@@ -1033,9 +1033,9 @@ MonoBehaviour:
   - {fileID: 2048171858}
   ship: {fileID: 1773259512}
   shipRotation: {fileID: 116601891}
-  speed: 80
+  speed: 20
   checkpointsManager: {fileID: 2127512448}
-  rotationSpeed: 80
+  rotationSpeed: 20
   isRotating: 0
 --- !u!1 &305975463
 GameObject:
