@@ -553,7 +553,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 412622691}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &412622693
 Camera:
   m_ObjectHideFlags: 0
@@ -1869,7 +1869,7 @@ PrefabInstance:
     - target: {fileID: -1461304994638716399, guid: b12baf7e08cd20246af4638f53bc5894, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5a8af3ec04b3a234b842bc595b904c18, type: 2}
+      objectReference: {fileID: 2100000, guid: 7a09f7c62d607c0429226c2a6e75ed04, type: 2}
     - target: {fileID: 919132149155446097, guid: b12baf7e08cd20246af4638f53bc5894, type: 3}
       propertyPath: m_Name
       value: TrianglePotionBottle
@@ -2039,6 +2039,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 360047432102672819, guid: f6ef1d945bca038418c8e6b404f58577, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7a09f7c62d607c0429226c2a6e75ed04, type: 2}
     - target: {fileID: 3709898802282549919, guid: f6ef1d945bca038418c8e6b404f58577, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.453
