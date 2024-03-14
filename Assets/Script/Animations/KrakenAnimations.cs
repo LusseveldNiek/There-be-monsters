@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class KrakenAnimations : MonoBehaviour
@@ -7,6 +6,9 @@ public class KrakenAnimations : MonoBehaviour
     public Animator anim;
     public bool isPlaying;
     public bool isSwimming;
+    public bool frozen;
+    public float freezeDuration;
+    public float freezeTime;
     private int animatie;
     public float minTime;
     public float maxTime;
@@ -35,6 +37,7 @@ public class KrakenAnimations : MonoBehaviour
     public bool monsterDood;
     public bool chargeHit;
     public bool passive;
+    public Material normalMaterial;
 
     void Start()
     {
@@ -65,7 +68,7 @@ public class KrakenAnimations : MonoBehaviour
         {
             Debug.Log("Atc row 2");
             anim.SetTrigger("AttackRow2");
-            StartCoroutine(Dodge(timeWaitBlockM, blockLIndicator, blockM));
+            StartCoroutine(Dodge(timeWaitBlockM, blockMIndicator, blockM));
         }
         if (animatie == 3)
         {
@@ -119,6 +122,23 @@ public class KrakenAnimations : MonoBehaviour
         if (passive)
         {
             StopAllCoroutines();
+            isPlaying = false;
+        }
+        if (frozen)
+        {
+            StopAllCoroutines();
+        }
+        if (frozen)
+        {
+            freezeTime += Time.deltaTime;
+            Debug.Log("aftellen");
+            if (freezeTime > freezeDuration)
+            {
+                GetComponentInChildren<SkinnedMeshRenderer>().material = normalMaterial;
+                freezeTime = 0;
+                frozen = false;
+                Debug.Log("unfreeze");
+            }
         }
     }
     IEnumerator Dodge(float time,GameObject blockIndicator, GameObject block)

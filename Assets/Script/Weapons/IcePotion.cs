@@ -6,10 +6,14 @@ public class IcePotion : MonoBehaviour
     public IceSpawner iceSpawner;
     public Material frozenMaterial;
     public GameObject monster;
+    public GameObject krakenScripts;
+    public KrakenAnimations krakenAnimations;
 
 
     private void Start()
     {
+        krakenScripts = GameObject.Find("Kraken");
+        krakenAnimations = krakenScripts.GetComponent<KrakenAnimations>();
         monster = GameObject.Find("KrakenBody");
     }
     private void OnCollisionEnter(Collision collision)
@@ -18,6 +22,7 @@ public class IcePotion : MonoBehaviour
         {
             print("hit");
             monster.GetComponent<SkinnedMeshRenderer>().material = frozenMaterial;
+            krakenAnimations.freezeTime = krakenAnimations.freezeDuration;
             monsterEscape.isFrozen = true;
             iceSpawner.spawnNew = true;
             Destroy(gameObject);

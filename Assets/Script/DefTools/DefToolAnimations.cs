@@ -16,7 +16,6 @@ public class DefToolAnimations : MonoBehaviour
         anim = monster.GetComponent<Animator>();
         kraken = monster.GetComponent<KrakenAnimations>();
         canvas = GetComponent<DefToolCanvasAnimations>();
-        animationCanvas.SetActive(false);
     }
 
     // Update is called once per frame
@@ -25,23 +24,26 @@ public class DefToolAnimations : MonoBehaviour
         animationNummer = canvas.animationNummer;
         if (Input.GetKeyDown(KeyCode.JoystickButton0))
         {
-            //kraken.passive = true;
+            kraken.passive = true;
             animationCanvas.SetActive(true);
             passive = true;
             Debug.Log("passive");
         }
         if (Input.GetKeyDown(KeyCode.JoystickButton1))
         {
-            //kraken.passive = false;
+            kraken.passive = false;
             animationCanvas.SetActive(false);
             passive = false;
             Debug.Log("attack mode");
         }
         if (Input.GetKeyDown(KeyCode.JoystickButton2))
         {
-            animationNummer++;
-            canvas.NextNummer();
-            Debug.Log("up");
+            if (passive)
+            {
+                animationNummer++;
+                canvas.NextNummer();
+                Debug.Log("up");
+            }
         }
         if (Input.GetKeyDown(KeyCode.JoystickButton3))
         {

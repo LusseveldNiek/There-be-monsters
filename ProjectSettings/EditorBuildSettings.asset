@@ -5,9 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Maurits.unity
     guid: c662ffe87cc0adf45928fc59e615262e
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 482200d98596da3468a5dc32e00f3037
+  - enabled: 1
+    path: Assets/Scenes/Nessie.unity
+    guid: 830c4f21d9682cb429c900649d64dfb4
+  - enabled: 1
+    path: Assets/Scenes/Kraken.unity
+    guid: 7056c12bba0fea644a77b2d98f62ea72
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b9f4437b2e7ae8b4eb22493858e43b89, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 31114f8f89e86bf4e8f39cf31b57634b, type: 2}
