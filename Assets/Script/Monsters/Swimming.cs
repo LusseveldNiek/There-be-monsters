@@ -65,7 +65,8 @@ public class Swimming : MonoBehaviour
                 current = transform.localPosition;
                 next = current;
                 next.z += distance / swims;
-                transform.localPosition = Vector3.Slerp(current, next, fracComplete);
+                //transform.localPosition = Vector3.Slerp(current, next, fracComplete);
+                transform.localPosition = next;
                 Debug.Log("moving");
             }
             yield return new WaitForSeconds(timeBtwnStrokes);

@@ -5,13 +5,17 @@ public class Bomb : MonoBehaviour
     public MonsterHealth monsterHealth;
     public BombSpawner bombSpawner;
     public Material bombHitMaterial;
+    public GameObject monster;
 
-
+    private void Start()
+    {
+        monster = GameObject.Find("KrakenBody");
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Monster")
         {
-            collision.gameObject.GetComponent<SkinnedMeshRenderer>().material = bombHitMaterial;
+            monster.GetComponent<SkinnedMeshRenderer>().material = bombHitMaterial;
             monsterHealth.hitByBomb = true;
             bombSpawner.spawnNew = true;
             Destroy(gameObject);

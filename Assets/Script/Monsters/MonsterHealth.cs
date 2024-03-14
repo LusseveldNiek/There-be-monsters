@@ -53,7 +53,7 @@ public class MonsterHealth : MonoBehaviour
             bombDurationCounter += Time.deltaTime;
             if (bombDurationCounter > bombDuration)
             {
-                GetComponent<MeshRenderer>().material = normalMaterial;
+                GetComponent<SkinnedMeshRenderer>().material = normalMaterial;
                 bombDurationCounter = 0;
                 hitByBomb = false;
             }

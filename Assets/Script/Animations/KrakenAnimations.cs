@@ -34,6 +34,7 @@ public class KrakenAnimations : MonoBehaviour
     public bool dood;
     public bool monsterDood;
     public bool chargeHit;
+    public bool passive;
 
     void Start()
     {
@@ -103,16 +104,21 @@ public class KrakenAnimations : MonoBehaviour
     }
     void Update()
     {
-        if (!isSwimming)
+        if (!isSwimming && !passive)
         {
             if (isPlaying)
             {
+                Debug.Log("return");
                 return;
             }
             else
             {
                 StartCoroutine(WaitForSpawn());
             }
+        }
+        if (passive)
+        {
+            StopAllCoroutines();
         }
     }
     IEnumerator Dodge(float time,GameObject blockIndicator, GameObject block)
