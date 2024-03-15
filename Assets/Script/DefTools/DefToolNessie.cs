@@ -85,13 +85,13 @@ public class DefToolNessie : MonoBehaviour
         }
         if (animationNummer == 4)
         {
-            Debug.Log("Charge");
-            anim.SetTrigger("Charge");
+            Debug.Log("Leaving");
+            anim.SetTrigger("Leave");
         }
         if (animationNummer == 5)
         {
-            Debug.Log("Leaving");
-            anim.SetTrigger("Leave");
+            Debug.Log("Charge");
+            anim.SetTrigger("Charge");
         }
         if (animationNummer == 6)
         {
