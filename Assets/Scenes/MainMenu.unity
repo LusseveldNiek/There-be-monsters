@@ -2692,6 +2692,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c1fb0030c800794886109d088c5df22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nummerText: {fileID: 562652110}
+  anim: {fileID: 0}
+  monster: {fileID: 1715963906}
+  animationCanvas: {fileID: 2100330849}
+  animationNummer: 0
+  passive: 0
+  turn: 0
 --- !u!1001 &1715963905
 PrefabInstance:
   m_ObjectHideFlags: 0
