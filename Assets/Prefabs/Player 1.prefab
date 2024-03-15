@@ -2656,6 +2656,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOver: {fileID: 0}
   controller: {fileID: 0}
+  krakenAnimations: {fileID: 0}
+  kraken: {fileID: 0}
 --- !u!1001 &2250517522830268135
 PrefabInstance:
   m_ObjectHideFlags: 0
