@@ -22,7 +22,6 @@ public class IceSpawner : MonoBehaviour
             GameObject icePotionPrefab = Instantiate(icePotionGameObject, spawnPosition.position, Quaternion.identity);
             icePotionPrefab.transform.parent = ship.transform;
             icePotionPrefab.GetComponent<IcePotion>().iceSpawner = GetComponent<IceSpawner>();
-            icePotionPrefab.GetComponent<IcePotion>().monsterEscape = monsterEscape;
             spawnNew = false;
         }
     }

@@ -8,7 +8,7 @@ public class KrakenAnimations : MonoBehaviour
     public bool isSwimming;
     public bool frozen;
     public float freezeDuration;
-    public float freezeTime;
+    private float freezeTime;
     private int animatie;
     public float minTime;
     public float maxTime;

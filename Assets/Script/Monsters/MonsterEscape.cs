@@ -85,15 +85,6 @@ public class MonsterEscape : MonoBehaviour
     public EscapeSpawner escape;
     public GameObject controller;
 
-    [Header("Freezing")]
-    public float freezeTime;
-    private float freezeCounter;
-
-    public float freezeSpeed;
-
-    public bool isFrozen;
-    public Material normalMaterial;
-
     private void Tart()
     {
         //enemy begins with minDistance
@@ -136,22 +127,6 @@ public class MonsterEscape : MonoBehaviour
         {
             print("you lost");
             escape.escaped = true;
-        }
-
-        if(isFrozen)
-        {
-            freezeCounter += Time.deltaTime;
-            if(currentDistance > minDistance)
-            {
-                currentDistance -= freezeSpeed * Time.deltaTime;
-            }
-
-            if(freezeCounter > freezeTime)
-            {
-                GetComponent<MeshRenderer>().material = normalMaterial;
-                freezeCounter = 0;
-                isFrozen = false;
-            }
         }
     }
 }

@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class IcePotion : MonoBehaviour
 {
-    public MonsterEscape monsterEscape;
     public IceSpawner iceSpawner;
     public Material frozenMaterial;
     public GameObject monster;
@@ -22,8 +21,7 @@ public class IcePotion : MonoBehaviour
         {
             print("hit");
             monster.GetComponent<SkinnedMeshRenderer>().material = frozenMaterial;
-            krakenAnimations.freezeTime = krakenAnimations.freezeDuration;
-            monsterEscape.isFrozen = true;
+            krakenAnimations.frozen = true;
             iceSpawner.spawnNew = true;
             Destroy(gameObject);
         }
