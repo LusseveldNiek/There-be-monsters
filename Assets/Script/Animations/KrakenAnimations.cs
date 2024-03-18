@@ -127,18 +127,7 @@ public class KrakenAnimations : MonoBehaviour
         if (frozen)
         {
             StopAllCoroutines();
-        }
-        if (frozen)
-        {
-            freezeTime += Time.deltaTime;
-            Debug.Log("aftellen");
-            if (freezeTime > freezeDuration)
-            {
-                GetComponentInChildren<SkinnedMeshRenderer>().material = normalMaterial;
-                freezeTime = 0;
-                frozen = false;
-                Debug.Log("unfreeze");
-            }
+            frozen = false;
         }
     }
     IEnumerator Dodge(float time,GameObject blockIndicator, GameObject block)
