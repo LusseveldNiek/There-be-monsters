@@ -817,6 +817,42 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8674656105019031549}
     m_Modifications:
+    - target: {fileID: 7398757779988548923, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      propertyPath: buck
+      value: 
+      objectReference: {fileID: 356838907150243813}
+    - target: {fileID: 7398757779988548923, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      propertyPath: blockL
+      value: 
+      objectReference: {fileID: 4047382284513733140}
+    - target: {fileID: 7398757779988548923, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      propertyPath: blockM
+      value: 
+      objectReference: {fileID: 2884870187441766412}
+    - target: {fileID: 7398757779988548923, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      propertyPath: blockR
+      value: 
+      objectReference: {fileID: 777836521471764659}
+    - target: {fileID: 7398757779988548923, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      propertyPath: bigBlock
+      value: 
+      objectReference: {fileID: 4932382974784745088}
+    - target: {fileID: 7398757779988548923, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      propertyPath: buckIndicator
+      value: 
+      objectReference: {fileID: 3395419735837399737}
+    - target: {fileID: 7398757779988548923, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      propertyPath: blockLIndicator
+      value: 
+      objectReference: {fileID: 2479933978962533931}
+    - target: {fileID: 7398757779988548923, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      propertyPath: blockMIndicator
+      value: 
+      objectReference: {fileID: 4080485430754551344}
+    - target: {fileID: 7398757779988548923, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      propertyPath: blockRIndicator
+      value: 
+      objectReference: {fileID: 147268282365207335}
     - target: {fileID: 8353430912659863700, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -866,15 +902,21 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8693787332969226798, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 7153591746872559149}
+    - targetCorrespondingSourceObject: {fileID: 8693787332969226798, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1564998557067452849}
+      addedObject: {fileID: 9208624630758151832}
+    - targetCorrespondingSourceObject: {fileID: 8693787332969226798, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 410930707176354760}
   m_SourcePrefab: {fileID: 100100000, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
 --- !u!1 &90289916570443487 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8693787332969226798, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
   m_PrefabInstance: {fileID: 8783795774481825009}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1564998557067452849
+--- !u!114 &7153591746872559149
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -883,39 +925,57 @@ MonoBehaviour:
   m_GameObject: {fileID: 90289916570443487}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92f787241bbbf484688c19241c76b02d, type: 3}
+  m_Script: {fileID: 11500000, guid: 83bae5efb57c7fe4d8a6b06792636467, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  isPlaying: 0
-  isSwimming: 0
-  frozen: 0
-  freezeDuration: 0
-  minTime: 0
-  maxTime: 0
-  timeWaitBlockR: 0
-  timeWaitBlockRDone: 0
-  timeWaitBlockM: 0
-  timeWaitBlockL: 0
-  timeWaitBuck: 0
-  timeWaitCharge: 0
-  blockRIndicator: {fileID: 147268282365207335}
-  blockMIndicator: {fileID: 4080485430754551344}
-  blockLIndicator: {fileID: 2479933978962533931}
-  buckIndicator: {fileID: 3395419735837399737}
-  blockR: {fileID: 777836521471764659}
-  blockM: {fileID: 2884870187441766412}
-  blockL: {fileID: 4047382284513733140}
-  buck: {fileID: 356838907150243813}
-  bigBlock: {fileID: 4932382974784745088}
-  animatieHit: {fileID: 0}
-  monsterEscape: {fileID: 0}
-  hp: {fileID: 0}
-  dood: 0
-  monsterDood: 0
-  chargeHit: 0
-  passive: 0
+  monster: {fileID: 0}
+  health: 200
+  maxHealth: 200
+  DMGMultiplier: 3
+  win: {fileID: 0}
+  controller: {fileID: 0}
+  hit: {fileID: 0}
+  animations: {fileID: 0}
+  trophy: {fileID: 0}
+  hitByBomb: 0
+  bombTimesDamage: 3
+  bombDuration: 0
   normalMaterial: {fileID: 0}
+--- !u!114 &9208624630758151832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90289916570443487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da8cefd81af30e4419a4d153ad69e012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monsterText: {fileID: 0}
+  monster: {fileID: 0}
+  health: 0
+  maxHealth: 0
+--- !u!114 &410930707176354760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90289916570443487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5eef015858714b74d965f6a58be98f84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  isHit: 0
+  isHitTime: 0.5
+  inAnimatieCharge: 0
+  inAnimatieLeave: 0
+  animations: {fileID: 0}
+  monster: {fileID: 0}
 --- !u!4 &723697041461167205 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8353430912659863700, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
