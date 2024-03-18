@@ -824,7 +824,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: bf1edc4f14495ae419b2f1ad900fb083, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 6a0fab2ccde57304cbef759498a5f383, type: 2}
+      objectReference: {fileID: 2100000, guid: 1d84219a285677540a3de7515d4be5c2, type: 2}
     - target: {fileID: 919132149155446097, guid: bf1edc4f14495ae419b2f1ad900fb083, type: 3}
       propertyPath: m_Name
       value: nessie1
@@ -1563,6 +1563,67 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97dc95594ff35ed4997ebdd6d40d0047, type: 3}
+--- !u!1001 &1720513551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 71.87871
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.3162212
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 169.79843
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1814472933992704820, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 730a8240f7f14d144accb3f0ca357091, type: 2}
+    - target: {fileID: 919132149155446097, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
+      propertyPath: m_Name
+      value: nessie met ani
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d7086db851502d04fa53410e9c5498a2, type: 3}
 --- !u!1 &1740034359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1653,7 +1714,10 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 20
+        m_Name: Duration
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
@@ -2176,3 +2240,4 @@ SceneRoots:
   - {fileID: 4581281968015348859}
   - {fileID: 2872448723937002180}
   - {fileID: 1594236422}
+  - {fileID: 1720513551}
