@@ -9383,7 +9383,19 @@ PrefabInstance:
       propertyPath: timeWaitBlockRDone
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4731417092626933888, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623283862865953240, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 1037630284}
     - target: {fileID: 6093586814332013693, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 1037630284}
+    - target: {fileID: 7153591746872559149, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
