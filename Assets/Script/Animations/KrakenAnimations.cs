@@ -107,7 +107,7 @@ public class KrakenAnimations : MonoBehaviour
     }
     void Update()
     {
-        if (!isSwimming && !passive)
+        if (!isSwimming && !passive && !frozen)
         {
             if (isPlaying)
             {
