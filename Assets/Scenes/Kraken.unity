@@ -3613,7 +3613,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4fa23af98a7838458f2f99bc5575b97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 0}
+  gameOver: {fileID: 802902127}
   head: {fileID: 0}
   spawnDistance: 1.5
   dood: 0
