@@ -6,6 +6,7 @@ public class Bomb : MonoBehaviour
     public BombSpawner bombSpawner;
     public Material bombHitMaterial;
     public GameObject monster;
+    public GameObject particle;
 
     private void Start()
     {
@@ -18,6 +19,7 @@ public class Bomb : MonoBehaviour
             monster.GetComponent<SkinnedMeshRenderer>().material = bombHitMaterial;
             monsterHealth.hitByBomb = true;
             bombSpawner.spawnNew = true;
+            GameObject particlePrefab = Instantiate(particle, transform.position, transform.rotation);
             Destroy(gameObject);
         }
 

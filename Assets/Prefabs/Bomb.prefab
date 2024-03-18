@@ -282,6 +282,8 @@ MonoBehaviour:
   monsterHealth: {fileID: 0}
   bombSpawner: {fileID: 0}
   bombHitMaterial: {fileID: 2100000, guid: f779d432617bcd54389b106e22ca66f0, type: 2}
+  monster: {fileID: 0}
+  particle: {fileID: 7857968758540862008, guid: 9dd804997df5c57479f36a300912bcee, type: 3}
 --- !u!135 &1872172614295611810
 SphereCollider:
   m_ObjectHideFlags: 0
