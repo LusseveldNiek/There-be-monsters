@@ -431,7 +431,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iceSpawner: {fileID: 0}
-  frozenMaterial: {fileID: 2100000, guid: ce2974e1721e64044ba13754793adc8d, type: 2}
+  frozenMaterial: {fileID: 2100000, guid: 6a0fab2ccde57304cbef759498a5f383, type: 2}
   monster: {fileID: 0}
   krakenScripts: {fileID: 0}
   krakenAnimations: {fileID: 0}
