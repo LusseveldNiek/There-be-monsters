@@ -231,7 +231,6 @@ Transform:
   m_Children:
   - {fileID: 7433601811198729283}
   - {fileID: 4373027251278486214}
-  - {fileID: 4507153248464029301}
   - {fileID: 3516035072647000198}
   - {fileID: 8643371513611253136}
   - {fileID: 4256609553543971288}
@@ -2167,7 +2166,7 @@ Transform:
   m_GameObject: {fileID: 3344884211174541780}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.04, y: 6.54, z: 6.198}
+  m_LocalPosition: {x: -0.774, y: 6.481, z: 6.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3226,7 +3225,7 @@ Transform:
   m_GameObject: {fileID: 4706873177604085087}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.31225225, z: -0, w: 0.9499993}
-  m_LocalPosition: {x: 0.764, y: 6.54, z: 6.198}
+  m_LocalPosition: {x: 0.98, y: 6.779, z: 6.122}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3644,37 +3643,6 @@ Transform:
   m_Children:
   - {fileID: 3520623227291433509}
   m_Father: {fileID: 9216286276281514850}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &6382306157737702506
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4507153248464029301}
-  m_Layer: 0
-  m_Name: KijkpuntHarpoen
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4507153248464029301
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6382306157737702506}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 6, z: 1000}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 255570839436218570}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6751769755672243280
 GameObject:
@@ -4834,7 +4802,7 @@ Transform:
   m_GameObject: {fileID: 7785350503575776290}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.2951002, y: 6.5264, z: 8.078003}
+  m_LocalPosition: {x: 0.2951002, y: 6.5264, z: 8.177}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5346,7 +5314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3826756566320323003, guid: f233682ddcbe96645a7586f6bdded1ed, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.078003
+      value: 8.177
       objectReference: {fileID: 0}
     - target: {fileID: 3826756566320323003, guid: f233682ddcbe96645a7586f6bdded1ed, type: 3}
       propertyPath: m_LocalRotation.w
