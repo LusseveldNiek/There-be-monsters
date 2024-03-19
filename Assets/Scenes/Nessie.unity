@@ -123,6 +123,27 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &41974154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1694382650092533707, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &41974160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41974154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &61979812
 GameObject:
   m_ObjectHideFlags: 0
@@ -914,6 +935,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yRotation: 200
+--- !u!1 &235609662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1114656400316785951, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &235609668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235609662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &280544719
 GameObject:
   m_ObjectHideFlags: 0
@@ -2543,6 +2585,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557539431}
   m_CullTransparentMesh: 1
+--- !u!1 &567280072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7732746275395420027, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &567280078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567280072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &633276071
 GameObject:
   m_ObjectHideFlags: 0
@@ -3201,6 +3264,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yRotation: 100
+--- !u!1 &786297452 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3253939047082423004, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &786297458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786297452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &853447738
 GameObject:
   m_ObjectHideFlags: 0
@@ -3348,6 +3432,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853447738}
   m_CullTransparentMesh: 1
+--- !u!1 &877108061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3745006763873027173, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &877108067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877108061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &890445392
 GameObject:
   m_ObjectHideFlags: 0
@@ -3904,6 +4009,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943231736}
   m_CullTransparentMesh: 1
+--- !u!1 &962099469 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 90289916570443487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &962099476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 962099469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentEscapeSpeed: 0
+  beginEscapeSpeed: 0
+  escapeSpeedRemoval: 0
+  isEscaping: 1
+  maxDistance: 75
+  minDistance: 30
+  escape: {fileID: 0}
+  controller: {fileID: 1037630284}
 --- !u!1 &973575124
 GameObject:
   m_ObjectHideFlags: 0
@@ -5207,6 +5337,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yRotation: -325
+--- !u!1 &1149607235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1659668083695418351, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1149607241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149607235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &1154253665
 GameObject:
   m_ObjectHideFlags: 0
@@ -5758,6 +5909,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1244550679 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7265262036179126852, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1244550685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1244550679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &1247225558
 GameObject:
   m_ObjectHideFlags: 0
@@ -8140,6 +8312,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884684227}
   m_CullTransparentMesh: 1
+--- !u!1 &1884946517 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 516363426147422711, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1884946523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884946517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &1891247759
 GameObject:
   m_ObjectHideFlags: 0
@@ -8230,6 +8423,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yRotation: 140
+--- !u!1 &1901266370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1970886885719651069, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1901266376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901266370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &1918257720
 GameObject:
   m_ObjectHideFlags: 0
@@ -9221,6 +9435,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 4}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &2113793116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5710052018670552856, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2113793122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113793116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameOver: {fileID: 0}
+  controller: {fileID: 1037630284}
+  nessieAnimations: {fileID: 0}
+  monster: {fileID: 962099469}
 --- !u!1 &2127512447
 GameObject:
   m_ObjectHideFlags: 0
@@ -9399,10 +9634,53 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 622645856155061571, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - {fileID: 2542667100237266975, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - {fileID: 794097643383546938, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - {fileID: 8011066230524722782, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - {fileID: 7457808774443010742, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - {fileID: 8635265630677462154, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - {fileID: 7065271458728723222, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - {fileID: 5583715935865022877, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - {fileID: 8601130960786104494, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - {fileID: 5381223298210641294, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 90289916570443487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 962099476}
+    - targetCorrespondingSourceObject: {fileID: 1970886885719651069, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1901266376}
+    - targetCorrespondingSourceObject: {fileID: 1659668083695418351, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1149607241}
+    - targetCorrespondingSourceObject: {fileID: 3253939047082423004, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 786297458}
+    - targetCorrespondingSourceObject: {fileID: 3745006763873027173, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 877108067}
+    - targetCorrespondingSourceObject: {fileID: 1694382650092533707, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 41974160}
+    - targetCorrespondingSourceObject: {fileID: 516363426147422711, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1884946523}
+    - targetCorrespondingSourceObject: {fileID: 1114656400316785951, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 235609668}
+    - targetCorrespondingSourceObject: {fileID: 7732746275395420027, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 567280078}
+    - targetCorrespondingSourceObject: {fileID: 5710052018670552856, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2113793122}
+    - targetCorrespondingSourceObject: {fileID: 7265262036179126852, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1244550685}
   m_SourcePrefab: {fileID: 100100000, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
 --- !u!20 &676505841586968901 stripped
 Camera:

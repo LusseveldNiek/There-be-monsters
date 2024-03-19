@@ -12,6 +12,7 @@ public class NessieAnimations : MonoBehaviour
     private int animatie;
     public float minTime;
     public float maxTime;
+    public bool turn;
 
     public float timeWaitBlockR;
     public float timeWaitBlockRDone;
@@ -57,52 +58,81 @@ public class NessieAnimations : MonoBehaviour
     }
     public void RandomAnimation()
     {
-        animatie = Random.Range(1, 8);
+        animatie = Random.Range(1, 6);
         if (animatie == 1)
         {
-            Debug.Log("Atc row 1");
-            anim.SetTrigger("AttackRow1");
-            StartCoroutine(Dodge(timeWaitBlockR, blockRIndicator, blockR));
+            Debug.Log("1");
+            if (!turn)
+            {
+                Debug.Log("Atc row 1");
+                anim.SetTrigger("AttackRow1");
+                StartCoroutine(Dodge(timeWaitBlockR, blockRIndicator, blockR));
+            }
+            if (turn)
+            {
+                Debug.Log("Atc hor L");
+                anim.SetTrigger("AttackHorizontalL");
+                StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
+            }
         }
         if (animatie == 2)
         {
-            Debug.Log("Atc row 2");
-            anim.SetTrigger("AttackRow2");
-            StartCoroutine(Dodge(timeWaitBlockM, blockMIndicator, blockM));
+            Debug.Log("2");
+            if (!turn)
+            {
+                Debug.Log("Atc row 2");
+                anim.SetTrigger("AttackRow2");
+                StartCoroutine(Dodge(timeWaitBlockM, blockMIndicator, blockM));
+            }
+            if (turn)
+            {
+                Debug.Log("Atc hor R");
+                anim.SetTrigger("AttackHorizontalR");
+                StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
+            }
         }
         if (animatie == 3)
         {
-            Debug.Log("Atc row 3");
-            anim.SetTrigger("AttackRow3");
-            StartCoroutine(Dodge(timeWaitBlockL, blockLIndicator, blockL));
+            Debug.Log("3");
+            if (!turn)
+            {
+                Debug.Log("Atc row 3");
+                anim.SetTrigger("AttackRow3");
+                StartCoroutine(Dodge(timeWaitBlockL, blockLIndicator, blockL));
+            }
         }
         if (animatie == 4)
         {
-            Debug.Log("Charge");
-
-            anim.SetTrigger("Charge");
-            StartCoroutine(Charge(timeWaitCharge));
-            animatieHit.inAnimatieCharge = true;
+            Debug.Log("4");
+            if (turn)
+            {
+                Debug.Log("Charge");
+                anim.SetTrigger("Charge");
+                StartCoroutine(Charge(timeWaitCharge));
+                animatieHit.inAnimatieCharge = true;
+            }
+            if (!turn)
+            {
+                isSwimming = true;
+                Debug.Log("Leaving");
+                anim.SetTrigger("Leave");
+                animatieHit.inAnimatieLeave = true;
+                monsterEscape.isEscaping = true;
+            }
         }
         if (animatie == 5)
         {
-            isSwimming = true;
-            Debug.Log("Leaving");
-            anim.SetTrigger("Leave");
-            animatieHit.inAnimatieLeave = true;
-            monsterEscape.isEscaping = true;
-        }
-        if (animatie == 6)
-        {
-            Debug.Log("Atc hor L");
-            anim.SetTrigger("AttackHorizontalL");
-            StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
-        }
-        if (animatie == 7)
-        {
-            Debug.Log("Atc hor R");
-            anim.SetTrigger("AttackHorizontalR");
-            StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
+            Debug.Log("5");
+            if (turn)
+            {
+                turn = false;
+                anim.SetBool("Turn", turn);
+            }
+            if (!turn)
+            {
+                turn = true;
+                anim.SetBool("Turn", turn);
+            }
         }
     }
     void Update()
