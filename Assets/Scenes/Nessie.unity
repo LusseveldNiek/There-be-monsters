@@ -4200,9 +4200,9 @@ MonoBehaviour:
   hit: {fileID: 676505841586968903}
   trophy: {fileID: 0}
   hitByBomb: 0
-  bombTimesDamage: 0
-  bombDuration: 0
-  normalMaterial: {fileID: 0}
+  bombTimesDamage: 3
+  bombDuration: 2
+  normalMaterial: {fileID: 2100000, guid: 1d84219a285677540a3de7515d4be5c2, type: 2}
 --- !u!1 &973575124
 GameObject:
   m_ObjectHideFlags: 0
@@ -9791,6 +9791,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: hp
+      value: 
+      objectReference: {fileID: 962099477}
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 676505841586968900}
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: animatieHit
+      value: 
+      objectReference: {fileID: 676505841586968903}
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: monsterEscape
+      value: 
+      objectReference: {fileID: 962099476}
     - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: normalMaterial
       value: 

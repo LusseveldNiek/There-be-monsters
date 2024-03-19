@@ -30,22 +30,15 @@ public class NessieAnimations : MonoBehaviour
     public GameObject buck;
     public GameObject bigBlock;
 
-    public AnimationHitNessie animatieHit;
+    public AnimatieHit animatieHit;
     public MonsterEscape monsterEscape;
-    public MonsterHealthNessie hp;
+    public MonsterTestHP hp;
     public bool dood;
     public bool monsterDood;
     public bool chargeHit;
     public bool passive;
     public Material normalMaterial;
 
-    void Start()
-    {
-        anim = gameObject.GetComponent<Animator>();
-        animatieHit = GetComponent<AnimationHitNessie>();
-        monsterEscape = GetComponent<MonsterEscape>();
-        hp = GetComponent<MonsterHealthNessie>();
-    }
     IEnumerator WaitForSpawn()
     {
         isPlaying = true;
@@ -112,7 +105,7 @@ public class NessieAnimations : MonoBehaviour
             }
             if (!turn)
             {
-                isSwimming = true;
+                animatieHit.isSwimming = true;
                 Debug.Log("Leaving");
                 anim.SetTrigger("Leave");
                 animatieHit.inAnimatieLeave = true;
@@ -138,6 +131,13 @@ public class NessieAnimations : MonoBehaviour
     }
     void Update()
     {
+        //animation script kijkt van de animatieScript af, zodat er geen 2 verschillende animatieHit scripts hoeven te zijn
+        isPlaying = animatieHit.isPlaying;
+        isSwimming = animatieHit.isSwimming;
+        chargeHit = animatieHit.isChargeHit;
+
+        monsterDood = hp.monsterDood;
+
         if (!isSwimming && !passive && !frozen)
         {
             if (isPlaying)
@@ -153,7 +153,7 @@ public class NessieAnimations : MonoBehaviour
         if (passive)
         {
             StopAllCoroutines();
-            isPlaying = false;
+            animatieHit.isPlaying = false;
         }
         if (frozen)
         {
@@ -194,7 +194,7 @@ public class NessieAnimations : MonoBehaviour
         }
         else
         {
-            chargeHit = false;
+            animatieHit.isChargeHit = false;
         }
         isPlaying = false;
     }
