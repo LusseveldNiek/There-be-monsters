@@ -2546,6 +2546,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 685984881}
+    - target: {fileID: 4436766348617065310, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: isSwimming
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4489759140041083745, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: controller
       value: 
@@ -2592,7 +2596,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: monsterHealth
@@ -2609,6 +2613,22 @@ PrefabInstance:
     - target: {fileID: 7214324074137742754, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278978275484907079, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 685984881}
+    - target: {fileID: 7278978275484907079, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: distance
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278978275484907079, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: swimSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7278978275484907079, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: timeBtwnStrokes
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7354453827584151739, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_IsActive
@@ -7167,7 +7187,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 685984878}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888946305}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1935adf4c8f653740a6e26afc0ad3cba, type: 3}
   m_Name: 

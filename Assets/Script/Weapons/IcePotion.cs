@@ -24,6 +24,7 @@ public class IcePotion : MonoBehaviour
             print("hit");
             krakenAnimations.frozen = true;
             icePotionMonster.frozen = true;
+            icePotionMonster.freezeMaterial.SetFloat("_Dissolve", 0);
             iceSpawner.spawnNew = true;
             Destroy(gameObject);
         }

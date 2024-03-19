@@ -14,19 +14,19 @@ public class IcePotionMonster : MonoBehaviour
     public Material freezeMaterial;
     void Update()
     {
-        freezeMaterial.SetFloat("Dissolve", 0);
-        freezeMaterial.SetInt("Dissolve", 0);
 
         if (frozen)
         {
             freezeTime += Time.deltaTime;
             Debug.Log("aftellen");
+
+            freezeMaterial.SetFloat("_Dissolve", freezeValue);
             if (freezeTime > freezeDuration)
             {
                 freezeValue += defrostSpeed * Time.deltaTime;
                 if(freezeValue > 1)
                 {
-                    freezeValue = 0;
+                    freezeValue = 1;
                     freezeTime = 0;
                     frozen = false;
                     Debug.Log("unfreeze");
