@@ -132,7 +132,6 @@ public class NessieAnimations : MonoBehaviour
     void Update()
     {
         //animation script kijkt van de animatieScript af, zodat er geen 2 verschillende animatieHit scripts hoeven te zijn
-        isPlaying = animatieHit.isPlaying;
         isSwimming = animatieHit.isSwimming;
         chargeHit = animatieHit.isChargeHit;
 

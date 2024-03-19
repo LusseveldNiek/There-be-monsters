@@ -924,6 +924,10 @@ PrefabInstance:
       propertyPath: timeWaitBlockRDone
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1486613825472716945, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: d39937fa755ce1840a0fc893cc0e99a9, type: 2}
     - target: {fileID: 2152987611069492169, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
       propertyPath: normalMaterial
       value: 
@@ -978,17 +982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7577712641485368189 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2152987611069492169, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-  m_PrefabInstance: {fileID: 8415402157739983028}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8172046360321152866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83bae5efb57c7fe4d8a6b06792636467, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8172046360321152866 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 405732379010963414, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
@@ -1008,11 +1001,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   isHit: 0
+  activeHit: 0
   isHitTime: 0.5
   inAnimatieCharge: 0
   inAnimatieLeave: 0
-  animations: {fileID: 0}
   monster: {fileID: 0}
+  isSwimming: 0
+  isPlaying: 0
+  isChargeHit: 0
 --- !u!114 &7278978275484907079
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1256,7 +1252,7 @@ PrefabInstance:
     - target: {fileID: 8493807506229569485, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
       propertyPath: monsterHealth
       value: 
-      objectReference: {fileID: 7577712641485368189}
+      objectReference: {fileID: 0}
     - target: {fileID: 8643371513611253136, guid: 96bfd99295f450944bcf67ca51f85324, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.568
