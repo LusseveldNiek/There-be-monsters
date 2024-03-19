@@ -9791,6 +9791,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1011473164208851194, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: monsterHealth
+      value: 
+      objectReference: {fileID: 962099477}
     - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: hp
       value: 

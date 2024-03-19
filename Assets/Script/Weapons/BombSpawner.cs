@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BombSpawner : MonoBehaviour
 {
-    public MonsterHealth monsterHealth;
+    public MonsterTestHP monsterHealth;
 
     public Transform ship;
     public Transform spawnPosition;
