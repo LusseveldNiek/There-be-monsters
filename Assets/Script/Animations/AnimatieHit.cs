@@ -6,39 +6,35 @@ public class AnimatieHit : MonoBehaviour
 {
     public Animator animator;
     public bool isHit;
-    private bool activeHit;
+    public bool activeHit;
     public float isHitTime = 0.5f;
     private float timer;
     public bool inAnimatieCharge;
     public bool inAnimatieLeave;
 
-    public KrakenAnimations animations;
     public MonsterEscape monster;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        animator = GetComponent<Animator>();
-        animations = GetComponent<KrakenAnimations>();
-        monster = GetComponent<MonsterEscape>();
-    }
 
-    // Update is called once per frame
+    public bool isSwimming;
+    public bool isPlaying;
+    public bool isChargeHit;
+
+    
     void Update()
     {
         if (inAnimatieLeave && activeHit)
         {
             animator.SetTrigger("Hurt");
             inAnimatieLeave = false;
-            animations.isSwimming = false;
-            animations.isPlaying = false;
+            isSwimming = true;
+            isPlaying = true;
             monster.isEscaping = false;
         }
         if (inAnimatieCharge && activeHit)
         {
             animator.SetTrigger("Hurt");
             inAnimatieCharge = false;
-            animations.chargeHit = true;
+            isChargeHit = true;
         }
         if (isHit)
         {

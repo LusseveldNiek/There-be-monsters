@@ -4,12 +4,11 @@ using TMPro;
 public class MonsterUI : MonoBehaviour
 {
     public TextMeshProUGUI monsterText;
-    public MonsterHealth monster;
-    public int health;
-    public int maxHealth;
+    public MonsterTestHP monster;
+    private int health;
+    private int maxHealth;
     void Start()
     {
-        monster = GetComponent<MonsterHealth>();
         health = monster.health;
         maxHealth = monster.maxHealth;
         UpdateMonsterUI();

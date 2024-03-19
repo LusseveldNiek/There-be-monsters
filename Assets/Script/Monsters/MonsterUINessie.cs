@@ -4,12 +4,11 @@ using UnityEngine;
 public class MonsterUINessie : MonoBehaviour
 {
     public TextMeshProUGUI monsterText;
-    public MonsterHealthNessie monster;
+    public MonsterTestHP monster;
     public int health;
     public int maxHealth;
     void Start()
     {
-        monster = GetComponent<MonsterHealthNessie>();
         health = monster.health;
         maxHealth = monster.maxHealth;
         UpdateMonsterUI();

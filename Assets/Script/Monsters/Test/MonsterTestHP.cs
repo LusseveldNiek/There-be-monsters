@@ -9,12 +9,12 @@ public class MonsterTestHP : MonoBehaviour
     public int health = 200;
     public int maxHealth = 200;
     public int DMGMultiplier = 3;
+    public bool monsterDood;
 
     public WinSpawner win;
     public GameObject controller;
 
     public AnimatieHit hit;
-    public KrakenAnimations animations;
     public TrophyManager trophy;
 
 
@@ -40,7 +40,7 @@ public class MonsterTestHP : MonoBehaviour
         if (health <= 0)
         {
             win.dood = true;
-            animations.monsterDood = true;
+            monsterDood = true;
             trophy.krakenVerslagen = true;
             animator.SetBool("Death", true);
         }

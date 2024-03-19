@@ -2538,6 +2538,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4436766348617065310, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 685984881}
     - target: {fileID: 4489759140041083745, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: controller
       value: 
@@ -2575,6 +2579,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 685984881}
+    - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: frozen
       value: 0
       objectReference: {fileID: 0}
@@ -2582,6 +2590,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: monsterHealth
+      value: 
+      objectReference: {fileID: 1888946320}
     - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: freezeDuration
       value: 3
@@ -2690,7 +2702,8 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7577712641485368189, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8674656105019031549, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
@@ -2705,7 +2718,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 8172046360321152866, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1888946313}
+      addedObject: {fileID: 1888946320}
     - targetCorrespondingSourceObject: {fileID: 4461873788418424709, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1479989209}
@@ -2713,6 +2726,22 @@ PrefabInstance:
 --- !u!4 &685984879 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8674656105019031549, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &685984880 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8022021213791239605, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888946305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da8cefd81af30e4419a4d153ad69e012, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &685984881 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6946803289167601701, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
   m_PrefabInstance: {fileID: 685984878}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &703224910
@@ -7124,31 +7153,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8172046360321152866, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
   m_PrefabInstance: {fileID: 685984878}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1888946313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1888946305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f41e0cf4ce2343e48957b241f6e5bc9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  startPosition: 30
-  currentPosition: 0
-  endPosition: 75
-  distance: 0
-  swims: 9
-  timeBtwnStrokes: 1.275
-  strokeTime: 0
-  speed: 1
-  escaping: 0
-  isSwimming: 0
-  hit: 0
-  startTime: 0
 --- !u!114 &1888946316 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
@@ -7171,6 +7175,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23b37972839be244896a294aa5f4c7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1888946320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888946305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1867f5213b2b8cf4880527a2bb67a88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monster: {fileID: 685984880}
+  health: 200
+  maxHealth: 200
+  DMGMultiplier: 3
+  monsterDood: 0
+  win: {fileID: 915709956}
+  controller: {fileID: 915709951}
+  hit: {fileID: 1888946319}
+  trophy: {fileID: 0}
+  hitByBomb: 0
+  bombTimesDamage: 1
+  bombDuration: 2
+  normalMaterial: {fileID: 2100000, guid: f62ab13d8e6b25a4eb6cb4b749ccf4cb, type: 2}
 --- !u!1 &1901681869
 GameObject:
   m_ObjectHideFlags: 0

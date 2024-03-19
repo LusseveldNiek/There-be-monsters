@@ -3,14 +3,16 @@ using UnityEngine;
 
 public class KrakenAnimations : MonoBehaviour
 {
-    public Animator anim;
     public bool isPlaying;
     public bool isSwimming;
+    public bool chargeHit;
+
     public bool frozen;
     private int animatie;
     public float minTime;
     public float maxTime;
 
+    //dodge timers
     public float timeWaitBlockR;
     public float timeWaitBlockRDone;
     public float timeWaitBlockM;
@@ -18,6 +20,7 @@ public class KrakenAnimations : MonoBehaviour
     public float timeWaitBuck;
     public float timeWaitCharge;
 
+    //dodge prefabs
     public GameObject blockRIndicator;
     public GameObject blockMIndicator;
     public GameObject blockLIndicator;
@@ -28,22 +31,17 @@ public class KrakenAnimations : MonoBehaviour
     public GameObject buck;
     public GameObject bigBlock;
 
+    //scripts
     public AnimatieHit animatieHit;
     public MonsterEscape monsterEscape;
-    public MonsterHealth hp;
+    public MonsterTestHP monsterHealth;
+    public Animator anim;
+
     public bool dood;
     public bool monsterDood;
-    public bool chargeHit;
     public bool passive;
     public Material normalMaterial;
 
-    void Start()
-    {
-        anim = gameObject.GetComponent<Animator>();
-        animatieHit = GetComponent<AnimatieHit>();
-        monsterEscape = GetComponent<MonsterEscape>();
-        hp = GetComponent<MonsterHealth>();
-    }
     IEnumerator WaitForSpawn()
     {
         isPlaying = true;
@@ -84,7 +82,7 @@ public class KrakenAnimations : MonoBehaviour
         }
         if (animatie == 5)
         {
-            isSwimming = true;
+            animatieHit.isSwimming = true;
             Debug.Log("Leaving");
             anim.SetTrigger("Leave");
             animatieHit.inAnimatieLeave = true;
@@ -103,8 +101,16 @@ public class KrakenAnimations : MonoBehaviour
             StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
         }
     }
+
     void Update()
     {
+        //animation script kijkt van de animatieScript af, zodat er geen 2 verschillende animatieHit scripts hoeven te zijn
+        isPlaying = animatieHit.isPlaying;
+        isSwimming = animatieHit.isSwimming;
+        chargeHit = animatieHit.isChargeHit;
+
+        monsterDood = monsterHealth.monsterDood;
+
         if (!isSwimming && !passive && !frozen)
         {
             if (isPlaying)
@@ -120,7 +126,7 @@ public class KrakenAnimations : MonoBehaviour
         if (passive)
         {
             StopAllCoroutines();
-            isPlaying = false;
+            animatieHit.isPlaying = false;
         }
         if (frozen)
         {
@@ -150,7 +156,7 @@ public class KrakenAnimations : MonoBehaviour
         }
         else
         {
-            chargeHit = false;
+            animatieHit.isChargeHit = false;
         }
         isPlaying = false;
     }
