@@ -9339,63 +9339,19 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 385571347833352674, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - target: {fileID: 3475664151885014260, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
-    - target: {fileID: 723697041461167205, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
+    - target: {fileID: 4761564186491470343, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 150
       objectReference: {fileID: 0}
-    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: maxTime
-      value: 10
+    - target: {fileID: 4761564186491470343, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 120
       objectReference: {fileID: 0}
-    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: minTime
-      value: 7.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: timeWaitBuck
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: freezeDuration
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: timeWaitBlockL
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: timeWaitBlockM
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: timeWaitBlockR
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: timeWaitCharge
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: timeWaitBlockRDone
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4731417092626933888, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623283862865953240, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: controller
-      value: 
-      objectReference: {fileID: 1037630284}
-    - target: {fileID: 6093586814332013693, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
-      propertyPath: controller
-      value: 
-      objectReference: {fileID: 1037630284}
-    - target: {fileID: 7153591746872559149, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+    - target: {fileID: 6860765260976964719, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}

@@ -30,9 +30,9 @@ public class NessieAnimations : MonoBehaviour
     public GameObject buck;
     public GameObject bigBlock;
 
-    public AnimatieHit animatieHit;
+    public AnimationHitNessie animatieHit;
     public MonsterEscape monsterEscape;
-    public MonsterHealth hp;
+    public MonsterHealthNessie hp;
     public bool dood;
     public bool monsterDood;
     public bool chargeHit;
@@ -42,9 +42,9 @@ public class NessieAnimations : MonoBehaviour
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
-        animatieHit = GetComponent<AnimatieHit>();
+        animatieHit = GetComponent<AnimationHitNessie>();
         monsterEscape = GetComponent<MonsterEscape>();
-        hp = GetComponent<MonsterHealth>();
+        hp = GetComponent<MonsterHealthNessie>();
     }
     IEnumerator WaitForSpawn()
     {
