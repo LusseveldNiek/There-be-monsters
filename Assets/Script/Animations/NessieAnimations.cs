@@ -15,7 +15,6 @@ public class NessieAnimations : MonoBehaviour
     public bool turn;
 
     public float timeWaitBlockR;
-    public float timeWaitBlockRDone;
     public float timeWaitBlockM;
     public float timeWaitBlockL;
     public float timeWaitBuck;
@@ -127,11 +126,13 @@ public class NessieAnimations : MonoBehaviour
             {
                 turn = false;
                 anim.SetBool("Turn", turn);
+                StartCoroutine(WaitForSpawn());
             }
             if (!turn)
             {
                 turn = true;
                 anim.SetBool("Turn", turn);
+                StartCoroutine(WaitForSpawn());
             }
         }
     }

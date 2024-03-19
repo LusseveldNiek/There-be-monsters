@@ -30,7 +30,8 @@ public class LightningSpawn : MonoBehaviour
                 Random.Range(-spawnArea.z, spawnArea.z)
             );
 
-            Instantiate(prefabToSpawn, randomPosition, Quaternion.identity);
+            GameObject lightning = Instantiate(prefabToSpawn, randomPosition, Quaternion.identity, gameObject.transform);
+            Destroy(lightning, 5);
         }
     }
 }
