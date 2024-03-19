@@ -1,6 +1,8 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterHealth : MonoBehaviour
+public class MonsterTestHP : MonoBehaviour
 {
     Animator animator;
     public MonsterUI monster;
@@ -17,7 +19,7 @@ public class MonsterHealth : MonoBehaviour
 
 
     [Header("Bomb")]
-    
+
     //if hit by bomb
     public bool hitByBomb;
     //amount of damage
@@ -56,7 +58,7 @@ public class MonsterHealth : MonoBehaviour
     }
     public void NormalDamage(int Damage)
     {
-        if(hitByBomb)
+        if (hitByBomb)
         {
             Damage *= bombTimesDamage;
         }

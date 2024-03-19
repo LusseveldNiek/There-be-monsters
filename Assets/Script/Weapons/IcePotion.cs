@@ -22,7 +22,6 @@ public class IcePotion : MonoBehaviour
         if(collision.gameObject.tag == "Monster")
         {
             print("hit");
-            monster.GetComponent<SkinnedMeshRenderer>().materials[0].SetFloat("Dissolve", 0);
             krakenAnimations.frozen = true;
             icePotionMonster.frozen = true;
             iceSpawner.spawnNew = true;

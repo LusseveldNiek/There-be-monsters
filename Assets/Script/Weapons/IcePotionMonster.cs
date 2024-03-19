@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor.Rendering;
 
 public class IcePotionMonster : MonoBehaviour
 {
@@ -10,11 +11,11 @@ public class IcePotionMonster : MonoBehaviour
 
     private float freezeValue;
     public float defrostSpeed;
+    public Material freezeMaterial;
     void Update()
     {
-        GetComponent<SkinnedMeshRenderer>().materials[0].SetFloat("Dissolve", freezeValue);
-        GetComponent<SkinnedMeshRenderer>().materials[1].SetFloat("Dissolve", freezeValue);
-
+        freezeMaterial.SetFloat("Dissolve", 0);
+        freezeMaterial.SetInt("Dissolve", 0);
 
         if (frozen)
         {
@@ -22,7 +23,6 @@ public class IcePotionMonster : MonoBehaviour
             Debug.Log("aftellen");
             if (freezeTime > freezeDuration)
             {
-                GetComponent<SkinnedMeshRenderer>().materials[0].SetFloat("Dissolve", freezeValue);
                 freezeValue += defrostSpeed * Time.deltaTime;
                 if(freezeValue > 1)
                 {
