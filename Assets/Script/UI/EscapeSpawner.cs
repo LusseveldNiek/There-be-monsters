@@ -8,6 +8,8 @@ public class EscapeSpawner : MonoBehaviour
     public bool escaped;
     public int spawns;
     public bool gespawnd;
+
+    public GameObject[] playerHandRays;
     private void Start()
     {
         gameOver.SetActive(false);
@@ -29,6 +31,12 @@ public class EscapeSpawner : MonoBehaviour
 
             gameOver.transform.position = head.transform.position + new Vector3(head.transform.forward.x, 0, head.transform.forward.z).normalized * spawnDistance;
             spawns = 1;
+
+            //enable player raycasts to interact with UI
+            for (int i = 0; i < playerHandRays.Length; i++)
+            {
+                playerHandRays[i].SetActive(true);
+            }
         }
         gameOver.transform.LookAt(new Vector3(head.transform.position.x, gameOver.transform.position.y, head.transform.position.z));
         gameOver.transform.forward *= -1;

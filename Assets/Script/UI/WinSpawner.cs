@@ -8,6 +8,8 @@ public class WinSpawner : MonoBehaviour
     public bool dood;
     public int spawns;
     public bool gespawnd;
+
+    public GameObject[] playerHandRays;
     private void Start()
     {
         winScreen.SetActive(false);
@@ -29,6 +31,12 @@ public class WinSpawner : MonoBehaviour
 
             winScreen.transform.position = head.transform.position + new Vector3(head.transform.forward.x, 0, head.transform.forward.z).normalized * spawnDistance;
             spawns = 1;
+
+            //enable player raycasts to interact with UI
+            for (int i = 0; i < playerHandRays.Length; i++)
+            {
+                playerHandRays[i].SetActive(true);
+            }
         }
         winScreen.transform.LookAt(new Vector3(head.transform.position.x, winScreen.transform.position.y, head.transform.position.z));
         winScreen.transform.forward *= -1;

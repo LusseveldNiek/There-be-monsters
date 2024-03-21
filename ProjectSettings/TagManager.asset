@@ -11,6 +11,7 @@ TagManager:
   - Water
   - LeftHand
   - RightHand
+  - Harpoen
   layers:
   - Default
   - TransparentFX
