@@ -7,6 +7,14 @@ public class GrabSound : MonoBehaviour
 {
     public XRGrabInteractable grabInteractable;
     public AudioSource grabSoundEffect;
+
+    [System.Obsolete]
+
+    private void Start()
+    {
+        grabInteractable.onSelectEntered.AddListener(OnGrabbed);
+    }
+
     private void OnGrabbed(XRBaseInteractor interactor)
     {
         Debug.Log("Object grabbed!");
