@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Maurits/Maurits.unity
     guid: c662ffe87cc0adf45928fc59e615262e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 482200d98596da3468a5dc32e00f3037
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Nessie.unity
     guid: 830c4f21d9682cb429c900649d64dfb4
   - enabled: 1

@@ -7603,6 +7603,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7759591446108631824, guid: 8b7b3c82d51445e4ea64a5f43d9dca01, type: 3}
+      propertyPath: m_text
+      value: Loch ness
+      objectReference: {fileID: 0}
     - target: {fileID: 8061040193934811913, guid: 8b7b3c82d51445e4ea64a5f43d9dca01, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
