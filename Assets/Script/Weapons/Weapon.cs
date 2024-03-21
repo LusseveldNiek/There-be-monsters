@@ -3,18 +3,19 @@ using UnityEngine;
 public class Weapon : MonoBehaviour
 {
 
-    [SerializeField] MonsterHealth monsterHit;
+    [SerializeField] MonsterTestHP monsterHit;
     public Transform harpoenSpawnpiont;
     public GameObject harpoen;
     public Rigidbody RbHarpoen;
     public GameObject doos;
     public int damage = 5;
     public int destroyTime = 10;
+    public GameObject soundGameObject;
 
 
     private void Start()
     {
-        monsterHit = FindObjectOfType<MonsterHealth>();
+        monsterHit = FindObjectOfType<MonsterTestHP>();
         //harpoenSpawnpiont = FindAnyObjectByType<>
         RbHarpoen.constraints = RigidbodyConstraints.None;
         RbHarpoen.useGravity = true;
@@ -27,6 +28,8 @@ public class Weapon : MonoBehaviour
             monsterHit.NormalDamage(damage);
             HarpoonHit();
             transform.parent = collision.gameObject.transform;
+
+            GameObject soundPrefab = Instantiate(soundGameObject, transform.position, Quaternion.identity);
         }
         if (collision.transform.tag == "Crit")
         {

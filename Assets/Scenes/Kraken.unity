@@ -2609,7 +2609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7206850239275684240, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: monsterHealth
@@ -2643,6 +2643,10 @@ PrefabInstance:
       propertyPath: timeBtwnStrokes
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7349201807163454051, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: soundGameObject
+      value: 
+      objectReference: {fileID: 8170768388864052409, guid: f941242a7dca55b4e9e94bb1157f1bc2, type: 3}
     - target: {fileID: 7354453827584151739, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -7350,7 +7354,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 685984878}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1888946305}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1935adf4c8f653740a6e26afc0ad3cba, type: 3}
   m_Name: 
