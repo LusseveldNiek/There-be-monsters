@@ -2856,7 +2856,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 7f94e85d58fcc5140a6346419429e940, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a081f71bfddf4dd4fbcab01232d76625, type: 2}
+      objectReference: {fileID: 2100000, guid: b68687b8d150d2346935f09957123130, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f94e85d58fcc5140a6346419429e940, type: 3}
       propertyPath: m_Name
       value: WaterThereBeMonsters
