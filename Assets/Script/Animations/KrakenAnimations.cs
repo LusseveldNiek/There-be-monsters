@@ -47,7 +47,7 @@ public class KrakenAnimations : MonoBehaviour
 
     IEnumerator WaitForSpawn()
     {
-        isPlaying = true;
+        animatieHit.isPlaying = true;
         yield return new WaitForSeconds(Random.Range(minTime, maxTime));
         if (!dood && !monsterDood)
         {
@@ -166,6 +166,6 @@ public class KrakenAnimations : MonoBehaviour
         {
             animatieHit.isChargeHit = false;
         }
-        isPlaying = false;
+        animatieHit.isPlaying = false;
     }
 }
