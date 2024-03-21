@@ -4,6 +4,7 @@ public class Weapon : MonoBehaviour
 {
 
     [SerializeField] MonsterTestHP monsterHit;
+    private DamageMaterials damageMaterials;
     public Transform harpoenSpawnpiont;
     public GameObject harpoen;
     public Rigidbody RbHarpoen;
@@ -16,6 +17,8 @@ public class Weapon : MonoBehaviour
     private void Start()
     {
         monsterHit = FindObjectOfType<MonsterTestHP>();
+        damageMaterials = FindObjectOfType<DamageMaterials>();
+
         //harpoenSpawnpiont = FindAnyObjectByType<>
         RbHarpoen.constraints = RigidbodyConstraints.None;
         RbHarpoen.useGravity = true;
@@ -29,6 +32,7 @@ public class Weapon : MonoBehaviour
             HarpoonHit();
             transform.parent = collision.gameObject.transform;
 
+            damageMaterials.isHit = true;
             GameObject soundPrefab = Instantiate(soundGameObject, transform.position, Quaternion.identity);
         }
         if (collision.transform.tag == "Crit")
