@@ -8,6 +8,7 @@ public class IcePotion : MonoBehaviour
     public GameObject krakenScripts;
     public KrakenAnimations krakenAnimations;
     public IcePotionMonster icePotionMonster;
+    public GameObject soundPrefab;
 
 
     private void Start()
@@ -26,6 +27,7 @@ public class IcePotion : MonoBehaviour
             icePotionMonster.frozen = true;
             icePotionMonster.freezeMaterial.SetFloat("_Dissolve", 0);
             iceSpawner.spawnNew = true;
+            GameObject soundPrefabGameObject = Instantiate(soundPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
 
