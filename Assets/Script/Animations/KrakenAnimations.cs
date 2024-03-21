@@ -42,6 +42,9 @@ public class KrakenAnimations : MonoBehaviour
     public bool passive;
     public Material normalMaterial;
 
+    //sounds
+    public AudioSource[] whooshSounds;
+
     IEnumerator WaitForSpawn()
     {
         isPlaying = true;
@@ -100,6 +103,11 @@ public class KrakenAnimations : MonoBehaviour
             anim.SetTrigger("AttackHorizontalR");
             StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
         }
+
+        //sounds
+        int randomNumber = Random.Range(0, 4);
+        whooshSounds[randomNumber].Play();
+
     }
 
     void Update()
