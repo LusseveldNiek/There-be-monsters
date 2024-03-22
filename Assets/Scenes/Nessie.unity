@@ -1402,6 +1402,7 @@ MonoBehaviour:
   bootL: {fileID: 38845276}
   curIndex: 0
   reachedTargetDistance: 10
+  reachedTargetRotate: 1
   lands:
   - {fileID: 596299774}
   - {fileID: 1633391612}
@@ -1417,11 +1418,11 @@ MonoBehaviour:
   - {fileID: 1773628381}
   - {fileID: 1448560899}
   mapMovement: {x: -1, y: 0, z: 0}
-  start: 1
+  turning: 1
   travelSpeed: 10
   travelTime: 10
-  turnSpeed: 1000
-  turnTime: 1000
+  turnSpeed: 0.003
+  turnTime: 0.01
 --- !u!1 &305975463
 GameObject:
   m_ObjectHideFlags: 0
@@ -10193,6 +10194,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: escape
+      value: 
+      objectReference: {fileID: 1037630286}
+    - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 1037630284}
     - target: {fileID: 492347784237105284, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
@@ -10221,6 +10230,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 6161491503857362659, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6860765260976964719, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
@@ -10251,7 +10264,7 @@ PrefabInstance:
       objectReference: {fileID: 1037630284}
     - target: {fileID: 8674656105019031549, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -350
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8674656105019031549, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_LocalPosition.y
