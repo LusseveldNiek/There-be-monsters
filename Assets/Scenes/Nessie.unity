@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d9a12ffaaa5dd67418211def4dfaee9a, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.24941689, g: 0.33151603, b: 0.50729096, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2631,7 +2631,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7265262036179126852, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
   m_PrefabInstance: {fileID: 676505841586968899}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &491346322
+--- !u!114 &491346327
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2640,12 +2640,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 491346316}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6a812cf418b4444931cf7b39ae85ef, type: 3}
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 0}
+  gameOver: {fileID: 1037630287}
   controller: {fileID: 1037630284}
-  krakenAnimations: {fileID: 0}
+  nessieAnimations: {fileID: 676505841586968905}
   monster: {fileID: 1667633664}
 --- !u!1 &508182758
 GameObject:
@@ -4398,7 +4398,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7732746275395420027, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
   m_PrefabInstance: {fileID: 676505841586968899}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &963777104
+--- !u!114 &963777109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4407,12 +4407,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 963777098}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6a812cf418b4444931cf7b39ae85ef, type: 3}
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 0}
+  gameOver: {fileID: 1037630287}
   controller: {fileID: 1037630284}
-  krakenAnimations: {fileID: 0}
+  nessieAnimations: {fileID: 676505841586968905}
   monster: {fileID: 1667633664}
 --- !u!1 &973575124
 GameObject:
@@ -6058,7 +6058,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1659668083695418351, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
   m_PrefabInstance: {fileID: 676505841586968899}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1207811329
+--- !u!114 &1207811334
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6067,12 +6067,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1207811323}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6a812cf418b4444931cf7b39ae85ef, type: 3}
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 0}
+  gameOver: {fileID: 1037630287}
   controller: {fileID: 1037630284}
-  krakenAnimations: {fileID: 0}
+  nessieAnimations: {fileID: 676505841586968905}
   monster: {fileID: 1667633664}
 --- !u!1 &1211931290
 GameObject:
@@ -6362,7 +6362,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 516363426147422711, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
   m_PrefabInstance: {fileID: 676505841586968899}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1240239005
+--- !u!114 &1240239010
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6371,13 +6371,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1240238999}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6a812cf418b4444931cf7b39ae85ef, type: 3}
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 0}
+  gameOver: {fileID: 1037630287}
   controller: {fileID: 1037630284}
-  krakenAnimations: {fileID: 0}
-  monster: {fileID: 1667633664}
+  nessieAnimations: {fileID: 676505841586968905}
+  monster: {fileID: 0}
 --- !u!1 &1247225558
 GameObject:
   m_ObjectHideFlags: 0
@@ -6944,7 +6944,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3745006763873027173, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
   m_PrefabInstance: {fileID: 676505841586968899}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1470851370
+--- !u!114 &1470851375
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6953,12 +6953,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1470851364}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad6a812cf418b4444931cf7b39ae85ef, type: 3}
+  m_Script: {fileID: 11500000, guid: f80394ee843274b4e876949025eab970, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOver: {fileID: 0}
+  gameOver: {fileID: 1037630287}
   controller: {fileID: 1037630284}
-  krakenAnimations: {fileID: 0}
+  nessieAnimations: {fileID: 676505841586968905}
   monster: {fileID: 1667633664}
 --- !u!1 &1473578697
 GameObject:
@@ -10209,18 +10209,42 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1638514959393987770, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: win
+      value: 
+      objectReference: {fileID: 1037630285}
+    - target: {fileID: 1638514959393987770, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 1037630284}
     - target: {fileID: 1835924216808544588, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
     - target: {fileID: 1858252466724452757, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 1037630287}
+    - target: {fileID: 1858252466724452757, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 1858252466724452757, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: nessieAnimations
+      value: 
+      objectReference: {fileID: 676505841586968905}
+    - target: {fileID: 1869596489096993579, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 1037630287}
     - target: {fileID: 1869596489096993579, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 1869596489096993579, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: nessieAnimations
+      value: 
+      objectReference: {fileID: 676505841586968905}
     - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: turnTime
       value: 3
@@ -10233,30 +10257,66 @@ PrefabInstance:
       propertyPath: timeWaitCharge
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3779185778848328873, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4079190670291885750, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 1037630287}
     - target: {fileID: 4079190670291885750, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 4079190670291885750, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: nessieAnimations
+      value: 
+      objectReference: {fileID: 676505841586968905}
     - target: {fileID: 4444997947381569059, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
     - target: {fileID: 4665252533645154489, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 1037630287}
+    - target: {fileID: 4665252533645154489, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 4665252533645154489, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: nessieAnimations
+      value: 
+      objectReference: {fileID: 676505841586968905}
     - target: {fileID: 6161491503857362659, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6860765260976964719, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 1037630287}
+    - target: {fileID: 6860765260976964719, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 6860765260976964719, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: nessieAnimations
+      value: 
+      objectReference: {fileID: 676505841586968905}
     - target: {fileID: 7068719131664692644, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 7349201807163454051, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: monsterHit
+      value: 
+      objectReference: {fileID: 676505841586968900}
+    - target: {fileID: 7349201807163454051, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: soundGameObject
+      value: 
+      objectReference: {fileID: 8170768388864052409, guid: f941242a7dca55b4e9e94bb1157f1bc2, type: 3}
     - target: {fileID: 7360246749719825072, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
@@ -10274,9 +10334,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1037630284}
     - target: {fileID: 8551301295762934377, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: gameOver
+      value: 
+      objectReference: {fileID: 1037630287}
+    - target: {fileID: 8551301295762934377, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 8551301295762934377, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: nessieAnimations
+      value: 
+      objectReference: {fileID: 676505841586968905}
     - target: {fileID: 8674656105019031549, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -70
@@ -10338,25 +10406,47 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 1659668083695418351, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1207811329}
+      addedObject: {fileID: 1207811334}
     - targetCorrespondingSourceObject: {fileID: 3745006763873027173, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1470851370}
+      addedObject: {fileID: 1470851375}
     - targetCorrespondingSourceObject: {fileID: 516363426147422711, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1240239005}
+      addedObject: {fileID: 1240239010}
     - targetCorrespondingSourceObject: {fileID: 7732746275395420027, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 963777104}
+      addedObject: {fileID: 963777109}
     - targetCorrespondingSourceObject: {fileID: 7265262036179126852, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 491346322}
+      addedObject: {fileID: 491346327}
   m_SourcePrefab: {fileID: 100100000, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+--- !u!114 &676505841586968900 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1638514959393987770, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667633664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1867f5213b2b8cf4880527a2bb67a88e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!20 &676505841586968901 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 672690206865625478, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
   m_PrefabInstance: {fileID: 676505841586968899}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &676505841586968905 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1667633664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92f787241bbbf484688c19241c76b02d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &4613827953835560192
 PrefabInstance:
   m_ObjectHideFlags: 0
