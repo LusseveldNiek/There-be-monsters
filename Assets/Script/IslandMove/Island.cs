@@ -44,7 +44,7 @@ public class Island : MonoBehaviour
             // do turn
             lands[curIndex].rotation = Quaternion.Slerp(lands[curIndex].rotation, lookAts[curIndex].rotation, turnSpeed);
             // if turn == ready : Signal time.
-            float rotationBetweenTargets = Quaternion.Angle(lands[curIndex].rotation, lookAts[curIndex].rotation);
+            //float rotationBetweenTargets = Quaternion.Angle(lands[curIndex].rotation, lookAts[curIndex].rotation);
             //of
             bool rotationToTarget = Quaternion.ReferenceEquals(lands[curIndex].rotation, lookAts[curIndex].rotation);
             if (rotationToTarget)
@@ -68,15 +68,18 @@ public class Island : MonoBehaviour
             lands[curIndex].rotation = Quaternion.Slerp(lands[curIndex].rotation, lookAts[curIndex].rotation, turnSpeed);
             // if turn == ready : Signal time.
             Vector3 dirToLookAt = lookAts[curIndex].position - bootR.position;
-            AreRotationsAligned(lands[curIndex], lookAts[curIndex], reachedTargetRotate);
+
+            if (AreRotationsAligned(lands[curIndex], lookAts[curIndex], reachedTargetRotate)) 
+            {
+                print("rotatie gevonden");
+            }
 
         }
         if (!turning)
         {
-            lands[curIndex].Translate(Vector3.left * travelSpeed * Time.deltaTime);
+            //lands[curIndex].Translate(Vector3.left * travelSpeed * Time.deltaTime);
+            lands[curIndex].position = Vector3.Lerp(lands[curIndex].position, bootR.position, travelSpeed);
         }
-
-        //lands[curIndex].position = Vector3.Lerp(lands[curIndex].position, bootR.position, travelSpeed);
     }
     public void ResetRotation()
     {
