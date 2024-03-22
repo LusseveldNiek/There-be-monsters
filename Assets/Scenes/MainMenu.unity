@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.24941689, g: 0.33151603, b: 0.50729096, a: 1}
+  m_IndirectSpecularColor: {r: 0.24873863, g: 0.33308524, b: 0.50950694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &5251667
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8415227315608533118, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_Name
+      value: nessieThrophy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415227315608533118, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188244860739707588, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
 --- !u!1 &35318433
 GameObject:
   m_ObjectHideFlags: 0
@@ -1686,7 +1747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   krakenTrophy: {fileID: 0}
-  nessieTrophy: {fileID: 0}
+  nessieTrophy: {fileID: 1849632752}
   krakenVerslagen: 0
   krakenGespawnd: 0
   nessieVerslagen: 0
@@ -5587,6 +5648,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8575051091513773057, guid: 8b7b3c82d51445e4ea64a5f43d9dca01, type: 3}
   m_PrefabInstance: {fileID: 496141998142388446}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1849632752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8415227315608533118, guid: 9063bbc3c0a4f7e41900798ba198e701, type: 3}
+  m_PrefabInstance: {fileID: 5251667}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1903336408
 GameObject:
   m_ObjectHideFlags: 0
@@ -7927,6 +7993,7 @@ SceneRoots:
   - {fileID: 1590923675}
   - {fileID: 2026139455}
   - {fileID: 1068309977}
+  - {fileID: 5251667}
   - {fileID: 285133529}
-  - {fileID: 427277266}
   - {fileID: 320048182}
+  - {fileID: 427277266}

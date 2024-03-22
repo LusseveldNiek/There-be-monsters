@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class NessieAnimations : MonoBehaviour
 {
-    public Animator anim;
     public bool isPlaying;
     public bool isSwimming;
     public bool frozen;
+
     public float freezeDuration;
     private float freezeTime;
     private int animatie;
@@ -15,12 +15,14 @@ public class NessieAnimations : MonoBehaviour
     public float turnTime;
     public bool turn;
 
+    //dodge timers
     public float timeWaitBlockR;
     public float timeWaitBlockM;
     public float timeWaitBlockL;
     public float timeWaitBuck;
     public float timeWaitCharge;
 
+    //dodge prefabs
     public GameObject blockRIndicator;
     public GameObject blockMIndicator;
     public GameObject blockLIndicator;
@@ -31,9 +33,13 @@ public class NessieAnimations : MonoBehaviour
     public GameObject buck;
     public GameObject bigBlock;
 
+    //scripts
     public AnimatieHit animatieHit;
     public MonsterEscape monsterEscape;
     public MonsterTestHP hp;
+    public TrophyManager trophy;
+    public Animator anim;
+
     public bool dood;
     public bool monsterDood;
     public bool chargeHit;
@@ -130,7 +136,7 @@ public class NessieAnimations : MonoBehaviour
             {
                 Debug.Log("terug");
                 anim.SetBool("Turn", false);
-                StartCoroutine(WaitForSpawn());
+                StartCoroutine(WaitExtra());
                 turn = false;
                 return;
             }
@@ -138,7 +144,7 @@ public class NessieAnimations : MonoBehaviour
             {
                 Debug.Log("turn");
                 anim.SetBool("Turn", true);
-                StartCoroutine(WaitForSpawn());
+                StartCoroutine(WaitExtra());
                 turn = true;
                 return;
             }
@@ -185,6 +191,10 @@ public class NessieAnimations : MonoBehaviour
                 Debug.Log("unfreeze");
             }
         }
+        if (monsterDood)
+        {
+            trophy.nessieVerslagen = true;
+        }
     }
     IEnumerator Dodge(float time, GameObject blockIndicator, GameObject block)
     {
@@ -211,5 +221,9 @@ public class NessieAnimations : MonoBehaviour
             animatieHit.isChargeHit = false;
         }
         animatieHit.isPlaying = false;
+    }
+    private void Start()
+    {
+        trophy = FindAnyObjectByType<TrophyManager>();
     }
 }

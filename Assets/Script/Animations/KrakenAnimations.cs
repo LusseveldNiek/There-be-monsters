@@ -35,6 +35,7 @@ public class KrakenAnimations : MonoBehaviour
     public AnimatieHit animatieHit;
     public MonsterEscape monsterEscape;
     public MonsterTestHP monsterHealth;
+    public TrophyManager trophy;
     public Animator anim;
 
     public bool dood;
@@ -141,6 +142,10 @@ public class KrakenAnimations : MonoBehaviour
             StopAllCoroutines();
             frozen = false;
         }
+        if (monsterDood)
+        {
+            trophy.krakenVerslagen = true;
+        }
     }
     IEnumerator Dodge(float time,GameObject blockIndicator, GameObject block)
     {
@@ -167,5 +172,9 @@ public class KrakenAnimations : MonoBehaviour
             animatieHit.isChargeHit = false;
         }
         animatieHit.isPlaying = false;
+    }
+    private void Start()
+    {
+        trophy = FindAnyObjectByType<TrophyManager>();
     }
 }
