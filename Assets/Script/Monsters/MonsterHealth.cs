@@ -39,7 +39,6 @@ public class MonsterHealth : MonoBehaviour
         {
             win.dood = true;
             animations.monsterDood = true;
-            trophy.krakenVerslagen = true;
             animator.SetBool("Death", true);
         }
 
