@@ -27,7 +27,7 @@ public class AnimatieHit : MonoBehaviour
             animator.SetTrigger("Hurt");
             inAnimatieLeave = false;
             isSwimming = false;
-            isPlaying = true;
+            isPlaying = false;
             monster.isEscaping = false;
         }
         if (inAnimatieCharge && activeHit)

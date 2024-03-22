@@ -12,6 +12,7 @@ public class NessieAnimations : MonoBehaviour
     private int animatie;
     public float minTime;
     public float maxTime;
+    public float turnTime;
     public bool turn;
 
     public float timeWaitBlockR;
@@ -41,12 +42,17 @@ public class NessieAnimations : MonoBehaviour
 
     IEnumerator WaitForSpawn()
     {
-        isPlaying = true;
+        animatieHit.isPlaying = true;
         yield return new WaitForSeconds(Random.Range(minTime, maxTime));
         if (!dood && !monsterDood)
         {
             RandomAnimation();
         }
+    }    
+    IEnumerator WaitExtra()
+    {
+        yield return new WaitForSeconds(turnTime);
+        StartCoroutine(WaitForSpawn());
     }
     public void RandomAnimation()
     {
@@ -91,6 +97,11 @@ public class NessieAnimations : MonoBehaviour
                 Debug.Log("Atc row 3");
                 anim.SetTrigger("AttackRow3");
                 StartCoroutine(Dodge(timeWaitBlockL, blockLIndicator, blockL));
+            }            
+            if (turn)
+            {
+                Debug.Log("miss");
+                StartCoroutine(WaitForSpawn());
             }
         }
         if (animatie == 4)
@@ -117,21 +128,26 @@ public class NessieAnimations : MonoBehaviour
             Debug.Log("5");
             if (turn)
             {
-                turn = false;
-                anim.SetBool("Turn", turn);
+                Debug.Log("terug");
+                anim.SetBool("Turn", false);
                 StartCoroutine(WaitForSpawn());
+                turn = false;
+                return;
             }
             if (!turn)
             {
-                turn = true;
-                anim.SetBool("Turn", turn);
+                Debug.Log("turn");
+                anim.SetBool("Turn", true);
                 StartCoroutine(WaitForSpawn());
+                turn = true;
+                return;
             }
         }
     }
     void Update()
     {
         //animation script kijkt van de animatieScript af, zodat er geen 2 verschillende animatieHit scripts hoeven te zijn
+        isPlaying = animatieHit.isPlaying;
         isSwimming = animatieHit.isSwimming;
         chargeHit = animatieHit.isChargeHit;
 
@@ -141,7 +157,6 @@ public class NessieAnimations : MonoBehaviour
         {
             if (isPlaying)
             {
-                Debug.Log("return");
                 return;
             }
             else
@@ -180,7 +195,7 @@ public class NessieAnimations : MonoBehaviour
         block.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         block.SetActive(false);
-        isPlaying = false;
+        animatieHit.isPlaying = false;
     }
     IEnumerator Charge(float time)
     {
@@ -195,6 +210,6 @@ public class NessieAnimations : MonoBehaviour
         {
             animatieHit.isChargeHit = false;
         }
-        isPlaying = false;
+        animatieHit.isPlaying = false;
     }
 }
