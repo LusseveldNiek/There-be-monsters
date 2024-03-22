@@ -623,53 +623,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3264268486177749003}
     - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: maxTime
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
       propertyPath: bigBlock
       value: 
       objectReference: {fileID: 3789493201487207446}
     - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: animatieHit
-      value: 
-      objectReference: {fileID: 4436766348617065310}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: timeWaitBuck
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
       propertyPath: buckIndicator
       value: 
       objectReference: {fileID: 7354453827584151739}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: monsterEscape
-      value: 
-      objectReference: {fileID: 4489759140041083745}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: freezeDuration
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: normalMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: f62ab13d8e6b25a4eb6cb4b749ccf4cb, type: 2}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: timeWaitBlockL
-      value: 2.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: timeWaitBlockM
-      value: 2.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: timeWaitBlockR
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: timeWaitCharge
-      value: 2.5
-      objectReference: {fileID: 0}
     - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
       propertyPath: blockLIndicator
       value: 
@@ -682,117 +642,26 @@ PrefabInstance:
       propertyPath: blockRIndicator
       value: 
       objectReference: {fileID: 3070410345231518821}
-    - target: {fileID: 1209889087856742692, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: timeWaitBlockRDone
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1486613825472716945, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: d39937fa755ce1840a0fc893cc0e99a9, type: 2}
-    - target: {fileID: 2152987611069492169, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: normalMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: f62ab13d8e6b25a4eb6cb4b749ccf4cb, type: 2}
-    - target: {fileID: 2152987611069492169, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: bombTimesDamage
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5269846252571049777, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: m_Name
-      value: KrakenBody
-      objectReference: {fileID: 0}
-    - target: {fileID: 5370357333347240917, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5370357333347240917, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: beginEscapeSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5370357333347240917, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: escapeSpeedRemoval
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 6906033477501306848, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 672690206865625478}
-    - target: {fileID: 7265622962205943021, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f62ab13d8e6b25a4eb6cb4b749ccf4cb, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 405732379010963414, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4436766348617065310}
-    - targetCorrespondingSourceObject: {fileID: 405732379010963414, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7278978275484907079}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
 --- !u!114 &4489759140041083745 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5370357333347240917, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
   m_PrefabInstance: {fileID: 8415402157739983028}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8172046360321152866}
+  m_GameObject: {fileID: 0}
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f153e4949f70d544babb87cdbea16fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &8172046360321152866 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 405732379010963414, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}
-  m_PrefabInstance: {fileID: 8415402157739983028}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4436766348617065310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8172046360321152866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b37972839be244896a294aa5f4c7d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  isHit: 0
-  activeHit: 0
-  isHitTime: 0.5
-  inAnimatieCharge: 0
-  inAnimatieLeave: 0
-  monster: {fileID: 0}
-  isSwimming: 0
-  isPlaying: 0
-  isChargeHit: 0
---- !u!114 &7278978275484907079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8172046360321152866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f41e0cf4ce2343e48957b241f6e5bc9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  startPosition: 30
-  currentPosition: 0
-  endPosition: 75
-  distance: 0
-  timeBtwnStrokes: 1.275
-  escaping: 0
-  isSwimming: 0
-  hit: 0
-  startTime: 0
 --- !u!4 &8800913773231017432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1074851636811320684, guid: c205b0bd1cafc1d46bed05bb7b0ee0d6, type: 3}

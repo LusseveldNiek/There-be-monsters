@@ -1746,7 +1746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf3b31150609384aa488645013a1552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  krakenTrophy: {fileID: 0}
+  krakenTrophy: {fileID: 978875488}
   nessieTrophy: {fileID: 1849632752}
   krakenVerslagen: 0
   krakenGespawnd: 0
@@ -3381,6 +3381,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906525541}
   m_CullTransparentMesh: 1
+--- !u!1 &978875488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2038630346236731244, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+  m_PrefabInstance: {fileID: 5806184740002231730}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1004328228
 GameObject:
   m_ObjectHideFlags: 0
@@ -7980,6 +7985,67 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8822825958717347310, guid: 8b7b3c82d51445e4ea64a5f43d9dca01, type: 3}
   m_PrefabInstance: {fileID: 496141998142388446}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5806184740002231730
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1657742284914279894, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2038630346236731244, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_Name
+      value: Kraken Trophy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2038630346236731244, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0117cad4478faed4fbaa44726b0f8b9a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -7993,6 +8059,7 @@ SceneRoots:
   - {fileID: 1590923675}
   - {fileID: 2026139455}
   - {fileID: 1068309977}
+  - {fileID: 5806184740002231730}
   - {fileID: 5251667}
   - {fileID: 285133529}
   - {fileID: 320048182}
