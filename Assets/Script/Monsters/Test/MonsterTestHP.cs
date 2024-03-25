@@ -10,6 +10,7 @@ public class MonsterTestHP : MonoBehaviour
     public int maxHealth = 200;
     public int DMGMultiplier = 3;
     public bool monsterDood;
+    public bool doodAnimatie;
 
     public WinSpawner win;
     public GameObject controller;
@@ -41,7 +42,11 @@ public class MonsterTestHP : MonoBehaviour
         {
             win.dood = true;
             monsterDood = true;
-            animator.SetBool("Death", true);
+        }
+        if (monsterDood && !doodAnimatie)
+        {
+            doodAnimatie = true;
+            animator.SetTrigger("Death");
         }
 
         if (hitByBomb)

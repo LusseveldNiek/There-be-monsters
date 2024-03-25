@@ -7,6 +7,8 @@ public class MonsterHealth : MonoBehaviour
     public int health = 200;
     public int maxHealth = 200;
     public int DMGMultiplier = 3;
+    public bool dood;
+    public bool doodAnimatie;
 
     public WinSpawner win;
     public GameObject controller;
@@ -39,8 +41,14 @@ public class MonsterHealth : MonoBehaviour
         {
             win.dood = true;
             animations.monsterDood = true;
-            animator.SetBool("Death", true);
+            dood = true;
         }
+        if (dood && !doodAnimatie)
+        {
+            doodAnimatie = true;
+            animator.SetTrigger("Death");
+        }
+
 
         if (hitByBomb)
         {
