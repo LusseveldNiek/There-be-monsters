@@ -9,10 +9,6 @@ public class Bomb : MonoBehaviour
     public GameObject particle;
     public GameObject soundEffect;
 
-    private void Start()
-    {
-        monster = GameObject.Find("KrakenBody");
-    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Monster")

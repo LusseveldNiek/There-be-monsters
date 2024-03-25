@@ -2793,6 +2793,10 @@ PrefabInstance:
       value: 6.668
       objectReference: {fileID: 0}
     - target: {fileID: 1011473164208851194, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: meshRenderer
+      value: 
+      objectReference: {fileID: 1479989206}
+    - target: {fileID: 1011473164208851194, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: monsterHealth
       value: 
       objectReference: {fileID: 1888946320}

@@ -10680,6 +10680,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 1011473164208851194, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: meshRenderer
+      value: 
+      objectReference: {fileID: 676505841586968902}
     - target: {fileID: 1154460964281261695, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_TagString
       value: Monster
