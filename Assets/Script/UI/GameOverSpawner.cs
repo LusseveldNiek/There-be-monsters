@@ -1,7 +1,4 @@
 using UnityEngine;
-using UnityEngine.XR;
-using UnityEditor.XR.OpenXR.Features;
-using UnityEngine.XR.OpenXR;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class GameOverSpawner : MonoBehaviour
