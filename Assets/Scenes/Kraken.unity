@@ -2181,6 +2181,45 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586968858}
   m_CullTransparentMesh: 1
+--- !u!1 &600896456 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4484526774725802845, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &600896459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600896456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2e95cf6ebea4954ca587917e4142a44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthCode: {fileID: 0}
+  isHit: 0
+  isCriticalHit: 0
+  redMaterial: {fileID: 0}
+  whiteMaterial: {fileID: 0}
+  purpleMaterial: {fileID: 0}
+--- !u!114 &600896460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600896456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db38e37e1e9216145a1098681fea6c70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frozen: 0
+  freezeDuration: 3
+  defrostSpeed: 0.1
+  freezeMaterial: {fileID: 0}
 --- !u!1001 &612576099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2356,7 +2395,7 @@ PrefabInstance:
     - target: {fileID: 1011473164208851194, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: meshRenderer
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 600896456}
     - target: {fileID: 1426183126607798401, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_RootBone
       value: 
@@ -2885,6 +2924,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 915709951}
+    - target: {fileID: 3279361462425532871, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: animationObject
+      value: 
+      objectReference: {fileID: 600896456}
     - target: {fileID: 3355834296450081484, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_RootBone
       value: 
@@ -3978,7 +4021,13 @@ PrefabInstance:
     - {fileID: 7956366486095601785, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
     - {fileID: 7552495209374446092, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4484526774725802845, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 600896460}
+    - targetCorrespondingSourceObject: {fileID: 4484526774725802845, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 600896459}
   m_SourcePrefab: {fileID: 100100000, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
 --- !u!4 &685984879 stripped
 Transform:
