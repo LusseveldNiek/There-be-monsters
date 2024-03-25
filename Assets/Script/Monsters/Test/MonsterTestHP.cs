@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MonsterTestHP : MonoBehaviour
 {
-    Animator animator;
+    public Animator animator;
     public MonsterUI monster;
     public int health = 200;
     public int maxHealth = 200;

@@ -124,7 +124,6 @@ public class KrakenAnimations : MonoBehaviour
         {
             if (isPlaying)
             {
-                Debug.Log("return");
                 return;
             }
             else
