@@ -40,6 +40,9 @@ public class Weapon : MonoBehaviour
             monsterHit.CritHit(damage);
             HarpoonHit();
             transform.parent = collision.gameObject.transform;
+
+            damageMaterials.isCriticalHit = true;
+            GameObject soundPrefab = Instantiate(soundGameObject, transform.position, Quaternion.identity);
         }
         if (collision.transform.tag == "Water")
         {
