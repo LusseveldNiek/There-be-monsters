@@ -120,17 +120,6 @@ public class KrakenAnimations : MonoBehaviour
 
         monsterDood = monsterHealth.monsterDood;
 
-        if (!isSwimming && !passive && !frozen)
-        {
-            if (isPlaying)
-            {
-                return;
-            }
-            else
-            {
-                StartCoroutine(WaitForSpawn());
-            }
-        }
         if (passive)
         {
             StopAllCoroutines();
@@ -144,6 +133,17 @@ public class KrakenAnimations : MonoBehaviour
         if (monsterDood)
         {
             trophy.krakenVerslagen = true;
+        }
+        if (!isSwimming && !passive && !frozen)
+        {
+            if (isPlaying)
+            {
+                return;
+            }
+            else
+            {
+                StartCoroutine(WaitForSpawn());
+            }
         }
     }
     IEnumerator Dodge(float time,GameObject blockIndicator, GameObject block)

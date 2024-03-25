@@ -158,18 +158,6 @@ public class NessieAnimations : MonoBehaviour
         chargeHit = animatieHit.isChargeHit;
 
         monsterDood = hp.monsterDood;
-
-        if (!isSwimming && !passive && !frozen)
-        {
-            if (isPlaying)
-            {
-                return;
-            }
-            else
-            {
-                StartCoroutine(WaitForSpawn());
-            }
-        }
         if (passive)
         {
             StopAllCoroutines();
@@ -194,6 +182,18 @@ public class NessieAnimations : MonoBehaviour
         if (monsterDood)
         {
             trophy.nessieVerslagen = true;
+        }
+
+        if (!isSwimming && !passive && !frozen)
+        {
+            if (isPlaying)
+            {
+                return;
+            }
+            else
+            {
+                StartCoroutine(WaitForSpawn());
+            }
         }
     }
     IEnumerator Dodge(float time, GameObject blockIndicator, GameObject block)

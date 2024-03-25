@@ -41,7 +41,6 @@ public class MonsterTestHP : MonoBehaviour
         {
             win.dood = true;
             monsterDood = true;
-            trophy.krakenVerslagen = true;
             animator.SetBool("Death", true);
         }
 

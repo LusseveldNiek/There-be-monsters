@@ -29,5 +29,6 @@ public class TrothySpawner : MonoBehaviour
             nessieTrophy.SetActive(true);
             nessieGespwawnd = true;
         }
+        TrophyManager = FindAnyObjectByType<TrophyManager>();
     }
 }
