@@ -10898,6 +10898,10 @@ PrefabInstance:
       value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 3279361462425532871, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: monster
+      value: 
+      objectReference: {fileID: 1667633664}
+    - target: {fileID: 3279361462425532871, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: monsterEscape
       value: 
       objectReference: {fileID: 676505841586968908}

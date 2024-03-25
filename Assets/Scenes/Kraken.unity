@@ -2933,6 +2933,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 915709951}
     - target: {fileID: 3279361462425532871, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: monster
+      value: 
+      objectReference: {fileID: 1888946305}
+    - target: {fileID: 3279361462425532871, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: animationObject
       value: 
       objectReference: {fileID: 600896456}
@@ -3972,6 +3976,18 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 915709951}
+    - target: {fileID: 5413923591243571121, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5413923591243571121, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.498
+      objectReference: {fileID: 0}
+    - target: {fileID: 5413923591243571121, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.927
+      objectReference: {fileID: 0}
     - target: {fileID: 8263234447922841448, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: win
       value: 
