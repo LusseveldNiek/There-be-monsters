@@ -156,7 +156,7 @@ public class KrakenAnimations : MonoBehaviour
         block.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         block.SetActive(false);
-        isPlaying = false;
+        animatieHit.isPlaying = false;
     }
     IEnumerator Charge(float time)
     {
