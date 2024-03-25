@@ -5,25 +5,43 @@ public class IcePotion : MonoBehaviour
     public IceSpawner iceSpawner;
     public Material frozenMaterial;
     public GameObject monster;
-    public GameObject krakenScripts;
     public KrakenAnimations krakenAnimations;
+    public NessieAnimations nessieAnimations;
     public IcePotionMonster icePotionMonster;
     public GameObject soundPrefab;
+    public GameObject animationObject;
 
 
     private void Start()
     {
-        krakenScripts = GameObject.Find("Kraken");
-        krakenAnimations = krakenScripts.GetComponent<KrakenAnimations>();
-        icePotionMonster = krakenScripts.GetComponentInChildren<IcePotionMonster>();
-        monster = GameObject.Find("KrakenBody");
+        icePotionMonster = monster.GetComponentInChildren<IcePotionMonster>();
+
+        if(animationObject.GetComponent<KrakenAnimations>() != null)
+        {
+            krakenAnimations = animationObject.GetComponent<KrakenAnimations>();
+        }
+
+        else if(animationObject.GetComponent<NessieAnimations>() != null)
+        {
+            nessieAnimations = animationObject.GetComponent<NessieAnimations>();
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Monster")
         {
             print("hit");
-            krakenAnimations.frozen = true;
+
+            if(krakenAnimations != null)
+            {
+                krakenAnimations.frozen = true;
+            }
+
+            else if(krakenAnimations != null)
+            {
+                nessieAnimations.frozen = true;
+            }
+
             icePotionMonster.frozen = true;
             icePotionMonster.freezeMaterial.SetFloat("_Dissolve", 0);
             iceSpawner.spawnNew = true;

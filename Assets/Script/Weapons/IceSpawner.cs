@@ -7,7 +7,7 @@ public class IceSpawner : MonoBehaviour
     public Transform ship;
     public Transform spawnPosition;
     public GameObject icePotionGameObject;
-
+    public GameObject animationObject;
     public bool spawnNew;
 
     private void Start()
@@ -22,6 +22,7 @@ public class IceSpawner : MonoBehaviour
             GameObject icePotionPrefab = Instantiate(icePotionGameObject, spawnPosition.position, Quaternion.identity);
             icePotionPrefab.transform.parent = ship.transform;
             icePotionPrefab.GetComponent<IcePotion>().iceSpawner = GetComponent<IceSpawner>();
+            icePotionPrefab.GetComponent<IcePotion>().animationObject = animationObject;
             spawnNew = false;
         }
     }
