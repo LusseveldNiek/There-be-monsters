@@ -2823,6 +2823,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5028138299811864579, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
   m_PrefabInstance: {fileID: 676505841586968899}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &551288353 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6848136424884138221, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &557539431
 GameObject:
   m_ObjectHideFlags: 0
@@ -10639,6 +10644,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 203856199328374330, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 287513095215246602, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 304820891525342338, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: escape
       value: 
@@ -10651,9 +10668,21 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 612960018497211164, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 723697041461167205, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1010469662973605728, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154460964281261695, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 1244114349109613207, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_IsActive
@@ -10664,9 +10693,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1037630285}
     - target: {fileID: 1638514959393987770, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 551288353}
+    - target: {fileID: 1638514959393987770, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 1678466936540031731, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 1835924216808544588, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
@@ -10707,10 +10744,54 @@ PrefabInstance:
       propertyPath: timeWaitCharge
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2424044729991048006, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 2576672864544565587, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819883894894990337, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 2871707140577025885, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 3057633602275081004, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 3148083331938262706, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 3279361462425532871, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: monsterEscape
       value: 
       objectReference: {fileID: 676505841586968908}
+    - target: {fileID: 3291103870614489040, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 3452610737894164592, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564758219317978571, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 3680737577075159353, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 3706435147937399651, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 3779185778848328873, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -10727,10 +10808,38 @@ PrefabInstance:
       propertyPath: nessieAnimations
       value: 
       objectReference: {fileID: 676505841586968905}
+    - target: {fileID: 4201105233509791467, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 4289273492104283789, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 4293689820132858065, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 4309459290967117750, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 4361586731663244589, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 4406459819669823692, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 4444997947381569059, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 4567339230620390609, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 4665252533645154489, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: gameOver
       value: 
@@ -10743,6 +10852,54 @@ PrefabInstance:
       propertyPath: nessieAnimations
       value: 
       objectReference: {fileID: 676505841586968905}
+    - target: {fileID: 4731417092626933888, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4858223376054120504, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207287887976834116, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5273501040339418819, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5468979123341095265, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5534986561057308688, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5564535506358587205, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681585127011018545, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866258173029446971, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5875476174604159017, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917379043618834858, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989652237991558814, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 6161491503857362659, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -10759,10 +10916,30 @@ PrefabInstance:
       propertyPath: nessieAnimations
       value: 
       objectReference: {fileID: 676505841586968905}
+    - target: {fileID: 6903173902883403301, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932759121100646350, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 7068719131664692644, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 7296676128667105143, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7322194760073525874, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7348933248006739423, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 7349201807163454051, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: monsterHit
       value: 
@@ -10775,6 +10952,34 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 7366160440805039530, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_CameraYOffset
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7366160440805039530, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7393219271909917960, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7504785978868316978, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7540097480947265753, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7562761610435389078, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 7648472894865781042, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 7732713100565804866, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_Materials.Array.size
       value: 2
@@ -10783,9 +10988,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 6a0fab2ccde57304cbef759498a5f383, type: 2}
+    - target: {fileID: 7906684517230878640, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093116835893887319, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 8167795125269929140, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 8298235707414373703, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_Name
       value: BootNessie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8299995182005939145, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 8537012235341744353, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: win
@@ -10807,6 +11028,10 @@ PrefabInstance:
       propertyPath: nessieAnimations
       value: 
       objectReference: {fileID: 676505841586968905}
+    - target: {fileID: 8655989552732353251, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     - target: {fileID: 8674656105019031549, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -70
@@ -10851,6 +11076,14 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 8971267733662092061, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213475447842207503, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Monster
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 492347784237105284, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
     - {fileID: 4444997947381569059, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}

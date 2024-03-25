@@ -8336,6 +8336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1867f5213b2b8cf4880527a2bb67a88e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 685984881}
   monster: {fileID: 685984880}
   health: 200
   maxHealth: 200
@@ -8346,7 +8347,7 @@ MonoBehaviour:
   hit: {fileID: 685984882}
   trophy: {fileID: 0}
   hitByBomb: 0
-  bombTimesDamage: 1
+  bombTimesDamage: 3
   bombDuration: 2
   normalMaterial: {fileID: 2100000, guid: f62ab13d8e6b25a4eb6cb4b749ccf4cb, type: 2}
 --- !u!4 &1888946323 stripped
