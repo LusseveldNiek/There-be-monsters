@@ -12,7 +12,7 @@ public class AnimatieHit : MonoBehaviour
     public bool inAnimatieCharge;
     public bool inAnimatieLeave;
 
-    public MonsterEscape monster;
+    public Swimming monster;
 
 
     public bool isSwimming;
@@ -28,7 +28,7 @@ public class AnimatieHit : MonoBehaviour
             inAnimatieLeave = false;
             isSwimming = false;
             isPlaying = false;
-            monster.isEscaping = false;
+            monster.escaping = false;
         }
         if (inAnimatieCharge && activeHit)
         {
