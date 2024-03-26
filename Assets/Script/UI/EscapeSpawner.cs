@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class EscapeSpawner : MonoBehaviour
 {
@@ -14,6 +15,12 @@ public class EscapeSpawner : MonoBehaviour
     {
         gameOver.SetActive(false);
         head = GameObject.Find("Main Camera");
+
+        //disable raycasts in player hands to grab objects normaly
+        for (int i = 0; i < playerHandRays.Length; i++)
+        {
+            playerHandRays[i].SetActive(false);
+        }
     }
     void Update()
     {
@@ -28,6 +35,13 @@ public class EscapeSpawner : MonoBehaviour
         if (escaped && gespawnd)
         {
             gameOver.SetActive(true);
+
+            //disable all grab interactables
+            XRGrabInteractable[] grabInteractables = FindObjectsOfType<XRGrabInteractable>();
+            for (int i = 0; i < grabInteractables.Length; i++)
+            {
+                grabInteractables[i].enabled = false;
+            }
 
             gameOver.transform.position = head.transform.position + new Vector3(head.transform.forward.x, 0, head.transform.forward.z).normalized * spawnDistance;
             spawns = 1;

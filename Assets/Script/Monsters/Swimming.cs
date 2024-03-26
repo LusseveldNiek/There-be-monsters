@@ -17,7 +17,11 @@ public class Swimming : MonoBehaviour
     public bool escaping;
     public bool isSwimming;
     public bool hit;
+    private bool resetMovement;
     public float startTime;
+
+    public float maxDistanceFromBoat;
+    public EscapeSpawner escapeSpawner;
 
     void Start()
     {
@@ -25,9 +29,14 @@ public class Swimming : MonoBehaviour
     }
     void Update()
     {
+        if(transform.localPosition.z > maxDistanceFromBoat)
+        {
+            escapeSpawner.escaped = true;
+        }
+
         currentPosition = transform.localPosition.z;
 
-        if (escaping && !isSwimming && !hit)
+        if (escaping && !isSwimming && !hit && !resetMovement)
         {
             StartCoroutine(Swiming());
             Debug.Log("esp");
@@ -47,7 +56,7 @@ public class Swimming : MonoBehaviour
     }
     IEnumerator Swiming()
     {
-        isSwimming = true;
+        resetMovement = true;
         float elapsedTime = 0f;
         Vector3 startPos = transform.position;
         Vector3 endPos = transform.position - transform.forward * distance;
@@ -60,9 +69,10 @@ public class Swimming : MonoBehaviour
             yield return null;
         }
 
-        transform.position = endPos;
+        yield return new WaitForSeconds(0.5f);
         isSwimming = false;
-        escaping = false;
+        resetMovement = false;
+        transform.position = endPos;
         Debug.Log("Stop swimming");
     }
 }

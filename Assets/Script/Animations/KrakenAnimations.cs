@@ -37,6 +37,7 @@ public class KrakenAnimations : MonoBehaviour
     public MonsterTestHP monsterHealth;
     public TrophyManager trophy;
     public Animator anim;
+    public Swimming swimming;
 
     public bool dood;
     public bool monsterDood;
@@ -53,6 +54,7 @@ public class KrakenAnimations : MonoBehaviour
         if (!dood && !monsterDood)
         {
             RandomAnimation();
+            print("werkt");
         }
     }
     public void RandomAnimation()
@@ -60,25 +62,25 @@ public class KrakenAnimations : MonoBehaviour
         animatie = Random.Range(1, 8);
         if (animatie == 1)
         {
-            Debug.Log("Atc row 1");
+            //Debug.Log("Atc row 1");
             anim.SetTrigger("AttackRow1");
             StartCoroutine(Dodge(timeWaitBlockR, blockRIndicator, blockR));
         }
         if (animatie == 2)
         {
-            Debug.Log("Atc row 2");
+            //Debug.Log("Atc row 2");
             anim.SetTrigger("AttackRow2");
             StartCoroutine(Dodge(timeWaitBlockM, blockMIndicator, blockM));
         }
         if (animatie == 3)
         {
-            Debug.Log("Atc row 3");
+            //Debug.Log("Atc row 3");
             anim.SetTrigger("AttackRow3");
             StartCoroutine(Dodge(timeWaitBlockL, blockLIndicator, blockL));
         }
         if (animatie == 4)
         {
-            Debug.Log("Charge");
+            //Debug.Log("Charge");
             
             anim.SetTrigger("Charge");
             StartCoroutine(Charge(timeWaitCharge));
@@ -87,20 +89,21 @@ public class KrakenAnimations : MonoBehaviour
         if (animatie == 5)
         {
             animatieHit.isSwimming = true;
-            Debug.Log("Leaving");
             anim.SetTrigger("Leave");
             animatieHit.inAnimatieLeave = true;
-            monsterEscape.isEscaping = true;
+            swimming.escaping = true;
+            
+            print("leave");
         }
         if (animatie == 6)
         {
-            Debug.Log("Atc hor L");
+            //Debug.Log("Atc hor L");
             anim.SetTrigger("AttackHorizontalL");
             StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
         }
         if (animatie == 7)
         {
-            Debug.Log("Atc hor R");
+            //Debug.Log("Atc hor R");
             anim.SetTrigger("AttackHorizontalR");
             StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
         }
