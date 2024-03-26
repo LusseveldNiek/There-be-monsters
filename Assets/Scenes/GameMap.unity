@@ -1329,7 +1329,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 537834d4be47d2745a5d95436a5897b1, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 71cf5a69478a9094b8da5f95294306d6, type: 2}
+      objectReference: {fileID: 2100000, guid: d1986f452e970f74aac3776302092993, type: 2}
     - target: {fileID: 919132149155446097, guid: 537834d4be47d2745a5d95436a5897b1, type: 3}
       propertyPath: m_Name
       value: IslandStone
@@ -1667,7 +1667,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ad3b6d583a51f4444b5122659791e197, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 75656713b69f956479a2700e76c34fc0, type: 2}
+      objectReference: {fileID: 2100000, guid: bb3173b395bbbdf4d8ceb21e9c81a05e, type: 2}
     - target: {fileID: 919132149155446097, guid: ad3b6d583a51f4444b5122659791e197, type: 3}
       propertyPath: m_Name
       value: MediumIslandStone
