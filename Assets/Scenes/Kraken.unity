@@ -3177,6 +3177,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1888946305}
     - target: {fileID: 3279361462425532871, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: swimming
+      value: 
+      objectReference: {fileID: 1888946319}
+    - target: {fileID: 3279361462425532871, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: animationObject
       value: 
       objectReference: {fileID: 600896456}
@@ -4228,6 +4232,14 @@ PrefabInstance:
       propertyPath: escapedCanvas
       value: 
       objectReference: {fileID: 1321384157}
+    - target: {fileID: 5076431389865865736, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: slowDownSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5076431389865865736, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: icePotionMonster
+      value: 
+      objectReference: {fileID: 600896460}
     - target: {fileID: 5076431389865865736, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: maxDistanceFromBoat
       value: 80
