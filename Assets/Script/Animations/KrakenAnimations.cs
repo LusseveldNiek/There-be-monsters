@@ -108,10 +108,6 @@ public class KrakenAnimations : MonoBehaviour
             StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
         }
 
-        //sounds
-        int randomNumber = Random.Range(0, 4);
-        whooshSounds[randomNumber].Play();
-
     }
 
     void Update()
@@ -155,6 +151,11 @@ public class KrakenAnimations : MonoBehaviour
         yield return new WaitForSeconds(time);
         blockIndicator.SetActive(false);
         yield return new WaitForSeconds(0.5f);
+
+        //sounds
+        int randomNumber = Random.Range(0, 4);
+        whooshSounds[randomNumber].Play();
+
         block.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         block.SetActive(false);

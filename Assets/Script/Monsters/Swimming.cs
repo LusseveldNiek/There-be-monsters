@@ -22,7 +22,11 @@ public class Swimming : MonoBehaviour
 
     public float maxDistanceFromBoat;
     public EscapeSpawner escapeSpawner;
+    public IcePotionMonster icePotionMonster;
 
+    public bool isFrozen;
+    private float freezeTime;
+    public float slowDownSpeed;
     void Start()
     {
         startTime = Time.time;
@@ -52,6 +56,18 @@ public class Swimming : MonoBehaviour
             hit = false;
             escaping = false;
             StopAllCoroutines();
+        }
+
+        if(isFrozen)
+        {
+            freezeTime += Time.deltaTime;
+
+            transform.Translate(transform.forward * slowDownSpeed * Time.deltaTime);
+            if (freezeTime > icePotionMonster.freezeDuration)
+            {
+                isFrozen = false;
+                freezeTime = 0;
+            }
         }
     }
     IEnumerator Swiming()
