@@ -153,7 +153,7 @@ public class KrakenAnimations : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
 
         //sounds
-        int randomNumber = Random.Range(0, 4);
+        int randomNumber = Random.Range(0, whooshSounds.Length);
         whooshSounds[randomNumber].Play();
 
         block.SetActive(true);

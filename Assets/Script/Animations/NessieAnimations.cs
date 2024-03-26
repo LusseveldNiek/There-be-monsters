@@ -46,6 +46,9 @@ public class NessieAnimations : MonoBehaviour
     public bool passive;
     public Material normalMaterial;
 
+    public AudioSource[] whooshSounds;
+    public AudioSource[] waterGunSounds;
+
     IEnumerator WaitForSpawn()
     {
         animatieHit.isPlaying = true;
@@ -199,10 +202,18 @@ public class NessieAnimations : MonoBehaviour
     IEnumerator Dodge(float time, GameObject blockIndicator, GameObject block)
     {
         blockIndicator.SetActive(true);
+        if (turn)
+        {
+            WaterGunSound();
+        }
         yield return new WaitForSeconds(time);
         blockIndicator.SetActive(false);
         yield return new WaitForSeconds(0.5f);
         block.SetActive(true);
+        if (!turn)
+        {
+            WhooshSound();
+        }
         yield return new WaitForSeconds(0.5f);
         block.SetActive(false);
         animatieHit.isPlaying = false;
@@ -225,5 +236,15 @@ public class NessieAnimations : MonoBehaviour
     private void Start()
     {
         trophy = FindAnyObjectByType<TrophyManager>();
+    }
+    void WhooshSound()
+    {
+        int randomNumber = Random.Range(0, whooshSounds.Length);
+        whooshSounds[randomNumber].Play();
+    }    
+    void WaterGunSound()
+    {
+        int randomNumber = Random.Range(0, waterGunSounds.Length);
+        waterGunSounds[randomNumber].Play();
     }
 }
