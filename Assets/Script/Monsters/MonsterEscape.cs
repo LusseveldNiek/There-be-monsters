@@ -21,18 +21,20 @@ public class MonsterEscape : MonoBehaviour
     public EscapeSpawner escape;
     public GameObject controller;
 
+    //animatie stop
+    public AnimatieHit animatieHit;
+
     private void Start()
     {
         //enemy begins with minDistance
         currentDistance = minDistance;
         escape = controller.GetComponent<EscapeSpawner>();
-
-
         currentEscapeSpeed = beginEscapeSpeed;
     }
 
     void Update()
     {
+        isEscaping = animatieHit.escaping;
         //set distance
         transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, currentDistance);
 

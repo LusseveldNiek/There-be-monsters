@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AnimatieHit : MonoBehaviour
@@ -11,8 +9,7 @@ public class AnimatieHit : MonoBehaviour
     private float timer;
     public bool inAnimatieCharge;
     public bool inAnimatieLeave;
-
-    public Swimming monster;
+    public bool escaping;
 
 
     public bool isSwimming;
@@ -28,7 +25,7 @@ public class AnimatieHit : MonoBehaviour
             inAnimatieLeave = false;
             isSwimming = false;
             isPlaying = false;
-            monster.escaping = false;
+            escaping = false;
         }
         if (inAnimatieCharge && activeHit)
         {

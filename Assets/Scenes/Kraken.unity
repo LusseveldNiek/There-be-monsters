@@ -3172,6 +3172,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 915709951}
+    - target: {fileID: 2374128187915907304, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      propertyPath: bombDuration
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3279361462425532871, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: monster
       value: 
