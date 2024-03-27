@@ -5091,20 +5091,6 @@ MonoBehaviour:
   freezeDuration: 3
   defrostSpeed: 0.1
   freezeMaterial: {fileID: 2100000, guid: 6a0fab2ccde57304cbef759498a5f383, type: 2}
---- !u!114 &600896461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600896456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8948dd011cd7a0f4dbf089322eca96d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hoverSpeed: 1
-  hoverDistance: 10
 --- !u!4 &605015290 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5969511726170740342, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
@@ -7499,15 +7485,15 @@ PrefabInstance:
       insertIndex: 3
       addedObject: {fileID: 987394983}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8172046360321152866, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1888946324}
     - targetCorrespondingSourceObject: {fileID: 4484526774725802845, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 600896460}
     - targetCorrespondingSourceObject: {fileID: 4484526774725802845, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 600896459}
-    - targetCorrespondingSourceObject: {fileID: 4484526774725802845, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 600896461}
   m_SourcePrefab: {fileID: 100100000, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
 --- !u!4 &685984879 stripped
 Transform:
@@ -16676,6 +16662,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f41e0cf4ce2343e48957b241f6e5bc9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1888946324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888946305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8948dd011cd7a0f4dbf089322eca96d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverSpeed: 1
+  hoverDistance: 10
 --- !u!1 &1901681869
 GameObject:
   m_ObjectHideFlags: 0
