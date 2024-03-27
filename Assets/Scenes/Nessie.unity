@@ -21246,7 +21246,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: freezeSpeed
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: beginEscapeSpeed

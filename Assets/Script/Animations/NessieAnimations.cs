@@ -66,7 +66,7 @@ public class NessieAnimations : MonoBehaviour
     }
     public void RandomAnimation()
     {
-        animatie = Random.Range(4, 6);
+        animatie = Random.Range(1, 6);
         if (animatie == 1)
         {
             monsterEscape.isEscaping = false;
