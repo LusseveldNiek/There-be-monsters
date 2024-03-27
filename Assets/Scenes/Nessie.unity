@@ -18873,6 +18873,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 537834d4be47d2745a5d95436a5897b1, type: 3}
   m_PrefabInstance: {fileID: 1986540374}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1987318947 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7226974301348510311, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+  m_PrefabInstance: {fileID: 676505841586968899}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db38e37e1e9216145a1098681fea6c70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1987675835 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8957819361207631736, guid: 99a4745525fff5e449f162d7cd59c492, type: 3}
@@ -20570,9 +20581,37 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1037630284}
     - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: isEscaping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: animatieHit
       value: 
       objectReference: {fileID: 863558120}
+    - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: escapeSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: freezeSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: beginEscapeSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: icePotionMonster
+      value: 
+      objectReference: {fileID: 1987318947}
+    - target: {fileID: 443627315796222487, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: escapeSpeedRemoval
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 723697041461167205, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1638514959393987770, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: win
       value: 
@@ -20609,6 +20648,10 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: hovering
+      value: 
+      objectReference: {fileID: 676505841586968903}
     - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: whooshSounds.Array.size
       value: 4
@@ -20661,6 +20704,22 @@ PrefabInstance:
       propertyPath: controller
       value: 
       objectReference: {fileID: 1037630284}
+    - target: {fileID: 5413923591243571121, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.444
+      objectReference: {fileID: 0}
+    - target: {fileID: 5413923591243571121, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.525
+      objectReference: {fileID: 0}
+    - target: {fileID: 5413923591243571121, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.823
+      objectReference: {fileID: 0}
+    - target: {fileID: 6161491503857362659, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6461640149938259140, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: gameOver
       value: 
@@ -20692,6 +20751,10 @@ PrefabInstance:
     - target: {fileID: 8298235707414373703, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: m_Name
       value: BootNessie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8298235707414373703, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: m_TagString
+      value: Boat
       objectReference: {fileID: 0}
     - target: {fileID: 8551301295762934377, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: gameOver
@@ -20784,6 +20847,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hoverSpeed: 1
   hoverDistance: 10
+  isAbleToPlay: 0
 --- !u!1001 &1680179263834763642
 PrefabInstance:
   m_ObjectHideFlags: 0

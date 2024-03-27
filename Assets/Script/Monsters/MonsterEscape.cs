@@ -3,9 +3,7 @@ using UnityEngine;
 public class MonsterEscape : MonoBehaviour
 {
     //added speed per frame
-    public float currentEscapeSpeed;
-    public float beginEscapeSpeed;
-    public float escapeSpeedRemoval;
+    public float escapeSpeed;
     public bool isEscaping;
 
     //distance atm
@@ -24,17 +22,19 @@ public class MonsterEscape : MonoBehaviour
     //animatie stop
     public AnimatieHit animatieHit;
 
+    //freeze
+    public IcePotionMonster icePotionMonster;
+    public float freezeSpeed;
+
     private void Start()
     {
         //enemy begins with minDistance
         currentDistance = minDistance;
         escape = controller.GetComponent<EscapeSpawner>();
-        currentEscapeSpeed = beginEscapeSpeed;
     }
 
     void Update()
     {
-        isEscaping = animatieHit.escaping;
         //set distance
         transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, currentDistance);
 
@@ -45,18 +45,14 @@ public class MonsterEscape : MonoBehaviour
                 print("works");
 
                 //add escape speed
-                currentDistance += currentEscapeSpeed;
-
-                currentEscapeSpeed -= escapeSpeedRemoval;
-
-                //done with movement
-                if(currentEscapeSpeed <= 0)
-                {
-                    currentEscapeSpeed = beginEscapeSpeed;
-                    isEscaping = false;
-                    print("doneEscaping");
-                }
+                currentDistance += escapeSpeed * Time.deltaTime;
             }
+        }
+
+        if(icePotionMonster.frozen)
+        {
+            isEscaping = false;
+            currentDistance -= freezeSpeed * Time.deltaTime;
         }
 
 

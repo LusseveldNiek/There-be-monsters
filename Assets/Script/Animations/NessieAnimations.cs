@@ -39,6 +39,7 @@ public class NessieAnimations : MonoBehaviour
     public MonsterTestHP hp;
     public TrophyManager trophy;
     public Animator anim;
+    public Hovering hovering;
 
     public bool dood;
     public bool monsterDood;
@@ -65,9 +66,11 @@ public class NessieAnimations : MonoBehaviour
     }
     public void RandomAnimation()
     {
-        animatie = Random.Range(1, 6);
+        animatie = Random.Range(4, 6);
         if (animatie == 1)
         {
+            monsterEscape.isEscaping = false;
+            hovering.isAbleToPlay = true;
             Debug.Log("1");
             if (!turn)
             {
@@ -84,6 +87,8 @@ public class NessieAnimations : MonoBehaviour
         }
         if (animatie == 2)
         {
+            monsterEscape.isEscaping = false;
+            hovering.isAbleToPlay = true;
             Debug.Log("2");
             if (!turn)
             {
@@ -100,6 +105,8 @@ public class NessieAnimations : MonoBehaviour
         }
         if (animatie == 3)
         {
+            monsterEscape.isEscaping = false;
+            hovering.isAbleToPlay = true;
             Debug.Log("3");
             if (!turn)
             {
@@ -116,12 +123,15 @@ public class NessieAnimations : MonoBehaviour
         if (animatie == 4)
         {
             Debug.Log("4");
+            hovering.isAbleToPlay = false;
+
             if (turn)
             {
                 Debug.Log("Charge");
                 anim.SetTrigger("Charge");
                 StartCoroutine(Charge(timeWaitCharge));
                 animatieHit.inAnimatieCharge = true;
+                monsterEscape.isEscaping = false;
             }
             if (!turn)
             {
@@ -134,6 +144,8 @@ public class NessieAnimations : MonoBehaviour
         }
         if (animatie == 5)
         {
+            monsterEscape.isEscaping = false;
+            hovering.isAbleToPlay = true;
             Debug.Log("5");
             if (turn)
             {

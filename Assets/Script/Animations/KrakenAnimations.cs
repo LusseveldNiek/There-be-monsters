@@ -60,7 +60,7 @@ public class KrakenAnimations : MonoBehaviour
     }
     public void RandomAnimation()
     {
-        animatie = Random.Range(5, 5);
+        animatie = Random.Range(1, 8);
         if (animatie == 1)
         {
             //Debug.Log("Atc row 1");
