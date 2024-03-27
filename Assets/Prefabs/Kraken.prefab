@@ -519,7 +519,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6898096101847090601}
-  - {fileID: 8182347048499353898}
   - {fileID: 2021277141378323092}
   - {fileID: 5631626048557372775}
   - {fileID: 7351893310294987665}
@@ -582,6 +581,7 @@ MonoBehaviour:
   minDistance: 30
   escape: {fileID: 0}
   controller: {fileID: 0}
+  animatieHit: {fileID: 0}
 --- !u!114 &1209889087856742692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -620,6 +620,7 @@ MonoBehaviour:
   monsterHealth: {fileID: 6069474261295034460}
   trophy: {fileID: 0}
   anim: {fileID: 1486613825472716945}
+  swimming: {fileID: 0}
   dood: 0
   monsterDood: 0
   passive: 0
@@ -647,7 +648,7 @@ MonoBehaviour:
   isHitTime: 0.5
   inAnimatieCharge: 0
   inAnimatieLeave: 0
-  monster: {fileID: 3655402131273102012}
+  escaping: 0
   isSwimming: 0
   isPlaying: 0
   isChargeHit: 0
@@ -673,6 +674,11 @@ MonoBehaviour:
   isSwimming: 0
   hit: 0
   startTime: 0
+  maxDistanceFromBoat: 0
+  escapeSpawner: {fileID: 0}
+  icePotionMonster: {fileID: 0}
+  isFrozen: 0
+  slowDownSpeed: 0
 --- !u!114 &6069474261295034460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -691,6 +697,7 @@ MonoBehaviour:
   maxHealth: 200
   DMGMultiplier: 3
   monsterDood: 0
+  doodAnimatie: 0
   win: {fileID: 0}
   controller: {fileID: 0}
   hit: {fileID: 7228986217238879219}
@@ -5784,7 +5791,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8182347048499353898}
   m_Father: {fileID: 1074851636811320684}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!137 &7422867130094772277
@@ -9080,13 +9088,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7715302896487781216}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_LocalRotation: {x: -0.7071069, y: -0, z: -0.000000029802322, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000019073486}
+  m_LocalScale: {x: 100, y: 99.999985, z: 99.999985}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5902525363675740742}
-  m_Father: {fileID: 1074851636811320684}
+  m_Father: {fileID: 6898096101847090601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7743513725639142603
 GameObject:
