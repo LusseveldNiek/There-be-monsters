@@ -21309,6 +21309,10 @@ PrefabInstance:
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: waterGunSounds.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: whooshSounds.Array.data[0]
       value: 
       objectReference: {fileID: 1739928586}
@@ -21322,6 +21326,22 @@ PrefabInstance:
       objectReference: {fileID: 801271199}
     - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
       propertyPath: whooshSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 1675590416}
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: waterGunSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 1739928586}
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: waterGunSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 1311993652}
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: waterGunSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 801271199}
+    - target: {fileID: 2255147516329783754, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}
+      propertyPath: waterGunSounds.Array.data[3]
       value: 
       objectReference: {fileID: 1675590416}
     - target: {fileID: 4079190670291885750, guid: 69c38c55039f6cc48b73e4f6c15083b1, type: 3}

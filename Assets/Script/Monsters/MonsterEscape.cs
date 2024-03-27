@@ -52,7 +52,11 @@ public class MonsterEscape : MonoBehaviour
         if(icePotionMonster.frozen)
         {
             isEscaping = false;
-            currentDistance -= freezeSpeed * Time.deltaTime;
+
+            if(currentDistance > minDistance)
+            {
+                currentDistance -= freezeSpeed * Time.deltaTime;
+            }
         }
 
 
