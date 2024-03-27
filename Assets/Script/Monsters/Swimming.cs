@@ -16,7 +16,6 @@ public class Swimming : MonoBehaviour
     public bool escaping;
     public bool isSwimming;
     public bool hit;
-    private bool resetMovement;
     public float startTime;
 
     public float maxDistanceFromBoat;
@@ -25,6 +24,7 @@ public class Swimming : MonoBehaviour
 
     public bool isFrozen;
     public float slowDownSpeed;
+    private float currentFreezePosition;
     void Start()
     {
         startTime = Time.time;
@@ -38,7 +38,7 @@ public class Swimming : MonoBehaviour
 
         currentPosition = transform.localPosition.z;
 
-        if (escaping && !isSwimming && !hit && !resetMovement)
+        if (escaping && !isSwimming && !hit && !icePotionMonster.frozen)
         {
             StartCoroutine(Swiming());
             Debug.Log("esp");
@@ -57,14 +57,20 @@ public class Swimming : MonoBehaviour
         }
 
         isFrozen = icePotionMonster.frozen;
-        if(isFrozen)
+        if(isFrozen && currentPosition > startPosition)
         {
-            transform.Translate(transform.forward * slowDownSpeed * Time.deltaTime);
+            print("slowing down");
+            currentFreezePosition = transform.localPosition.z - (slowDownSpeed * Time.deltaTime);
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, currentFreezePosition);
+        }
+
+        else
+        {
+            currentFreezePosition = 0;
         }
     }
     IEnumerator Swiming()
     {
-        resetMovement = true;
         float elapsedTime = 0f;
         Vector3 startPos = transform.position;
         Vector3 endPos = transform.position - transform.forward * distance;
@@ -77,9 +83,8 @@ public class Swimming : MonoBehaviour
             yield return null;
         }
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         isSwimming = false;
-        resetMovement = false;
         transform.position = endPos;
         Debug.Log("Stop swimming");
     }

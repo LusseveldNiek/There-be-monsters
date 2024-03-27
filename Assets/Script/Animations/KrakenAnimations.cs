@@ -38,6 +38,7 @@ public class KrakenAnimations : MonoBehaviour
     public TrophyManager trophy;
     public Animator anim;
     public Swimming swimming;
+    public Hovering hovering;
 
     public bool dood;
     public bool monsterDood;
@@ -59,24 +60,30 @@ public class KrakenAnimations : MonoBehaviour
     }
     public void RandomAnimation()
     {
-        animatie = Random.Range(1, 8);
+        animatie = Random.Range(5, 5);
         if (animatie == 1)
         {
             //Debug.Log("Atc row 1");
             anim.SetTrigger("AttackRow1");
             StartCoroutine(Dodge(timeWaitBlockR, blockRIndicator, blockR));
+
+            hovering.isAbleToPlay = true;
         }
         if (animatie == 2)
         {
             //Debug.Log("Atc row 2");
             anim.SetTrigger("AttackRow2");
             StartCoroutine(Dodge(timeWaitBlockM, blockMIndicator, blockM));
+
+            hovering.isAbleToPlay = true;
         }
         if (animatie == 3)
         {
             //Debug.Log("Atc row 3");
             anim.SetTrigger("AttackRow3");
             StartCoroutine(Dodge(timeWaitBlockL, blockLIndicator, blockL));
+
+            hovering.isAbleToPlay = true;
         }
         if (animatie == 4)
         {
@@ -85,6 +92,8 @@ public class KrakenAnimations : MonoBehaviour
             anim.SetTrigger("Charge");
             StartCoroutine(Charge(timeWaitCharge));
             animatieHit.inAnimatieCharge = true;
+
+            hovering.isAbleToPlay = true;
         }
         if (animatie == 5)
         {
@@ -92,7 +101,8 @@ public class KrakenAnimations : MonoBehaviour
             anim.SetTrigger("Leave");
             animatieHit.inAnimatieLeave = true;
             swimming.escaping = true;
-            
+            hovering.isAbleToPlay = false;
+
             print("leave");
         }
         if (animatie == 6)
@@ -100,12 +110,16 @@ public class KrakenAnimations : MonoBehaviour
             //Debug.Log("Atc hor L");
             anim.SetTrigger("AttackHorizontalL");
             StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
+
+            hovering.isAbleToPlay = true;
         }
         if (animatie == 7)
         {
             //Debug.Log("Atc hor R");
             anim.SetTrigger("AttackHorizontalR");
             StartCoroutine(Dodge(timeWaitBuck, buckIndicator, buck));
+
+            hovering.isAbleToPlay = true;
         }
 
     }

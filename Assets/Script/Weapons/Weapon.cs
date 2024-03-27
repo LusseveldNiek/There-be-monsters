@@ -50,7 +50,7 @@ public class Weapon : MonoBehaviour
         }
         if (collision.transform.tag == "Boat")
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
     }
     void HarpoonHit()
