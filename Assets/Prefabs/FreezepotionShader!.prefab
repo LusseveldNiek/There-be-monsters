@@ -416,8 +416,8 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 3
-  m_ThrowAngularVelocityScale: 5
+  m_ThrowVelocityScale: 11
+  m_ThrowAngularVelocityScale: 14
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
@@ -439,10 +439,11 @@ MonoBehaviour:
   iceSpawner: {fileID: 0}
   frozenMaterial: {fileID: 2100000, guid: 6a0fab2ccde57304cbef759498a5f383, type: 2}
   monster: {fileID: 0}
-  krakenScripts: {fileID: 0}
   krakenAnimations: {fileID: 0}
+  nessieAnimations: {fileID: 0}
   icePotionMonster: {fileID: 0}
   soundPrefab: {fileID: 3738663061571120189, guid: b6ed150a9f44ee74b91204fcb238a008, type: 3}
+  animationObject: {fileID: 0}
 --- !u!114 &-6251601474638130495
 MonoBehaviour:
   m_ObjectHideFlags: 0
