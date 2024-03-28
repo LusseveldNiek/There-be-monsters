@@ -5,49 +5,60 @@ public class DefToolNessie : MonoBehaviour
 {
     public TextMeshProUGUI nummerText;
     public Animator anim;
-    public GameObject monster;
     public GameObject animationCanvas;
-    public int animationNummer;
+    public NessieAnimations nessie;
+    public int animatieNummer;
     public bool passive;
     public bool turn;
     // Start is called before the first frame update
     void Start()
     {
-        animationNummer = 1;
-        nummerText.text = "Animation " + animationNummer.ToString() + "/6";
+        animatieNummer = 1;
+        nummerText.text = "Animation " + animatieNummer.ToString() + "/5";
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (animationNummer >= 7)
+        turn = nessie.turn;
+        passive = nessie.passive;
+        if (animatieNummer > 5)
         {
-            animationNummer = 1;
+            animatieNummer = 1;
             ReloadUI();
         }
         if (Input.GetKeyDown(KeyCode.JoystickButton0))
         {
-            animationCanvas.SetActive(true);
-            Debug.Log("passive");
+            if (!passive)
+            {
+                animationCanvas.SetActive(true);
+                Debug.Log("passive");
+                nessie.passive = true;
+            }
+            if (passive)
+            {
+                animationCanvas.SetActive(false);
+                Debug.Log("attack");
+                nessie.passive = false;
+            }
         }
         if (Input.GetKeyDown(KeyCode.JoystickButton1))
         {
             if (!turn)
             {
                 Debug.Log("Atc hor R");
-                turn = true;
-                anim.SetBool("Turn", turn);
+                anim.SetBool("Turn", true);
+                nessie.turn = true;
             }      
             if (turn)
             {
                 Debug.Log("Atc hor R");
-                turn = false;
-                anim.SetBool("Turn", turn);
+                anim.SetBool("Turn", false);
+                nessie.turn = false;
             }
         }
         if (Input.GetKeyDown(KeyCode.JoystickButton2))
         {
-            animationNummer++;
             NextNummer();
             Debug.Log("up");
         }
@@ -59,44 +70,87 @@ public class DefToolNessie : MonoBehaviour
     }
     public void NextNummer()
     {
-        animationNummer++;
+        animatieNummer++;
         ReloadUI();
     }
     public void ReloadUI()
     {
-        nummerText.text = "Animation " + animationNummer.ToString() + "/8";
+        nummerText.text = "Animation " + animatieNummer.ToString() + "/5";
     }
     void Play()
     {
-        if (animationNummer == 1)
+        if (animatieNummer == 1)
         {
-            Debug.Log("Atc row 1");
-            anim.SetTrigger("AtcRow1");
+            Debug.Log("1");
+            if (!turn)
+            {
+                Debug.Log("Atc row 1");
+                anim.SetTrigger("AttackRow1");
+            }
+            if (turn)
+            {
+                Debug.Log("Atc hor L");
+                anim.SetTrigger("AttackHorizontalL");
+            }
         }
-        if (animationNummer == 2)
+        if (animatieNummer == 2)
         {
-            Debug.Log("Atc row 2");
-            anim.SetTrigger("AtcRow2");
+            Debug.Log("2");
+            if (!turn)
+            {
+                Debug.Log("Atc row 2");
+                anim.SetTrigger("AttackRow2");
+            }
+            if (turn)
+            {
+                Debug.Log("Atc hor R");
+                anim.SetTrigger("AttackHorizontalR");
+            }
         }
-        if (animationNummer == 3)
+        if (animatieNummer == 3)
         {
-            Debug.Log("Atc row 3");
-            anim.SetTrigger("AtcRow3");
+            Debug.Log("3");
+            if (!turn)
+            {
+                Debug.Log("Atc row 3");
+                anim.SetTrigger("AttackRow3");
+            }
+            if (turn)
+            {
+                Debug.Log("miss");
+            }
         }
-        if (animationNummer == 4)
+        if (animatieNummer == 4)
         {
-            Debug.Log("Leaving");
-            anim.SetTrigger("Leave");
+            Debug.Log("4");
+            if (turn)
+            {
+                Debug.Log("Charge");
+                anim.SetTrigger("Charge");
+            }
+            if (!turn)
+            {
+                Debug.Log("Leaving");
+                anim.SetTrigger("Leave");
+            }
         }
-        if (animationNummer == 5)
+        if (animatieNummer == 5)
         {
-            Debug.Log("Charge");
-            anim.SetTrigger("Charge");
-        }
-        if (animationNummer == 6)
-        {
-            Debug.Log("Death");
-            anim.SetBool("Death", true);
+            Debug.Log("5");
+            if (turn)
+            {
+                Debug.Log("terug");
+                anim.SetBool("Turn", false);
+                turn = false;
+                return;
+            }
+            if (!turn)
+            {
+                Debug.Log("turn");
+                anim.SetBool("Turn", true);
+                turn = true;
+                return;
+            }
         }
     }
 }
