@@ -9,6 +9,7 @@ public class DefToolNessie : MonoBehaviour
     public NessieAnimations nessie;
     public int animatieNummer;
     public int maxAnimations;
+    public bool swimming;
     public bool passive;
     public bool turn;
     // Start is called before the first frame update
@@ -131,8 +132,20 @@ public class DefToolNessie : MonoBehaviour
             }
             if (!turn)
             {
-                Debug.Log("Leaving");
-                anim.SetTrigger("Leave");
+                if (!swimming)
+                {
+                    Debug.Log("Leaving");
+                    anim.SetTrigger("Leave");
+                    swimming = true;
+                    return;
+                }
+                if (swimming)
+                {
+                    Debug.Log("hit");
+                    anim.SetTrigger("Hurt");
+                    swimming = false;
+                    return;
+                }
             }
         }
     }
