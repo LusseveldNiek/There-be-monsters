@@ -248,6 +248,7 @@ public class NessieAnimations : MonoBehaviour
     private void Start()
     {
         trophy = FindAnyObjectByType<TrophyManager>();
+        hovering.isAbleToPlay = true;
     }
     void WhooshSound()
     {
