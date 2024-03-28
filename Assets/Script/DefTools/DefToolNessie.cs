@@ -8,13 +8,14 @@ public class DefToolNessie : MonoBehaviour
     public GameObject animationCanvas;
     public NessieAnimations nessie;
     public int animatieNummer;
+    public int maxAnimations;
     public bool passive;
     public bool turn;
     // Start is called before the first frame update
     void Start()
     {
         animatieNummer = 1;
-        nummerText.text = "Animation " + animatieNummer.ToString() + "/5";
+        nummerText.text = "Animation " + animatieNummer.ToString() + "/" + maxAnimations.ToString();
     }
 
     // Update is called once per frame
@@ -22,7 +23,7 @@ public class DefToolNessie : MonoBehaviour
     {
         turn = nessie.turn;
         passive = nessie.passive;
-        if (animatieNummer > 5)
+        if (animatieNummer > maxAnimations)
         {
             animatieNummer = 1;
             ReloadUI();
@@ -75,7 +76,7 @@ public class DefToolNessie : MonoBehaviour
     }
     public void ReloadUI()
     {
-        nummerText.text = "Animation " + animatieNummer.ToString() + "/5";
+        nummerText.text = "Animation " + animatieNummer.ToString() + "/" + maxAnimations.ToString();
     }
     void Play()
     {
@@ -132,24 +133,6 @@ public class DefToolNessie : MonoBehaviour
             {
                 Debug.Log("Leaving");
                 anim.SetTrigger("Leave");
-            }
-        }
-        if (animatieNummer == 5)
-        {
-            Debug.Log("5");
-            if (turn)
-            {
-                Debug.Log("terug");
-                anim.SetBool("Turn", false);
-                turn = false;
-                return;
-            }
-            if (!turn)
-            {
-                Debug.Log("turn");
-                anim.SetBool("Turn", true);
-                turn = true;
-                return;
             }
         }
     }
