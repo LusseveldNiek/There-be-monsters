@@ -7489,9 +7489,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8800913773231017432, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 40
+      value: 30
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6330941661277136156, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
     m_RemovedGameObjects:
     - {fileID: 7956366486095601785, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
     - {fileID: 7552495209374446092, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
@@ -9751,12 +9752,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5007b040abe3cbe4a8ebe53507ab8567, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  monster: {fileID: 1888946305}
+  anim: {fileID: 1888946327}
   animationCanvas: {fileID: 1231188956}
   kraken: {fileID: 1888946316}
-  canvas: {fileID: 0}
+  canvas: {fileID: 915709958}
   passive: 0
+  swimming: 0
   animationNummer: 0
 --- !u!4 &915889669 stripped
 Transform:
@@ -16709,6 +16710,11 @@ MonoBehaviour:
   hoverSpeed: 1
   hoverDistance: 10
   isAbleToPlay: 0
+--- !u!95 &1888946327 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6946803289167601701, guid: e4e8d04c0dc9bbc42a3d81f658f119f4, type: 3}
+  m_PrefabInstance: {fileID: 685984878}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1901681869
 GameObject:
   m_ObjectHideFlags: 0

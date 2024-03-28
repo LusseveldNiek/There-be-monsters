@@ -33,6 +33,8 @@ public class NessieAnimations : MonoBehaviour
     public GameObject buck;
     public GameObject bigBlock;
 
+    public GameObject waterGun;
+
     //scripts
     public AnimatieHit animatieHit;
     public MonsterEscape monsterEscape;
@@ -47,6 +49,7 @@ public class NessieAnimations : MonoBehaviour
     public bool passive;
     public Material normalMaterial;
 
+    //audio
     public AudioSource[] whooshSounds;
     public AudioSource[] waterGunSounds;
 
@@ -217,6 +220,7 @@ public class NessieAnimations : MonoBehaviour
         if (turn)
         {
             WaterGunSound();
+            waterGun.SetActive(true);
         }
         yield return new WaitForSeconds(time);
         blockIndicator.SetActive(false);
@@ -228,6 +232,7 @@ public class NessieAnimations : MonoBehaviour
         }
         yield return new WaitForSeconds(0.5f);
         block.SetActive(false);
+        waterGun.SetActive(false);
         animatieHit.isPlaying = false;
     }
     IEnumerator Charge(float time)

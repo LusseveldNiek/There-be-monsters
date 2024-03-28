@@ -3,20 +3,12 @@ using UnityEngine;
 public class DefToolAnimations : MonoBehaviour
 {
     public Animator anim;
-    public GameObject monster;
     public GameObject animationCanvas;
     public KrakenAnimations kraken;
     public DefToolCanvasAnimations canvas;
     public bool passive;
+    public bool swimming;
     public int animationNummer;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        anim = monster.GetComponent<Animator>();
-        kraken = monster.GetComponent<KrakenAnimations>();
-        canvas = GetComponent<DefToolCanvasAnimations>();
-    }
 
     // Update is called once per frame
     void Update()
@@ -53,10 +45,6 @@ public class DefToolAnimations : MonoBehaviour
                 Debug.Log("play");
             }
         }
-
-
-
-
     }
     void Play()
     {
@@ -82,8 +70,20 @@ public class DefToolAnimations : MonoBehaviour
         }
         if (animationNummer == 5)
         {
-            Debug.Log("Leaving");
-            anim.SetTrigger("Leave");
+            if (!swimming)
+            {
+                Debug.Log("Leaving");
+                anim.SetTrigger("Leave");
+                swimming = true;
+                return;
+            }
+            if (swimming)
+            {
+                Debug.Log("hit");
+                anim.SetTrigger("Hurt");
+                swimming = false;
+                return;
+            }
         }
         if (animationNummer == 6)
         {
