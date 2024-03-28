@@ -468,6 +468,37 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.06016493, y: -1.9817424, z: -4.042803}
     m_Extent: {x: 8.005039, y: 12.445482, z: 10.095538}
   m_DirtyAABB: 0
+--- !u!1 &5658567828453919107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 468971495211024576}
+  m_Layer: 0
+  m_Name: waterGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &468971495211024576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5658567828453919107}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.75983894, y: 0, z: 0, w: 0.6501114}
+  m_LocalPosition: {x: -0, y: 1.854, z: 0.323}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7222639397257432835}
+  m_LocalEulerAnglesHint: {x: 98.9, y: 0, z: 0}
 --- !u!1001 &1333642437098763966
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1836,6 +1867,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8353430912659863700, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
       insertIndex: 3
       addedObject: {fileID: 5510824396504687144}
+    - targetCorrespondingSourceObject: {fileID: 2152078457093600242, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 468971495211024576}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2571620465207264211, guid: 2ef4218a3a25aaf4bb8a74858a2e5c1c, type: 3}
       insertIndex: -1
